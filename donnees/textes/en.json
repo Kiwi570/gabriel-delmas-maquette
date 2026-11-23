@@ -91,7 +91,9 @@
       "info": "New album New Step, on Jazz Family",
       "action": "Listen to New Step",
       "engager": "Hire Gabriel",
-      "pas": "16-step grid playing silently"
+      "pas": "16-step grid playing silently",
+      "jouer": "Play a groove: go to the playable grid",
+      "jouerCourt": "Play ↓"
     },
     "album": {
       "surtitre": "The album",
@@ -132,7 +134,8 @@
       "son": "Sound only starts when you start the groove.",
       "methodes": "Discover the methods",
       "annonceLecture": "The groove is playing",
-      "annonceArret": "The groove has stopped"
+      "annonceArret": "The groove has stopped",
+      "temps": "Beat"
     },
     "methodes": {
       "surtitre": "The methods",
@@ -172,8 +175,8 @@
     },
     "fin": {
       "surtitre": "Live",
-      "titre": "Upcoming dates",
-      "aucune": "The quartet's next dates will be listed here as soon as they are confirmed.",
+      "titre": "The quartet live",
+      "aucune": "Clubs, festivals, venues: the New Step quartet is booking now. Upcoming dates will be listed here.",
       "dernieres": "Recent shows",
       "booking": "Book the quartet",
       "engager": "Hire Gabriel"
@@ -204,11 +207,12 @@
     },
     "videos": {
       "titre": "The quartet on video",
-      "toutes": "The whole YouTube channel"
+      "toutes": "The whole YouTube channel",
+      "region": "Quartet videos, horizontal scroll"
     },
     "dates": {
-      "titre": "Dates",
-      "aucune": "No date announced yet. The next ones will appear here as soon as they are confirmed.",
+      "titre": "Live",
+      "aucune": "The New Step quartet is booking now. Upcoming dates will be listed here as soon as they are confirmed.",
       "passees": "Recent dates",
       "booking": "Booking",
       "bookingTexte": "Clubs, festivals, venues: book the quartet by e-mail.",

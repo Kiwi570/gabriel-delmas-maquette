@@ -13,6 +13,7 @@ export default (c) => {
   const a = c.donnees.album;
   return html`
 <section class="hero ecran theme-noir" id="debut">
+  <span class="hero-halo" aria-hidden="true" data-audit-ignorer></span>
   <div class="hero-texte">
     <p class="surtitre hero-surtitre masque-ecran-tres-bas" data-anime="gsap">${c.t('accueil.hero.surtitre')}</p>
     <h1 class="hero-titre titre-geant" data-anime="gsap">
@@ -21,7 +22,7 @@ export default (c) => {
       <span class="ligne-masque ligne-masque--em"><em class="hero-ligne">${c.t('accueil.hero.titre3')}</em></span>
     </h1>
     <div class="hero-bas">
-      ${pas('pas--hero', 'data-iris-centre data-effet="pas"')}
+      <a class="pas-lien" href="#groove" aria-label="${c.s('accueil.hero.jouer')}">${pas('pas--hero', 'data-iris-centre data-effet="pas"')}<span class="pas-legende" aria-hidden="true">${c.t('accueil.hero.jouerCourt')}</span></a>
       <div class="hero-detail" data-anime="gsap">
         <p class="hero-intro masque-ecran-bas">${c.t('accueil.hero.texte')}</p>
         <p class="hero-info" data-info-cle>${c.t('accueil.hero.info')}</p>
@@ -54,9 +55,9 @@ export default (c) => {
         <a class="bouton" href="${c.site.ecoute.spotify}" target="_blank" rel="noopener" data-survol="magnetique">${c.t('accueil.album.spotify')}</a>
         <a class="bouton bouton--contour" href="${c.site.ecoute.plateformes}" target="_blank" rel="noopener">${c.t('accueil.album.plateformes')}</a>
       </p>
-      <ol class="titres" data-effet="tete-de-lecture" aria-label="${c.s('accueil.album.titres')}">
+      <div class="titres-cadre"><span class="titres-tete" aria-hidden="true"></span><ol class="titres" data-effet="tete-de-lecture" aria-label="${c.s('accueil.album.titres')}">
         ${a.titres.map((t) => html`<li class="titre-piste"><span class="titre-n">${t.n}</span><span class="titre-nom">${t.titre}</span>${t.note ? html`<span class="titre-note">${t.note}</span>` : ''}<span class="titre-barres" aria-hidden="true"><i></i><i></i><i></i></span></li>`)}
-      </ol>
+      </ol></div>
       <p>${c.lien('musique', { classe: 'lien-fleche', texte: c.t('accueil.album.musique') })}</p>
     </div>
   </div>
@@ -94,6 +95,8 @@ export default (c) => {
       <p class="groove-son">${c.t('accueil.groove.son')}</p>
       <p class="visuellement-cache" role="status" data-groove-annonce data-lecture="${c.s('accueil.groove.annonceLecture')}" data-arret="${c.s('accueil.groove.annonceArret')}"></p>
     </div>
+    <div class="groove-scene">
+    <p class="groove-syllabe" aria-hidden="true" data-audit-ignorer><span data-syllabe>Koum</span></p>
     <div class="sequenceur" data-sequenceur data-effet="grille-groove" data-visuel data-grille="manipuler">
       ${[0, 1, 2, 3].map((t) => html`<div class="seq-temps">
         <span class="seq-temps-n" aria-hidden="true">${t + 1}</span>
@@ -105,6 +108,7 @@ export default (c) => {
           })}
         </div>`)}
       </div>`)}
+    </div>
     </div>
   </div>
   <p class="conteneur groove-lien">${c.lien('methodes', { classe: 'lien-fleche', texte: c.t('accueil.groove.methodes') })}</p>

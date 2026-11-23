@@ -644,3 +644,74 @@ html:not(.js) .tete-plein-texte { padding-bottom: 24px; }
 }
 @media (max-width: 760px) { html:not(.js) .hero-media { height: 22svh; } }
 @media (max-width: 760px) and (max-height: 700px) { html:not(.js) .hero-media { height: 14svh; } html:not(.js) .pas--hero { --pas-taille: 60px; } }
+
+/* ================= v2 : plus de vie, plus de jeu ================= */
+/* Halo qui bat la grosse caisse derrière le titre de l'accueil. */
+.hero { position: relative; isolation: isolate; }
+.hero-halo { position: absolute; z-index: -1; left: -10%; bottom: -30%; width: 80%; aspect-ratio: 1; border-radius: 50%; background: radial-gradient(closest-side, rgba(214, 40, 30, .75), rgba(196, 34, 26, .25) 45%, rgba(196, 34, 26, 0) 70%); opacity: .14; pointer-events: none; transform-origin: 50% 50%; }
+@media (max-width: 760px) { .hero-halo { left: -30%; bottom: -10%; width: 140%; } }
+/* La grille de l'ouverture invite à jouer. */
+.pas-lien { display: grid; justify-items: start; gap: 6px; text-decoration: none; color: inherit; flex: none; border-radius: 6px; }
+.pas-legende { font: 700 .86rem/1 var(--police-texte); letter-spacing: .14em; text-transform: uppercase; color: var(--rouge-clair); transition: transform .3s var(--courbe); }
+.pas-lien:hover .pas-legende, .pas-lien:focus-visible .pas-legende { transform: translateY(3px); }
+.pas-lien:hover .pas i:not(.on) { background: rgba(220, 216, 206, .3); }
+@media (max-height: 500px) { .pas-legende { display: none; } }
+/* Tête de lecture rouge le long des titres. */
+.titres-cadre { position: relative; }
+.titres-tete { position: absolute; left: -14px; top: 0; width: 4px; height: 52px; background: var(--rouge-fonce); border-radius: 2px; transform: translateY(0); opacity: 0; transition: opacity .3s; }
+.theme-noir .titres-tete { background: var(--rouge-clair); }
+.titres-cadre:has(.joue) .titres-tete { opacity: 1; }
+.titre-piste { transition: color .25s, background-color .25s, padding .25s; }
+.titre-piste.joue { background: rgba(196, 34, 26, .08); }
+.theme-noir .titre-piste.joue { background: rgba(240, 71, 59, .1); }
+.titre-piste.joue .titre-nom { color: var(--accent-texte); }
+@media (max-width: 760px) { .titres-tete { left: -8px; width: 3px; } }
+/* Grille jouable : la syllabe chantée en très grand, les temps qui s'allument. */
+.groove-scene { position: relative; display: grid; gap: 10px; min-width: 0; }
+.groove-syllabe { margin: 0; height: clamp(84px, 11vw, 150px); display: flex; align-items: flex-end; justify-content: flex-end; overflow: hidden; pointer-events: none; }
+.groove-syllabe span { display: inline-block; font: 900 clamp(5rem, 11vw, 10rem)/.82 var(--police-titres); text-transform: uppercase; color: var(--encre); opacity: .55; transform-origin: 100% 100%; }
+.groove-syllabe span[data-voix="koum"] { color: var(--rouge-fonce); }
+.groove-syllabe span[data-voix="ti"] { color: #8f877a; }
+.seq-temps-n { transition: color .1s; }
+.seq-temps-n.allume { color: var(--rouge-clair); }
+@media (max-width: 760px) { .groove-syllabe { height: 72px; } .groove-syllabe span { font-size: 5.4rem; } }
+/* Grain de peau sablée sur le fond pierre (décor dans un pseudo-élément, jamais en fond de la section). */
+.theme-pierre { position: relative; isolation: isolate; }
+.theme-pierre::before { content: ''; position: absolute; inset: 0; z-index: -1; pointer-events: none; opacity: .5;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .1 0 0 0 0 .09 0 0 0 0 .08 0 0 0 .09 0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23g)'/%3E%3C/svg%3E"); }
+/* Vidéos de Musique : une à la une, les autres en rangée ; sur téléphone, une rangée qui glisse au doigt. */
+.grille-videos { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.grille-videos .video:first-child { grid-column: 1 / -1; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); align-items: end; column-gap: clamp(18px, 3vw, 40px); margin-bottom: 12px; }
+.grille-videos .video:first-child .video-media { grid-row: 1 / span 3; }
+.grille-videos .video:first-child .video-titre { font-size: clamp(2.2rem, 4vw, 4rem); }
+.grille-videos .video:first-child .video-lecture { width: 64px; height: 64px; left: 20px; top: 20px; }
+.video-lecture { transition: transform .3s var(--courbe); }
+.video:hover .video-lecture { transform: scale(1.12); }
+@media (max-width: 900px) and (min-width: 761px) { .grille-videos { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 760px) {
+  .grille-videos { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; gap: 14px; margin-inline: calc(-1 * var(--gouttiere)); padding: 0 var(--gouttiere) 8px; }
+  .grille-videos .video, .grille-videos .video:first-child { flex: 0 0 80vw; display: grid; grid-template-columns: minmax(0, 1fr); scroll-snap-align: start; margin: 0; }
+  .grille-videos .video:first-child .video-media { grid-row: auto; }
+  .grille-videos .video:first-child .video-titre { font-size: 1.6rem; }
+  /* Onze titres : le titre de la section passe avant le visuel de l'album. */
+  .album-titres .album-visuel { order: 2; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: end; }
+  .album-titres .album-pochette { width: 100%; }
+  /* Pied de page sur deux colonnes. */
+  .pied-grille { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 24px 16px; }
+  .pied-grille > div:nth-child(2) { grid-column: 1 / -1; }
+}
+/* Aperçu flou sous les images d'ouverture : jamais de case vide (chargement, retour arrière). */
+.media[style*="--apercu"] { background-image: var(--apercu); background-size: cover; background-position: var(--cadrage, 50% 50%); }
+@media (max-width: 760px) and (orientation: portrait) { .media[style*="--apercu-mobile"] { background-image: var(--apercu-mobile); background-position: 50% 50%; } }
+/* Couvertures et cartes : un petit relief au survol. */
+.couverture .couverture-media { transition: transform .4s var(--courbe), box-shadow .4s; }
+.couverture:hover .couverture-media { transform: translateY(-8px); box-shadow: 0 40px 60px -26px rgba(0, 0, 0, .9); }
+.grande-carte .grande-carte-media img { transition: transform .8s var(--courbe); }
+.grande-carte:hover .grande-carte-media img { transform: scale(1.04); }
+/* Grille jouable sur téléphone : le nom de la voix au-dessus de ses quatre cases (jamais coupé). */
+@media (max-width: 760px) {
+  .seq-ligne { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 5px; }
+  .seq-nom, .seq-temps:first-child .seq-nom { grid-column: 1 / -1; display: flex !important; gap: .4em; align-items: baseline; margin: 2px 0 -1px; }
+  .seq-nom b { font-size: .95rem; }
+}
+.theme-pierre .titre-piste.joue .titre-n { color: #8f140d; }

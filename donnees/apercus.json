@@ -1,0 +1,29 @@
+{
+ "portrait-caisse-claire": {
+  "d": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADQBACdASoYAB4APt1cpU2opSOiN/qoARAbiWcAAFu3A3i79jyu1R/hwrUpC55wAAD+9W5M9Tm/HPyiqzZ5bDnsPnrPj2t91OKetHg19zinhekwMj/XKfUjA4AAAA==",
+  "m": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAAAQBQCdASoYACsAPs1YoE2npaMiOrzIAPAZiWMAzNAs2swhpF6giTvW7A0BWZ7adtbAAP73e51NDptdjoIqdyvTGI2nXbEEJptwiOs8Lz3viElUaHq3pXrwEtVeo7lX02kj3RL75CuxC1TxxoAAAA=="
+ },
+ "quartet": {
+  "d": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAABQBQCdASoYABIAPu1gqk2ppSQiMBgMATAdiWgAsR9aOBgU1h0isn8OQ/PuVVsY9G/A7TAA/o7tPO4zfjPvQv+KrDOKaT1NUA5f2TRr9D3hv3yelM7Fjy92EUgMl9NIhjXFJR+yUF6wtfgE5HjXpYLo5AAOMwAA"
+ },
+ "portrait-pad": {
+  "d": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAADwBACdASoYAB4APtFSoU2oJKMiN+gBABoJZwAAiO/cD5VggsHIDa0ssQLjUH1ZuAAA/vVzToRLT3FAoLhbBxWZayUs0wjyp8FFzGGdmWj/fVXf8BRBiiur6jfHKnpMcLR1bAAA",
+  "m": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADwBQCdASoYACsAPtlYpk2oJSOiNVv8AQAbCWUAzcAhYZWla3SGb+EKLcjrqZO7t6C3Yt/3AUrAAAD+9Ci1vcC81W2X+kiyrPNU3ERhIq8CyCeOgKkTQv6Lz1Gwt16g/SK6v6HWmOHZZXOz+JgAAAAA"
+ },
+ "grok/clinic": {
+  "d": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAwCdASoYAA4APu1iqU2ppaOiMAgBMB2JZQAAW+scmof+DrUVAgAA/vKo1Wcl0xTY2zRruxnxpt26nIcFrF8ODmIAAA==",
+  "m": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAwBACdASoYACsAPu1ork+zpiQiKqoCcB2JZQDC+B3cUA5NuS2QjqdfxgAA/vC3h4C2s39aLHe/r4nQGdUlwFX0on7jUnRd2Ej/a8emoIcPTMXsaQt3oAAA"
+ },
+ "studio-gris": {
+  "d": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQBACdASoYAA4APu1kq04ppaQiMAgBMB2JZwC7AB6RGR9q+wHqOYQhDAD+6dWA2fRQpW4ulnNuVcgIkzh2VHq4gJkYjD+AAAA=",
+  "m": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAAAQBgCdASoYACsAPtlcnk2/paKiNUwD8BsJZwDNSCzdLhiZWAuKkwhtIVAbrSVNf6TD6uLZZWSuP0wA/u6QvH4wzpeVaY51eOyBv2CRo1e8IFv7bEvHGxwihY6FMe5FoTDIsXLnQGnwgLKLn8xDeopbXU9JApQMOw88AAAA"
+ },
+ "portrait-exterieur": {
+  "d": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQAwCdASoYAA8APu1iqU2ppaOiMAgBMB2JZACsAA06VOFv1cWuDgAA+16KCMZ5d2X8ZewU+v7cSDPbo+hc10upvNZidpi7C0tSCmSMsssOrLs9U5AAAA==",
+  "m": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAADQBACdASoYAB4APu1oqk6ppiQiMAgBMB2JQBfnA+WxteseSlWWKuU6fHir2+aahAD+E+1tOI3dlSfoQ886jxn2FVQvFcMCTj1wF01c+CNBIMyHhypeqS/CxnfYkkaBO9BDBhL+OZ4OeXtgGQAAAA=="
+ },
+ "grok/scene-404": {
+  "d": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAwCdASoYAA4APu1mqk2ppaQiMAgBMB2JQBdgBDv8hB8KK6JhCYsAAP70Iunf+X+N1eSLseSsiTNlH52+aDbmEYVeCR4A",
+  "m": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAADwBACdASoYACsAPtVYo02oKSMmOrmYASAaiWUAygBl4ZMGG8KKYRBsuCOwXalNKQAA/vU40y9AnzgWDeB3tnoWGFVItBDTI7lRZekEHZ47v4wns5uEtGbpvOLr19d30N+7aUmVmFxjtTV2O+4AAA=="
+ }
+}

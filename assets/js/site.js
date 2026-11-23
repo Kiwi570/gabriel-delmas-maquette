@@ -1,7 +1,7 @@
 /* Effets propres à Gabriel Delmas. Le socle gère l'ouverture, les transitions, l'en-tête, le menu, les boucles,
    les mesures et la bibliothèque d'effets (posés par attributs dans les pages).
    Effets du plan (data-effet) : pas, tete-de-lecture, rangee-video, grille-groove, couvertures, eventail, frise. */
-import { demarrer, boucle, versObjet, quand, aller, suivre, lacher } from './socle/index.js?v=1';
+import { demarrer, boucle, versObjet, quand, aller, suivre, lacher } from './socle/index.js?v=2';
 
 const gsap = window.gsap;
 const ST = () => window.ScrollTrigger;
@@ -20,10 +20,12 @@ function ouvrirPage(tl, t0) {
 
 /* ---------- Pas : la grille de l'ouverture joue en silence ---------- */
 const MOTIF_PAS = new Set([0, 3, 6, 8, 10, 12, 14]);
+const BOUM = new Map([[0, 1], [6, 0.55], [8, 0.8], [10, 0.45]]);
 function grillePas() {
   const el = $('.pas--hero');
   if (!el) return;
   const cases = $$('i', el);
+  const halo = $('.hero-halo');
   let avant = -1;
   quand('pret', () => {
     boucle(el, (dt, t) => {
@@ -34,6 +36,8 @@ function grillePas() {
         c.classList.toggle('tete', i === n);
         c.classList.toggle('on', MOTIF_PAS.has(i) && i <= n);
       });
+      /* Le halo derrière le titre bat la grosse caisse du motif. */
+      if (halo && BOUM.has(n) && gsap) gsap.fromTo(halo, { opacity: 0.25 + 0.6 * BOUM.get(n), scale: 1 + 0.06 * BOUM.get(n) }, { opacity: 0.12, scale: 1, duration: 0.55, ease: 'power2.out', overwrite: true });
     });
   });
 }
@@ -43,14 +47,18 @@ function teteDeLecture() {
   $$('.titres').forEach((liste) => {
     const pistes = $$('.titre-piste', liste);
     if (!pistes.length || !ST()) return;
-    let avant = -1;
-    const poser = (p) => {
+    let avant = -1, positions = [];
+    const tete = liste.parentElement && liste.parentElement.querySelector('.titres-tete');
+    const mesurer = () => { positions = pistes.map((li) => [li.offsetTop, li.offsetHeight]); };
+    const poser = (p, force) => {
       const n = Math.min(pistes.length - 1, Math.max(0, Math.floor(p * pistes.length)));
-      if (n === avant) return;
+      if (n === avant && !force) return;
       avant = n;
       pistes.forEach((li, i) => li.classList.toggle('joue', i === n));
+      if (tete && positions[n] && gsap) gsap.to(tete, { y: positions[n][0], height: positions[n][1], duration: force ? 0 : 0.35, ease: 'power3.out', overwrite: true });
     };
-    ST().create({ trigger: liste, start: 'top 72%', end: 'bottom 40%', onUpdate: (s) => poser(s.progress), onRefresh: (s) => poser(s.progress) });
+    mesurer();
+    ST().create({ trigger: liste, start: 'top 72%', end: 'bottom 40%', onUpdate: (s) => poser(s.progress), onRefresh: (s) => { mesurer(); poser(s.progress, true); } });
   });
 }
 
@@ -147,6 +155,19 @@ function sequenceur() {
   const motifs = $$('[data-groove-motif]');
   let bpm = +tempo.value, joue = false, ctx = null, maitre = null, bruit = null, prochain = 0, pasCourant = 0, minuterie = 0, tete = -1;
 
+  const syllabe = $('[data-syllabe]');
+  const temps = $$('.seq-temps-n', seq);
+  const SYL = { koum: 'Koum', ka: 'Ka', ti: 'ts' };
+  const chanter = (n) => {
+    if (!syllabe) return;
+    const actives = parPas[n].filter((c) => c.getAttribute('aria-pressed') === 'true').map((c) => c.dataset.voix);
+    temps.forEach((t, i) => t.classList.toggle('allume', i === Math.floor(n / 4)));
+    const v = actives.includes('koum') ? 'koum' : actives.includes('ka') ? 'ka' : actives.includes('ti') ? 'ti' : null;
+    if (!v) return;
+    syllabe.textContent = SYL[v];
+    syllabe.dataset.voix = v;
+    if (gsap) gsap.fromTo(syllabe, { scale: v === 'ti' ? 0.9 : 1.18, opacity: 1 }, { scale: 1, opacity: v === 'ti' ? 0.35 : 0.55, duration: 0.32, ease: 'power3.out', overwrite: true });
+  };
   const appliquer = (nom) => {
     const m = MOTIFS[nom];
     cases.forEach((c) => c.setAttribute('aria-pressed', String(m[c.dataset.voix].includes(+c.dataset.pas))));
@@ -154,9 +175,17 @@ function sequenceur() {
   };
   appliquer('basique');
   motifs.forEach((b) => b.addEventListener('click', () => appliquer(b.dataset.grooveMotif)));
-  cases.forEach((c) => c.addEventListener('click', () => {
-    c.setAttribute('aria-pressed', String(c.getAttribute('aria-pressed') !== 'true'));
+  cases.forEach((c) => c.addEventListener('click', async () => {
+    const allume = c.getAttribute('aria-pressed') !== 'true';
+    c.setAttribute('aria-pressed', String(allume));
     motifs.forEach((b) => b.setAttribute('aria-pressed', 'false'));
+    /* Retour immédiat : une case qu'on allume joue son son (après ce clic, le navigateur autorise l'audio). */
+    if (allume && !joue && preparerAudio()) {
+      try { await ctx.resume(); } catch {}
+      const t = ctx.currentTime + 0.01, v = c.dataset.voix, n = +c.dataset.pas;
+      if (v === 'koum') koum(t); else if (v === 'ka') ka(t, n === 4 || n === 12 ? 1 : 0.28); else ti(t);
+      c.classList.add('frappe'); setTimeout(() => c.classList.remove('frappe'), 90);
+    }
   }));
   tempo.addEventListener('input', () => { bpm = +tempo.value; sortie.value = bpm; sortie.textContent = bpm; });
 
@@ -164,6 +193,7 @@ function sequenceur() {
     if (n === tete) return;
     tete = n;
     cases.forEach((c) => c.classList.toggle('tete', +c.dataset.pas === n));
+    chanter(n);
   };
   /* Démonstration muette tant que le visiteur n'a pas lancé la boucle : la tête de lecture avance seule. */
   boucle(seq, (dt, t) => { if (!joue) montrer(Math.floor(t * (bpm / 60) * 4) % 16); });

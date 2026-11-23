@@ -9,7 +9,7 @@ Direction « New Step » : la pochette de l’album devient le site. Fond pierre
 
 | Page | Ouverture | Contenu |
 |---|---|---|
-| Accueil `/` | Nom en très grand, grille de 16 pas qui joue en silence, portrait à la caisse claire | New Step et ses 11 titres, vidéos, grille jouable (Koum, Ka), méthodes, clinics et studio, scènes partagées, kit en plein écran, dates |
+| Accueil `/` | Nom en très grand, grille de 16 pas qui joue en silence et halo qui bat la mesure, portrait à la caisse claire | New Step et ses 11 titres avec tête de lecture, vidéos, grille jouable (Koum, Ka, syllabes en grand), méthodes, clinics et studio, scènes partagées, kit en plein écran, le quartet sur scène |
 | Musique `/musique` | « NEW STEP » géant sur la pierre et le quartet | Onze titres, quartet, vidéos, dates, booking |
 | Méthodes `/methodes` | Portrait au pad, couvertures en éventail | Trois fiches avec panier simulé, pages à feuilleter, compter, chanter, groover |
 | Clinics & studio `/clinics-et-studio` | Clinic en plein cadre | Thèmes, organiser une clinic, sessions intensives, batterie à distance, cours |
@@ -25,7 +25,7 @@ Les versions anglaises sont sous `/en/…`.
 - Pages : `source/pages/*.mjs`, gabarit commun : `source/gabarits/commun.mjs`. Style : `assets/css/site.css`. Effets : `assets/js/site.js`.
 - Après chaque modification : `node outils/generer.mjs` (les pages `.html` sont générées, ne pas les modifier à la main).
 - Dates : ajouter une entrée dans `donnees/dates.json` (`date` au format AAAA-MM-JJ). Les dates passées sont marquées « Passé » toutes seules, à la date du jour.
-- Images : `plan-images.json`, puis le pipeline de la bibliothèque (`produire.mjs`, `partage.mjs`).
+- Images : `plan-images.json`, puis le pipeline de la bibliothèque (`produire.mjs`, `partage.mjs`). Les aperçus flous des images d’ouverture sont dans `donnees/apercus.json` (24 px en base64) : à refaire si une photo d’ouverture change.
 - Audit : `node _audit/audit.mjs` (rapport dans `_audit/rapport/rapport.md`).
 
 ## À fournir par Gabriel (à compléter)

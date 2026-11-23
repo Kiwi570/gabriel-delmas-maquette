@@ -1,5 +1,18 @@
 # Journal des versions
 
+## v2 — 23 novembre 2026
+
+Analyse complète de la v1 (chaque page, sur ordinateur et téléphone, en mouvement), puis :
+
+- **Accueil plus vivant dès l’ouverture** : un halo rouge bat la grosse caisse derrière le titre, au rythme de la grille. La grille devient un lien « Jouez ↓ » vers la grille jouable.
+- **Grille « Koum, Ka, groove » plus ludique** : une case qu’on allume joue tout de suite son son. Pendant la boucle, la syllabe chantée (« KOUM », « KA », « TS ») s’affiche en très grand et le temps en cours (1 à 4) s’allume. Sur téléphone, le nom de chaque voix passe au-dessus de ses cases.
+- **Les 11 titres** : une tête de lecture rouge glisse le long de la liste et le titre en cours s’éclaire (accueil et Musique).
+- **Fin de l’accueil et de Musique** : « Le quartet sur scène », tournée vers le booking, au lieu d’un titre « Prochaines dates » sans date.
+- **Vidéos de Musique** : une vidéo à la une en grand, les quatre autres en rangée ; sur téléphone, une rangée qui glisse au doigt.
+- **Matière** : grain léger de peau sablée sur le fond pierre ; relief au survol des couvertures, des cartes et des vidéos.
+- **Ouvertures** : aperçu flou sous chaque photo d’ouverture (`donnees/apercus.json`), plus de case vide au chargement ni au retour arrière.
+- **Téléphone** : sur Musique, le titre « Onze titres » passe avant le visuel de l’album ; pied de page sur deux colonnes.
+
 ## v1 — 23 novembre 2026
 
 Première version de la maquette, en français et en anglais.

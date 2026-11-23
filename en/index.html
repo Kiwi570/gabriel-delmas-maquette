@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-v="1" data-page="accueil" data-curseur>
+<html lang="en" data-v="2" data-page="accueil" data-curseur>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -38,15 +38,15 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/big-shoulders-900.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/figtree-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="stylesheet" href="/assets/js/modules/panier-en-tiroir/module.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="stylesheet" href="/assets/js/modules/panier-en-tiroir/module.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#111010">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -111,6 +111,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 </div>
 <main id="contenu" tabindex="-1">
 <section class="hero ecran theme-noir" id="debut">
+  <span class="hero-halo" aria-hidden="true" data-audit-ignorer></span>
   <div class="hero-texte">
     <p class="surtitre hero-surtitre masque-ecran-tres-bas" data-anime="gsap">Drummer · jazz, funk, New Orleans</p>
     <h1 class="hero-titre titre-geant" data-anime="gsap">
@@ -119,7 +120,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <span class="ligne-masque ligne-masque--em"><em class="hero-ligne">groove first</em></span>
     </h1>
     <div class="hero-bas">
-      <div class="pas pas--hero" data-iris-centre data-effet="pas" aria-hidden="true"><i class="temps"></i><i class=""></i><i class=""></i><i class=""></i><i class="temps"></i><i class=""></i><i class=""></i><i class=""></i><i class="temps"></i><i class=""></i><i class=""></i><i class=""></i><i class="temps"></i><i class=""></i><i class=""></i><i class=""></i></div>
+      <a class="pas-lien" href="#groove" aria-label="Play a groove: go to the playable grid"><div class="pas pas--hero" data-iris-centre data-effet="pas" aria-hidden="true"><i class="temps"></i><i class=""></i><i class=""></i><i class=""></i><i class="temps"></i><i class=""></i><i class=""></i><i class=""></i><i class="temps"></i><i class=""></i><i class=""></i><i class=""></i><i class="temps"></i><i class=""></i><i class=""></i><i class=""></i></div><span class="pas-legende" aria-hidden="true">Play ↓</span></a>
       <div class="hero-detail" data-anime="gsap">
         <p class="hero-intro masque-ecran-bas">Leader of the Gabriel Delmas Trio, sideman on many projects, author of three drum methods.</p>
         <p class="hero-info" data-info-cle>New album New Step, on Jazz Family</p>
@@ -130,7 +131,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       </div>
     </div>
   </div>
-  <figure class="media hero-media" data-fx="parallaxe" data-fx-force="8" style="--cadrage:50% 40%;--cadrage-mobile:50% 30%">
+  <figure class="media hero-media" data-fx="parallaxe" data-fx-force="8" style="--cadrage:50% 40%;--cadrage-mobile:50% 30%;--apercu:url(data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADQBACdASoYAB4APt1cpU2opSOiN/qoARAbiWcAAFu3A3i79jyu1R/hwrUpC55wAAD+9W5M9Tm/HPyiqzZ5bDnsPnrPj2t91OKetHg19zinhekwMj/XKfUjA4AAAA==);--apercu-mobile:url(data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAAAQBQCdASoYACsAPs1YoE2npaMiOrzIAPAZiWMAzNAs2swhpF6giTvW7A0BWZ7adtbAAP73e51NDptdjoIqdyvTGI2nXbEEJptwiOs8Lz3viElUaHq3pXrwEtVeo7lX02kj3RL75CuxC1TxxoAAAA==)">
   <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/portrait-caisse-claire-mobile-640.webp 640w, /assets/images/portrait-caisse-claire-mobile-1080.webp 1080w" sizes="(max-width: 760px) 100vw, 42vw">
     <img src="/assets/images/portrait-caisse-claire-1280.webp" srcset="/assets/images/portrait-caisse-claire-640.webp 640w, /assets/images/portrait-caisse-claire-1280.webp 1280w, /assets/images/portrait-caisse-claire-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 42vw" alt="Gabriel Delmas on a black background, a red snare drum under his arm" width="1280" height="1600" fetchpriority="high" loading="eager" decoding="async">
   </picture>
@@ -159,9 +160,9 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
         <a class="bouton" href="https://open.spotify.com/intl-fr/album/4tYwqiktRfPv5EPbK9bOdt" target="_blank" rel="noopener" data-survol="magnetique">Listen on Spotify</a>
         <a class="bouton bouton--contour" href="https://idol-io.ffm.to/newstep" target="_blank" rel="noopener">All platforms</a>
       </p>
-      <ol class="titres" data-effet="tete-de-lecture" aria-label="The 11 tracks">
+      <div class="titres-cadre"><span class="titres-tete" aria-hidden="true"></span><ol class="titres" data-effet="tete-de-lecture" aria-label="The 11 tracks">
         <li class="titre-piste"><span class="titre-n">01</span><span class="titre-nom">Deltal</span><span class="titre-barres" aria-hidden="true"><i></i><i></i><i></i></span></li><li class="titre-piste"><span class="titre-n">02</span><span class="titre-nom">Herbie N Be</span><span class="titre-barres" aria-hidden="true"><i></i><i></i><i></i></span></li><li class="titre-piste"><span class="titre-n">03</span><span class="titre-nom">Huitochocolat</span><span class="titre-barres" aria-hidden="true"><i></i><i></i><i></i></span></li><li class="titre-piste"><span class="titre-n">04</span><span class="titre-nom">Funky Ruffel</span><span class="titre-barres" aria-hidden="true"><i></i><i></i><i></i></span></li><li class="titre-piste"><span class="titre-n">05</span><span class="titre-nom">Seven Spirit</span><span class="titre-barres" aria-hidden="true"><i></i><i></i><i></i></span></li><li class="titre-piste"><span class="titre-n">06</span><span class="titre-nom">Morse Time</span><span class="titre-barres" aria-hidden="true"><i></i><i></i><i></i></span></li><li class="titre-piste"><span class="titre-n">07</span><span class="titre-nom">Drop Interlude</span><span class="titre-barres" aria-hidden="true"><i></i><i></i><i></i></span></li><li class="titre-piste"><span class="titre-n">08</span><span class="titre-nom">Drop</span><span class="titre-barres" aria-hidden="true"><i></i><i></i><i></i></span></li><li class="titre-piste"><span class="titre-n">09</span><span class="titre-nom">Thriller</span><span class="titre-note">Michael Jackson cover</span><span class="titre-barres" aria-hidden="true"><i></i><i></i><i></i></span></li><li class="titre-piste"><span class="titre-n">10</span><span class="titre-nom">New Step, part. 1</span><span class="titre-barres" aria-hidden="true"><i></i><i></i><i></i></span></li><li class="titre-piste"><span class="titre-n">11</span><span class="titre-nom">New Step, part. 2</span><span class="titre-barres" aria-hidden="true"><i></i><i></i><i></i></span></li>
-      </ol>
+      </ol></div>
       <p><a href="/en/musique" class="lien-fleche" data-libelle="Music">All about the album</a></p>
     </div>
   </div>
@@ -242,6 +243,8 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <p class="groove-son">Sound only starts when you start the groove.</p>
       <p class="visuellement-cache" role="status" data-groove-annonce data-lecture="The groove is playing" data-arret="The groove has stopped"></p>
     </div>
+    <div class="groove-scene">
+    <p class="groove-syllabe" aria-hidden="true" data-audit-ignorer><span data-syllabe>Koum</span></p>
     <div class="sequenceur" data-sequenceur data-effet="grille-groove" data-visuel data-grille="manipuler">
       <div class="seq-temps">
         <span class="seq-temps-n" aria-hidden="true">1</span>
@@ -292,6 +295,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
           <button type="button" class="seq-case" data-voix="koum" data-pas="12" aria-pressed="false" aria-label="Koum · bass drum, Step 13"></button><button type="button" class="seq-case" data-voix="koum" data-pas="13" aria-pressed="false" aria-label="Koum · bass drum, Step 14"></button><button type="button" class="seq-case" data-voix="koum" data-pas="14" aria-pressed="false" aria-label="Koum · bass drum, Step 15"></button><button type="button" class="seq-case" data-voix="koum" data-pas="15" aria-pressed="false" aria-label="Koum · bass drum, Step 16"></button>
         </div>
       </div>
+    </div>
     </div>
   </div>
   <p class="conteneur groove-lien"><a href="/en/methodes" class="lien-fleche" data-libelle="Methods">Discover the methods</a></p>
@@ -420,8 +424,8 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 </figure>
   <div class="conteneur fin-contenu">
     <p class="surtitre">Live</p>
-    <h2 class="titre-section" data-anime="lignes">Upcoming dates</h2>
-    <p class="fin-aucune">The quartet&#39;s next dates will be listed here as soon as they are confirmed.</p>
+    <h2 class="titre-section" data-anime="lignes">The quartet live</h2>
+    <p class="fin-aucune">Clubs, festivals, venues: the New Step quartet is booking now. Upcoming dates will be listed here.</p>
     <p class="surtitre">Recent shows</p>
     <ul class="dates" data-dates><li class="date date--passee" data-date="2026-10-07">
       <span class="date-jour">7 October 2026 · 20 h 30</span>

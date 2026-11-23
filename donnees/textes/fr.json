@@ -91,7 +91,9 @@
       "info": "Nouvel album New Step, chez Jazz Family",
       "action": "Écouter New Step",
       "engager": "Engager Gabriel",
-      "pas": "Grille de 16 pas qui joue en silence"
+      "pas": "Grille de 16 pas qui joue en silence",
+      "jouer": "Jouer un groove : aller à la grille jouable",
+      "jouerCourt": "Jouez ↓"
     },
     "album": {
       "surtitre": "L'album",
@@ -132,7 +134,8 @@
       "son": "Le son démarre seulement quand vous lancez le groove.",
       "methodes": "Découvrir les méthodes",
       "annonceLecture": "Le groove joue",
-      "annonceArret": "Le groove est arrêté"
+      "annonceArret": "Le groove est arrêté",
+      "temps": "Temps"
     },
     "methodes": {
       "surtitre": "Les méthodes",
@@ -172,8 +175,8 @@
     },
     "fin": {
       "surtitre": "Sur scène",
-      "titre": "Les prochaines dates",
-      "aucune": "Les prochaines dates du quartet sont annoncées ici dès qu'elles sont confirmées.",
+      "titre": "Le quartet sur scène",
+      "aucune": "Clubs, festivals, salles : le quartet de New Step se programme dès maintenant. Les prochaines dates seront annoncées ici.",
       "dernieres": "Dernières scènes",
       "booking": "Programmer le quartet",
       "engager": "Engager Gabriel"
@@ -204,11 +207,12 @@
     },
     "videos": {
       "titre": "Le quartet en vidéo",
-      "toutes": "Toute la chaîne YouTube"
+      "toutes": "Toute la chaîne YouTube",
+      "region": "Vidéos du quartet, défilement horizontal"
     },
     "dates": {
-      "titre": "Les dates",
-      "aucune": "Aucune date annoncée pour le moment. Les prochaines arrivent ici dès qu'elles sont confirmées.",
+      "titre": "Sur scène",
+      "aucune": "Le quartet de New Step se programme dès maintenant. Les prochaines dates seront annoncées ici dès qu’elles sont confirmées.",
       "passees": "Dernières dates",
       "booking": "Booking",
       "bookingTexte": "Clubs, festivals, salles : le quartet se programme par e-mail.",

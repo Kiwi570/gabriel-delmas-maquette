@@ -1,6 +1,6 @@
 /* Pont entre les modules de la bibliothèque et le socle du site : les modules appellent pret([...])
    et reçoivent GSAP et ScrollTrigger déjà chargés par la page (scripts defer), sans rien instancier eux-mêmes. */
-import { rafraichir as rafraichirSocle, boucle as boucleSocle } from '../socle/index.js?v=1';
+import { rafraichir as rafraichirSocle, boucle as boucleSocle } from '../socle/index.js?v=2';
 
 const attendreGsap = () => new Promise((ok) => {
   if (window.gsap) return ok();

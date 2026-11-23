@@ -41,9 +41,9 @@ export default (c) => {
     <div>
       <h2 class="titre-section" data-anime="lignes">${c.t('musique.titres.titre')}</h2>
       <p>${c.t('musique.titres.texte')}</p>
-      <ol class="titres" data-effet="tete-de-lecture" aria-label="${c.s('accueil.album.titres')}">
+      <div class="titres-cadre"><span class="titres-tete" aria-hidden="true"></span><ol class="titres" data-effet="tete-de-lecture" aria-label="${c.s('accueil.album.titres')}">
         ${a.titres.map((t) => html`<li class="titre-piste"><span class="titre-n">${t.n}</span><span class="titre-nom">${t.titre}</span>${t.note ? html`<span class="titre-note">${t.note}</span>` : ''}${t.video ? html`<a class="titre-video" href="https://www.youtube.com/watch?v=${t.video}" target="_blank" rel="noopener" aria-label="${t.titre} : ${c.s('musique.titres.video')}, ${c.s('commun.nouvelOnglet')}">${c.t('musique.titres.video')}</a>` : html`<span class="titre-barres" aria-hidden="true"><i></i><i></i><i></i></span>`}</li>`)}
-      </ol>
+      </ol></div>
       <p class="influences">${c.t('musique.titres.influences')}</p>
     </div>
   </div>
@@ -63,7 +63,7 @@ export default (c) => {
 <section class="videos-grille section theme-noir" id="videos">
   <div class="conteneur">
     <h2 class="titre-section" data-anime="lignes">${c.t('musique.videos.titre')}</h2>
-    <div class="grille-videos" data-anime="cascade">${c.donnees.videos.map((v) => carteVideo(c, v, '(max-width: 760px) 100vw, 30vw'))}</div>
+    <div class="grille-videos" data-anime="cascade" role="region" aria-label="${c.s('musique.videos.region')}" tabindex="0">${c.donnees.videos.map((v) => carteVideo(c, v, '(max-width: 760px) 100vw, 30vw'))}</div>
     <p><a class="lien-fleche" href="${c.site.reseaux.find((r) => r.nom === 'YouTube').url}" target="_blank" rel="noopener">${c.t('musique.videos.toutes')}</a></p>
   </div>
 </section>
