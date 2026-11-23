@@ -1,0 +1,415 @@
+{
+  "commun": {
+    "navigation": "Navigation principale",
+    "logoLibelle": "Gabriel Delmas, accueil",
+    "menu": "Menu",
+    "fermer": "Fermer",
+    "langueAutre": "English version",
+    "actionEntete": "Engager Gabriel",
+    "ecouter": "Écouter New Step",
+    "panier": "Panier",
+    "sommaire": "Sommaire",
+    "ecrire": "Écrire",
+    "suivre": "Écouter et suivre",
+    "emailGabriel": "Gabriel",
+    "emailTrio": "Booking du trio",
+    "piedTexte": "Batteur jazz, funk et New Orleans. Leader du Gabriel Delmas Trio, sideman, auteur de trois méthodes.",
+    "retourHaut": "Retour en haut",
+    "mentions": "Mentions légales (à compléter) · Politique de confidentialité (à compléter)",
+    "maquette": "Maquette de démonstration : formulaires et panier simulés, rien n'est envoyé.",
+    "evitement": "Aller au contenu",
+    "mentionIa": "Illustration générée",
+    "pause": "Pause",
+    "lecture": "Lecture",
+    "introLigne": "Batteur · Musicien",
+    "passe": "Passé",
+    "aVenir": "À venir",
+    "ouvrirYoutube": "Voir sur YouTube, nouvel onglet",
+    "nouvelOnglet": "nouvel onglet",
+    "photoCredit": "Photo : Firmin de Montégut",
+    "livraisonTexte": "Calculée à la commande (PDF : aucun frais ; offerte dès 3 méthodes)",
+    "ecouterCourt": "Écouter"
+  },
+  "pages": {
+    "accueil": {
+      "titre": "Gabriel Delmas, batteur : New Step, méthodes et clinics",
+      "description": "Batteur jazz, funk et New Orleans. Le premier album New Step du Gabriel Delmas Trio et Gaël Horellou, trois méthodes de batterie, des clinics et des enregistrements à distance.",
+      "nav": "Accueil",
+      "partageAlt": "Gabriel Delmas sur fond noir, une caisse claire rouge sous le bras",
+      "accroche": "Batteur. Le groove avant tout."
+    },
+    "musique": {
+      "titre": "New Step : l'album du Gabriel Delmas Trio et Gaël Horellou",
+      "description": "Onze titres jazz, funk et New Orleans enregistrés en conditions live, chez Jazz Family. Le quartet, les vidéos, les dates et le booking.",
+      "nav": "Musique",
+      "partageAlt": "Le quartet de New Step sur un canapé orange",
+      "accroche": "New Step, le premier album du trio"
+    },
+    "methodes": {
+      "titre": "Les méthodes de Gabriel Delmas : Le Rythme Intérieur, Du Pad vers le Groove",
+      "description": "Trois méthodes pour travailler le rythme et le groove, du pad au kit : Le Rythme Intérieur (28 €), Du Pad vers le Groove et From Pad To Groove (15 € en PDF).",
+      "nav": "Méthodes",
+      "partageAlt": "Gabriel Delmas avec un pad d'entraînement",
+      "accroche": "Du pad vers le groove, en trois livres"
+    },
+    "clinics": {
+      "titre": "Clinics, sessions intensives et enregistrement à distance : Gabriel Delmas",
+      "description": "Clinics et masterclass en magasin, festival ou école de batterie, sessions intensives sur un ou deux jours, cours et batterie enregistrée à distance.",
+      "nav": "Clinics & studio",
+      "partageAlt": "Une clinic de batterie dans un magasin de musique (illustration générée)",
+      "accroche": "Clinics, sessions et studio"
+    },
+    "bio": {
+      "titre": "Bio et matériel : le parcours de Gabriel Delmas",
+      "description": "De Beaumont-de-Lomagne au Moulin Rouge et à Jazz in Marciac : le parcours, les scènes partagées et le kit Sonor, Zildjian et Remo de Gabriel Delmas.",
+      "nav": "Bio & matériel",
+      "partageAlt": "Gabriel Delmas derrière un kit Sonor blanc dans un studio gris",
+      "accroche": "Le parcours et le kit"
+    },
+    "contact": {
+      "titre": "Engager Gabriel Delmas : booking, clinic, studio, cours",
+      "description": "Programmer le quartet, organiser une clinic, faire enregistrer une batterie, trouver un remplaçant ou réserver une session intensive.",
+      "nav": "Contact",
+      "partageAlt": "Portrait de Gabriel Delmas en extérieur",
+      "accroche": "Parlons de votre projet"
+    },
+    "404": {
+      "titre": "Page introuvable : Gabriel Delmas",
+      "description": "Cette page n'existe pas ou plus.",
+      "nav": "Page introuvable",
+      "partageAlt": "Une baguette oubliée sur une scène vide",
+      "accroche": "Page introuvable"
+    }
+  },
+  "accueil": {
+    "hero": {
+      "surtitre": "Batteur · jazz, funk, New Orleans",
+      "titre1": "Gabriel",
+      "titre2": "Delmas",
+      "titre3": "le groove d’abord",
+      "texte": "Leader du Gabriel Delmas Trio, sideman sur de nombreux projets, auteur de trois méthodes de batterie.",
+      "info": "Nouvel album New Step, chez Jazz Family",
+      "action": "Écouter New Step",
+      "engager": "Engager Gabriel",
+      "pas": "Grille de 16 pas qui joue en silence"
+    },
+    "album": {
+      "surtitre": "L'album",
+      "titre": "New Step",
+      "sous": "Gabriel Delmas Trio & Gaël Horellou",
+      "texte": "Dix compositions et une reprise de Michael Jackson, enregistrées en conditions live. L'énergie de la Nouvelle-Orléans, du funk et du jazz d'aujourd'hui.",
+      "sortie": "Sorti le 29 mai 2026 · Jazz Family",
+      "spotify": "Écouter sur Spotify",
+      "plateformes": "Toutes les plateformes",
+      "titres": "Les 11 titres",
+      "quartet": "Le quartet",
+      "musique": "Tout sur l'album",
+      "alt": "Visuel de l'album New Step : une planète noire et rouge au-dessus d'une mer déchaînée"
+    },
+    "videos": {
+      "titre": "En vidéo",
+      "texte": "Le trio en club, en studio et avec ses invités.",
+      "toutes": "La chaîne YouTube",
+      "region": "Vidéos, défilement horizontal"
+    },
+    "groove": {
+      "surtitre": "À vous de jouer",
+      "titre": "Koum, Ka, groove",
+      "texte": "Dans ses méthodes, Gabriel fait chanter avant de jouer : « Koum » pour la grosse caisse, « Ka » pour la caisse claire. Allumez des cases, lancez la boucle, réglez le tempo. Les coups de caisse claire hors des temps 2 et 4 sonnent en ghost notes.",
+      "lecture": "Lancer le groove",
+      "arret": "Arrêter",
+      "tempo": "Tempo",
+      "bpm": "à la noire",
+      "motif": "Motif",
+      "motif1": "Basique",
+      "motif2": "Ghost notes",
+      "motif3": "New Orleans",
+      "effacer": "Effacer",
+      "ligneTi": "Charleston",
+      "ligneKa": "Ka · caisse claire",
+      "ligneKoum": "Koum · grosse caisse",
+      "case": "Pas {n}",
+      "son": "Le son démarre seulement quand vous lancez le groove.",
+      "methodes": "Découvrir les méthodes",
+      "annonceLecture": "Le groove joue",
+      "annonceArret": "Le groove est arrêté"
+    },
+    "methodes": {
+      "surtitre": "Les méthodes",
+      "titre": "Du pad vers le groove",
+      "texte": "Trois livres pour travailler le rythme partout, puis le transférer sur le kit. Chaque exercice a sa vidéo.",
+      "c1": "exercices en vidéo dans Le Rythme Intérieur",
+      "c2": "vidéos dans Du Pad vers le Groove",
+      "c3": "pages de cahier de voyage",
+      "avis": "5,0 sur 5 · 10 avis sur Le Rythme Intérieur",
+      "cmf": "Coup de cœur de la Confédération musicale de France",
+      "voir": "Voir les méthodes"
+    },
+    "clinics": {
+      "surtitre": "Transmettre et enregistrer",
+      "titre": "Clinics & studio",
+      "clinicTitre": "Clinics et masterclass",
+      "clinicTexte": "En magasin de musique, en festival ou en école de batterie : créativité, groove, méthode de travail.",
+      "clinicLien": "Organiser une clinic",
+      "studioTitre": "Batterie à distance",
+      "studioTexte": "Depuis 2020, Gabriel enregistre dans son home studio les parties de batterie de nombreux artistes.",
+      "studioLien": "Faire enregistrer une batterie",
+      "sessions": "Sessions intensives sur un ou deux jours, pour amateurs et pros"
+    },
+    "scenes": {
+      "surtitre": "Ils ont partagé la scène",
+      "titre": "Sur scène avec les grands",
+      "texte": "Vainqueur du concours de La Baguetterie, Gabriel joue en octobre 2017 au Moulin Rouge aux côtés de Sonny Emory, Aaron Spears, Robert Sput et Benny Greb. En mai 2025, il assure la première partie de Dave Weckl à Toulouse.",
+      "bio": "Lire la bio",
+      "alt": "Gabriel Delmas en concert, éclairé de violet"
+    },
+    "kit": {
+      "mot1": "Le",
+      "mot2": "kit",
+      "titre": "Sonor Vintage Red Oyster",
+      "texte": "Fûts Sonor, cymbales Zildjian, peaux Remo : les trois marques qui accompagnent Gabriel.",
+      "materiel": "Tout le matériel"
+    },
+    "fin": {
+      "surtitre": "Sur scène",
+      "titre": "Les prochaines dates",
+      "aucune": "Les prochaines dates du quartet sont annoncées ici dès qu'elles sont confirmées.",
+      "dernieres": "Dernières scènes",
+      "booking": "Programmer le quartet",
+      "engager": "Engager Gabriel"
+    }
+  },
+  "musique": {
+    "tete": {
+      "surtitre": "Gabriel Delmas Trio & Gaël Horellou",
+      "titre1": "New",
+      "titre2": "Step",
+      "texte": "Le premier album du trio, avec le saxophone de Gaël Horellou. Un jazz chaleureux, libre, résolument tourné vers le public.",
+      "info": "Sorti le 29 mai 2026 · CD le 5 juin · Jazz Family",
+      "ecouter": "Écouter l'album",
+      "booking": "Programmer le quartet",
+      "alt": "Le quartet de New Step sur un canapé orange"
+    },
+    "titres": {
+      "titre": "Onze titres",
+      "texte": "Dix compositions et une reprise de Michael Jackson. Enregistré en conditions live, le son est brut, organique.",
+      "influences": "Dans l'oreille : la Nouvelle-Orléans des Meters et de Stanton Moore, le funk de Maceo Parker, le jazz de Mark Guiliana, Chris Potter et Snarky Puppy.",
+      "video": "Voir la vidéo",
+      "spotify": "Écouter sur Spotify"
+    },
+    "quartet": {
+      "titre": "Le quartet",
+      "texte": "Le trio naît en octobre 2019 autour des compositions de Gabriel. En mai 2024, il invite Gaël Horellou pour une soirée au Taquin, à Toulouse : New Step part de là.",
+      "alt": "Le trio en séance dans un studio en bois"
+    },
+    "videos": {
+      "titre": "Le quartet en vidéo",
+      "toutes": "Toute la chaîne YouTube"
+    },
+    "dates": {
+      "titre": "Les dates",
+      "aucune": "Aucune date annoncée pour le moment. Les prochaines arrivent ici dès qu'elles sont confirmées.",
+      "passees": "Dernières dates",
+      "booking": "Booking",
+      "bookingTexte": "Clubs, festivals, salles : le quartet se programme par e-mail.",
+      "bookingAction": "Programmer le quartet"
+    }
+  },
+  "methodes": {
+    "tete": {
+      "surtitre": "Les méthodes de Gabriel Delmas",
+      "titre1": "Du pad",
+      "titre2": "au groove",
+      "texte": "Trois livres pour compter, chanter et groover : sur un pad, dans le train ou derrière le kit.",
+      "info": "À partir de 15 € · PDF disponibles tout de suite",
+      "action": "Voir les livres",
+      "alt": "Gabriel Delmas avec un pad d'entraînement coloré"
+    },
+    "livres": {
+      "titre": "Les livres",
+      "pour": "Pour qui",
+      "contenu": "Au programme",
+      "ajouter": "Ajouter au panier",
+      "prixLibelle": "Prix",
+      "avis": "{note} sur 5 · {nombre} avis",
+      "ecoles": "Écoles de musique : 10 % de remise au-delà de 5 livres, sur demande par e-mail.",
+      "livraison": "Frais de port offerts à partir de 3 méthodes, en livraison standard."
+    },
+    "feuilleter": {
+      "titre": "Feuilleter",
+      "texte": "Quelques pages, pour voir comment on travaille. Touchez une page pour l'agrandir.",
+      "fermer": "Fermer",
+      "precedent": "Page précédente",
+      "suivant": "Page suivante",
+      "ouvrir": "Agrandir : {titre}"
+    },
+    "travailler": {
+      "titre": "Compter, chanter, groover",
+      "e1": "Compter",
+      "t1": "On compte et on chante la phrase à voix haute, métronome sur le contretemps.",
+      "e2": "Chanter",
+      "t2": "La voix, les mains et les pieds se répondent, puis s'échangent : c'est le principe du switch.",
+      "e3": "Groover",
+      "t3": "Le doigté travaillé sur le pad passe sur le kit et devient un groove : « Koum » à la grosse caisse, « Ka » à la caisse claire.",
+      "alt": "Un pad d'entraînement, des baguettes et un métronome sur une table en bois"
+    },
+    "fin": {
+      "titre": "Une question sur une méthode ?",
+      "texte": "Commande groupée pour une école, version papier, niveau : Gabriel répond lui-même.",
+      "action": "Écrire à Gabriel"
+    }
+  },
+  "clinics": {
+    "tete": {
+      "surtitre": "Clinics, sessions et studio",
+      "titre1": "Transmettre",
+      "titre2": "le groove",
+      "texte": "Gabriel vient dans votre magasin, votre festival ou votre école de batterie, reçoit pour des sessions intensives, et enregistre vos batteries à distance.",
+      "info": "Magasins de musique · festivals · écoles de batterie",
+      "action": "Organiser une clinic",
+      "alt": "Une clinic de batterie dans un magasin de musique, public de dos"
+    },
+    "themes": {
+      "titre": "Ce qu'on travaille en clinic",
+      "texte": "Chaque clinic part des méthodes Le Rythme Intérieur et Du Pad vers le Groove.",
+      "t1": "Créativité",
+      "x1": "Développer le sens de l'improvisation et trouver de nouvelles idées.",
+      "t2": "Groove",
+      "x2": "Améliorer son groove par le travail du son, jusqu'à un son personnel.",
+      "t3": "Méthode de travail",
+      "x3": "Organiser ses séances et gagner du temps dans l'apprentissage."
+    },
+    "organiser": {
+      "titre": "Organiser une clinic",
+      "texte": "Magasins, festivals et écoles écrivent directement à Gabriel. Pour une masterclass, l'artist manager de Sonor peut aussi être contacté.",
+      "gabriel": "Gabriel Delmas",
+      "sonor": "Sonor, artist manager",
+      "action": "Demander une clinic"
+    },
+    "sessions": {
+      "titre": "Sessions intensives",
+      "texte": "Une immersion individuelle, à Sauveterre-de-Rouergue, dans l'Aveyron.",
+      "l1": "Sur 1 ou 2 jours",
+      "l2": "Environ 7 h de batterie par jour",
+      "l3": "Créneaux toute l'année",
+      "l4": "Pour amateurs et pros",
+      "l5": "Pension complète possible",
+      "tarif": "Tarifs et disponibilités donnés par e-mail.",
+      "action": "Réserver une session",
+      "alt": "Une batterie près d'une fenêtre ouverte sur la campagne"
+    },
+    "studio": {
+      "titre": "Batterie enregistrée à distance",
+      "texte": "Depuis 2020, Gabriel enregistre dans son home studio les parties de batterie de nombreux artistes. Il joue aussi en remplacement et rejoint des projets comme sideman.",
+      "l1": "Enregistrement à distance",
+      "l2": "Remplacements",
+      "l3": "Projets et sideman",
+      "action": "Faire enregistrer une batterie",
+      "alt": "Un kit de batterie entouré de micros dans un petit studio",
+      "altVignette": "Gabriel Delmas dans son home studio, à côté de son kit Sonor AQ2"
+    },
+    "cours": {
+      "titre": "Cours de batterie",
+      "texte": "Formats et disponibilités sur demande.",
+      "action": "Demander un cours"
+    }
+  },
+  "bio": {
+    "tete": {
+      "surtitre": "Bio & matériel",
+      "titre1": "Une vie",
+      "titre2": "en rythme",
+      "texte": "Des casseroles de sa grand-mère au Moulin Rouge, de Jazz in Marciac au premier album : le parcours de Gabriel Delmas.",
+      "info": "Premiers cours à 4 ans · formé à Toulouse",
+      "action": "Voir le parcours",
+      "alt": "Gabriel Delmas derrière un kit Sonor Vintage blanc, seul dans un studio gris"
+    },
+    "parcours": {
+      "titre": "Le parcours"
+    },
+    "scenes": {
+      "titre": "Scènes partagées",
+      "texte": "Sur scène et en concours avec :",
+      "taquin": "Invités des Soirées Groove au Jazz Club Taquin, à Toulouse :"
+    },
+    "materiel": {
+      "titre": "Le matériel",
+      "texte": "Sonor, Zildjian et Remo accompagnent Gabriel. Voici le kit, pièce par pièce.",
+      "alt": "Le kit Sonor Vintage Red Oyster de Gabriel vu de dessus",
+      "page": "Page artiste",
+      "unboxing": "Le déballage du kit SQ²"
+    },
+    "fin": {
+      "titre": "Le jouer en vrai",
+      "texte": "Concert, clinic, studio : Gabriel répond lui-même.",
+      "action": "Engager Gabriel"
+    }
+  },
+  "contact": {
+    "tete": {
+      "surtitre": "Contact",
+      "titre1": "Parlons de",
+      "titre2": "votre projet",
+      "texte": "Booking du quartet, clinic, enregistrement, remplacement, session intensive ou méthodes : choisissez, Gabriel vous répond.",
+      "info": "Réponse par e-mail",
+      "action": "Commencer la demande",
+      "alt": "Portrait de Gabriel Delmas en extérieur, sous les arbres"
+    },
+    "form": {
+      "titre": "Votre demande",
+      "simule": "Formulaire de démonstration : rien n'est envoyé.",
+      "etape1": "Le projet",
+      "q1": "Quel est votre projet ?",
+      "s1": "Programmer le quartet",
+      "d1": "Club, festival, salle",
+      "s2": "Clinic ou masterclass",
+      "d2": "Magasin, festival, école",
+      "s3": "Enregistrement",
+      "d3": "Batterie à distance",
+      "s4": "Remplacement ou projet",
+      "d4": "Sideman, tournée, séance",
+      "s5": "Cours ou session intensive",
+      "d5": "1 ou 2 jours, amateur ou pro",
+      "s6": "Méthodes",
+      "d6": "Commande, école, question",
+      "etape2": "Les détails",
+      "q2": "Dites-en un peu plus",
+      "date": "Date ou période",
+      "lieu": "Ville ou lieu",
+      "message": "Votre message",
+      "etape3": "Vos coordonnées",
+      "q3": "Comment vous répondre ?",
+      "nom": "Nom",
+      "email": "E-mail",
+      "tel": "Téléphone (facultatif)",
+      "structure": "Structure (facultatif)",
+      "accord": "J'accepte que ces informations servent seulement à répondre à ma demande.",
+      "donnees": "Vos données servent seulement à répondre à votre demande. Politique de confidentialité : à compléter.",
+      "etape4": "Récapitulatif",
+      "q4": "Tout est juste ?",
+      "precedent": "Retour",
+      "suivant": "Continuer",
+      "envoyer": "Envoyer la demande",
+      "merci": "Merci, c'est noté",
+      "merciTexte": "Démonstration : rien n'a été envoyé. Sur le site final, Gabriel reçoit votre demande par e-mail.",
+      "recommencer": "Nouvelle demande",
+      "mailto": "Ou l'envoyer par e-mail"
+    },
+    "coordonnees": {
+      "titre": "Écrire directement",
+      "gabriel": "Gabriel Delmas",
+      "gabrielTexte": "Concerts, studio, clinics, cours, méthodes",
+      "trio": "Booking du quartet",
+      "trioTexte": "Gabriel Delmas Trio & Gaël Horellou",
+      "sonor": "Masterclass Sonor",
+      "sonorTexte": "Artist manager de Sonor",
+      "reseaux": "Sur les réseaux"
+    }
+  },
+  "introuvable": {
+    "titre": "Baguette perdue",
+    "texte": "Cette page n'existe pas ou plus. Le groove, lui, continue à l'accueil.",
+    "retour": "Revenir à l'accueil",
+    "alt": "Une baguette oubliée sur une scène vide, dans un rond de lumière"
+  }
+}

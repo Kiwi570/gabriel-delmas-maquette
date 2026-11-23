@@ -1,0 +1,473 @@
+{
+  "avertissements": [],
+  "cartes": [
+    {
+      "page": "accueil",
+      "langue": "fr",
+      "fichier": "assets/partage/accueil-fr.jpg",
+      "gabarit": "droite",
+      "image": "portrait-caisse-claire-1280.webp",
+      "poids": 41008,
+      "sujet": {
+        "x": 709,
+        "y": 151,
+        "l": 218,
+        "h": 478
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 267,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        },
+        {
+          "x": 600,
+          "y": 0,
+          "l": 90,
+          "h": 630
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "accueil",
+      "langue": "en",
+      "fichier": "assets/partage/accueil-en.jpg",
+      "gabarit": "droite",
+      "image": "portrait-caisse-claire-1280.webp",
+      "poids": 37979,
+      "sujet": {
+        "x": 709,
+        "y": 151,
+        "l": 218,
+        "h": 478
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 299,
+          "l": 480,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        },
+        {
+          "x": 600,
+          "y": 0,
+          "l": 90,
+          "h": 630
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "bio",
+      "langue": "fr",
+      "fichier": "assets/partage/bio-fr.jpg",
+      "gabarit": "droite",
+      "image": "studio-gris-1280.webp",
+      "poids": 44627,
+      "sujet": {
+        "x": 638,
+        "y": 140,
+        "l": 525,
+        "h": 490
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 299,
+          "l": 480,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        },
+        {
+          "x": 600,
+          "y": 0,
+          "l": 29,
+          "h": 630
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "bio",
+      "langue": "en",
+      "fichier": "assets/partage/bio-en.jpg",
+      "gabarit": "droite",
+      "image": "studio-gris-1280.webp",
+      "poids": 44826,
+      "sujet": {
+        "x": 638,
+        "y": 140,
+        "l": 525,
+        "h": 490
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 299,
+          "l": 480,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        },
+        {
+          "x": 600,
+          "y": 0,
+          "l": 29,
+          "h": 630
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "clinics",
+      "langue": "fr",
+      "fichier": "assets/partage/clinics-fr.jpg",
+      "gabarit": "droite",
+      "image": "grok/clinic-1280.webp",
+      "poids": 60583,
+      "sujet": {
+        "x": 740,
+        "y": 88,
+        "l": 315,
+        "h": 342
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 267,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        },
+        {
+          "x": 600,
+          "y": 0,
+          "l": 90,
+          "h": 630
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "clinics",
+      "langue": "en",
+      "fichier": "assets/partage/clinics-en.jpg",
+      "gabarit": "droite",
+      "image": "grok/clinic-1280.webp",
+      "poids": 61067,
+      "sujet": {
+        "x": 740,
+        "y": 88,
+        "l": 315,
+        "h": 342
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 267,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        },
+        {
+          "x": 600,
+          "y": 0,
+          "l": 90,
+          "h": 630
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "contact",
+      "langue": "fr",
+      "fichier": "assets/partage/contact-fr.jpg",
+      "gabarit": "droite",
+      "image": "portrait-exterieur-1280.webp",
+      "poids": 51047,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 599
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 299,
+          "l": 480,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "contact",
+      "langue": "en",
+      "fichier": "assets/partage/contact-en.jpg",
+      "gabarit": "droite",
+      "image": "portrait-exterieur-1280.webp",
+      "poids": 52871,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 599
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 267,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "methodes",
+      "langue": "fr",
+      "fichier": "assets/partage/methodes-fr.jpg",
+      "gabarit": "droite",
+      "image": "portrait-pad-1280.webp",
+      "poids": 46038,
+      "sujet": {
+        "x": 736,
+        "y": 155,
+        "l": 327,
+        "h": 422
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 267,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        },
+        {
+          "x": 600,
+          "y": 0,
+          "l": 90,
+          "h": 630
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "methodes",
+      "langue": "en",
+      "fichier": "assets/partage/methodes-en.jpg",
+      "gabarit": "droite",
+      "image": "portrait-pad-1280.webp",
+      "poids": 45698,
+      "sujet": {
+        "x": 736,
+        "y": 155,
+        "l": 327,
+        "h": 422
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 267,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        },
+        {
+          "x": 600,
+          "y": 0,
+          "l": 90,
+          "h": 630
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "musique",
+      "langue": "fr",
+      "fichier": "assets/partage/musique-fr.jpg",
+      "gabarit": "droite",
+      "image": "quartet-1280.webp",
+      "poids": 82885,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 588
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 267,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "musique",
+      "langue": "en",
+      "fichier": "assets/partage/musique-en.jpg",
+      "gabarit": "droite",
+      "image": "quartet-1280.webp",
+      "poids": 82219,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 588
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 267,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 543,
+          "l": 480,
+          "h": 35
+        }
+      ],
+      "recouvrement": 0
+    }
+  ]
+}

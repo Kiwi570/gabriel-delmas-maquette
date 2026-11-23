@@ -1,0 +1,861 @@
+{
+  "site": "https://www.gabrieldelmasdrummer.com/",
+  "date": "2026-11-23T15:45:26.030Z",
+  "pages": [
+    "https://www.gabrieldelmasdrummer.com/",
+    "https://www.gabrieldelmasdrummer.com/contact-gabriel",
+    "https://www.gabrieldelmasdrummer.com/shop",
+    "https://www.gabrieldelmasdrummer.com/clinic-cours",
+    "https://www.gabrieldelmasdrummer.com/music",
+    "https://www.gabrieldelmasdrummer.com/sponsors",
+    "https://www.gabrieldelmasdrummer.com/bio",
+    "https://www.gabrieldelmasdrummer.com/product-page/le-rythme-interieur",
+    "https://www.gabrieldelmasdrummer.com/product-page/du-pad-vers-le-groove-pdf",
+    "https://www.gabrieldelmasdrummer.com/product-page/from-pad-to-groove"
+  ],
+  "images": [
+    {
+      "fichier": "logo-sombre.jpg",
+      "nom": "logo-sombre",
+      "origine": "https://static.wixstatic.com/media/f7f44e_96125a3db53648ab8753f692d20a1ca1~mv2.jpg",
+      "page": "https://www.gabrieldelmasdrummer.com/sponsors",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "GEAR/SPONSORS",
+        "page": "GABRIELDELMAS",
+        "fichier_origine": ""
+      },
+      "largeur": 900,
+      "hauteur": 900,
+      "poids": 44257,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "logo",
+      "marque": "partenaire"
+    },
+    {
+      "fichier": "gabrieldelmas.jpg",
+      "nom": "gabrieldelmas",
+      "origine": "https://static.wixstatic.com/media/f7f44e_f0e2bbf6b1154ddebe55aa5d3bdbc1f4~mv2.jpeg",
+      "page": "https://www.gabrieldelmasdrummer.com/",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "GABRIELDELMAS",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1501,
+      "largeur_origine": 7393,
+      "hauteur_origine": 5546,
+      "poids": 121470,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "rythme-interieur.jpg",
+      "nom": "rythme-interieur",
+      "origine": "https://static.wixstatic.com/media/f7f44e_f613134835944e3792153e459e8e4fd0~mv2.jpg",
+      "page": "https://www.gabrieldelmasdrummer.com/",
+      "pages": 3,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "Le Rythme Intérieur",
+        "legende": "",
+        "titre": "",
+        "section": "Pas d'événements pour le moment",
+        "page": "GABRIELDELMAS",
+        "fichier_origine": ""
+      },
+      "largeur": 1414,
+      "hauteur": 2000,
+      "largeur_origine": 2480,
+      "hauteur_origine": 3508,
+      "poids": 387629,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "produit"
+    },
+    {
+      "fichier": "pad-vers-groove.jpg",
+      "nom": "pad-vers-groove",
+      "origine": "https://static.wixstatic.com/media/f7f44e_ff7b169689b044e1a37a979c7f4b669f~mv2.jpg",
+      "page": "https://www.gabrieldelmasdrummer.com/product-page/du-pad-vers-le-groove-pdf",
+      "pages": 3,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "Du Pad vers le Groove",
+        "legende": "",
+        "titre": "",
+        "section": "GABRIELDELMAS",
+        "page": "GABRIELDELMAS",
+        "fichier_origine": ""
+      },
+      "largeur": 1414,
+      "hauteur": 2000,
+      "largeur_origine": 2121,
+      "hauteur_origine": 3000,
+      "poids": 423973,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "produit"
+    },
+    {
+      "fichier": "pas-evenements-moment.jpg",
+      "nom": "pas-evenements-moment",
+      "origine": "https://static.wixstatic.com/media/f7f44e_caa2bc747fab4e9d9de3a74521f72611~mv2.jpg",
+      "page": "https://www.gabrieldelmasdrummer.com/",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "Pas d'événements pour le moment",
+        "page": "GABRIELDELMAS",
+        "fichier_origine": ""
+      },
+      "largeur": 1181,
+      "hauteur": 2000,
+      "largeur_origine": 1772,
+      "hauteur_origine": 3000,
+      "poids": 95053,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "gabrieldelmas-2.jpg",
+      "nom": "gabrieldelmas-2",
+      "origine": "https://static.wixstatic.com/media/f7f44e_23603a82339248daa76b797a466ec449~mv2.jpg",
+      "page": "https://www.gabrieldelmasdrummer.com/",
+      "pages": 6,
+      "emplacement": "og (meta)",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "GABRIELDELMAS",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1221,
+      "largeur_origine": 2788,
+      "hauteur_origine": 1702,
+      "poids": 199262,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "gabrieldelmas-3.png",
+      "nom": "gabrieldelmas-3",
+      "origine": "https://static.wixstatic.com/media/f7f44e_657bd35a0c8b495bbf4dea9ff76cd756~mv2.png",
+      "page": "https://www.gabrieldelmasdrummer.com/",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "GABRIELDELMAS",
+        "page": "GABRIELDELMAS",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 761,
+      "largeur_origine": 2255,
+      "hauteur_origine": 858,
+      "poids": 884983,
+      "format": "png",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "gabriel-delmas-trio-gael.jpg",
+      "nom": "gabriel-delmas-trio-gael",
+      "origine": "https://i.ytimg.com/vi/RTMXY30aFoU/maxresdefault.jpg",
+      "page": "https://www.gabrieldelmasdrummer.com/",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "Gabriel Delmas Trio & Gaël Horellou HERBIE N BE #instrumentalmusic #jazzquartet #funkmusic",
+        "legende": "",
+        "titre": "",
+        "section": "DRUM BOOK",
+        "page": "GABRIELDELMAS",
+        "fichier_origine": "maxresdefault"
+      },
+      "largeur": 1280,
+      "hauteur": 720,
+      "poids": 219973,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "gabrieldelmas-4.jpg",
+      "nom": "gabrieldelmas-4",
+      "origine": "https://static.wixstatic.com/media/f7f44e_701c1ad6a71b43c8a3475746f9285665~mv2.jpg",
+      "page": "https://www.gabrieldelmasdrummer.com/contact-gabriel",
+      "pages": 1,
+      "emplacement": "og (meta)",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "GABRIELDELMAS",
+        "fichier_origine": ""
+      },
+      "largeur": 1024,
+      "hauteur": 598,
+      "poids": 56298,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "from-pad-groove.jpg",
+      "nom": "from-pad-groove",
+      "origine": "https://static.wixstatic.com/media/f7f44e_a2c2085368a748c08b00ccb3a6a22da9~mv2.jpg",
+      "page": "https://www.gabrieldelmasdrummer.com/product-page/from-pad-to-groove",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "From Pad To Groove",
+        "legende": "",
+        "titre": "",
+        "section": "GABRIELDELMAS",
+        "page": "GABRIELDELMAS",
+        "fichier_origine": ""
+      },
+      "largeur": 1451,
+      "hauteur": 2000,
+      "largeur_origine": 2716,
+      "hauteur_origine": 3744,
+      "poids": 454097,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "produit"
+    },
+    {
+      "fichier": "rythme-interieur-2.jpg",
+      "nom": "rythme-interieur-2",
+      "origine": "https://static.wixstatic.com/media/f7f44e_b25201f11e2c4317b686fb568a0d0f96~mv2.jpg",
+      "page": "https://www.gabrieldelmasdrummer.com/shop",
+      "pages": 2,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "Le Rythme Intérieur",
+        "legende": "",
+        "titre": "",
+        "section": "METHODES",
+        "page": "GABRIELDELMAS",
+        "fichier_origine": ""
+      },
+      "largeur": 1414,
+      "hauteur": 2000,
+      "largeur_origine": 2480,
+      "hauteur_origine": 3508,
+      "poids": 334930,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "produit"
+    },
+    {
+      "fichier": "gabrieldelmas-5.png",
+      "nom": "gabrieldelmas-5",
+      "origine": "https://static.wixstatic.com/media/f7f44e_7b003e98874a4680a493ed5d7fcc320a~mv2.png",
+      "page": "https://www.gabrieldelmasdrummer.com/clinic-cours",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "GABRIELDELMAS",
+        "page": "GABRIELDELMAS",
+        "fichier_origine": ""
+      },
+      "largeur": 1080,
+      "hauteur": 1350,
+      "poids": 1462524,
+      "format": "png",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "gabriel-delmas-trio-gael-2.jpg",
+      "nom": "gabriel-delmas-trio-gael-2",
+      "origine": "https://static.wixstatic.com/media/f7f44e_e3709b5a1c294a6296ab88c3fc5fdc4c~mv2.jpg",
+      "page": "https://www.gabrieldelmasdrummer.com/music",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "GABRIEL DELMAS TRIO & Gaël Horellou",
+        "page": "GABRIELDELMAS",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1521,
+      "largeur_origine": 4580,
+      "hauteur_origine": 3484,
+      "poids": 499120,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "gabriel-delmas-trio-feat.jpg",
+      "nom": "gabriel-delmas-trio-feat",
+      "origine": "https://i.ytimg.com/vi/W4XVmPLGO-A/maxresdefault.jpg",
+      "page": "https://www.gabrieldelmasdrummer.com/music",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "Gabriel Delmas Trio feat Gaël Horellou - Amazing Sax Solo!",
+        "legende": "",
+        "titre": "",
+        "section": "GABRIEL DELMAS TRIO & Gaël Horellou",
+        "page": "GABRIELDELMAS",
+        "fichier_origine": "maxresdefault"
+      },
+      "largeur": 1280,
+      "hauteur": 720,
+      "poids": 123769,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "gabriel-delmas-trio-live.jpg",
+      "nom": "gabriel-delmas-trio-live",
+      "origine": "https://i.ytimg.com/vi/uTRarIAAa7A/maxresdefault.jpg",
+      "page": "https://www.gabrieldelmasdrummer.com/music",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "Gabriel Delmas Trio - Live Demo",
+        "legende": "",
+        "titre": "",
+        "section": "GABRIEL DELMAS TRIO & Gaël Horellou",
+        "page": "GABRIELDELMAS",
+        "fichier_origine": "maxresdefault"
+      },
+      "largeur": 1280,
+      "hauteur": 720,
+      "poids": 104473,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "gabriel-delmas-trio-groove.jpg",
+      "nom": "gabriel-delmas-trio-groove",
+      "origine": "https://i.ytimg.com/vi/LY4rynXfxGM/maxresdefault.jpg",
+      "page": "https://www.gabrieldelmasdrummer.com/music",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "Gabriel Delmas Trio GROOVE ON \"Dirty Old Man\" by Tom Scott",
+        "legende": "",
+        "titre": "",
+        "section": "GABRIEL DELMAS TRIO & Gaël Horellou",
+        "page": "GABRIELDELMAS",
+        "fichier_origine": "maxresdefault"
+      },
+      "largeur": 1280,
+      "hauteur": 720,
+      "poids": 127486,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "gabriel-delmas-trio-feat-2.jpg",
+      "nom": "gabriel-delmas-trio-feat-2",
+      "origine": "https://i.ytimg.com/vi/AXuGl_3rDak/maxresdefault.jpg",
+      "page": "https://www.gabrieldelmasdrummer.com/music",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "Gabriel Delmas Trio - Feat Kris Pageron - Teenage Fantasy",
+        "legende": "",
+        "titre": "",
+        "section": "GABRIEL DELMAS TRIO & Gaël Horellou",
+        "page": "GABRIELDELMAS",
+        "fichier_origine": "maxresdefault"
+      },
+      "largeur": 1280,
+      "hauteur": 720,
+      "poids": 169654,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "gear-sponsors.jpg",
+      "nom": "gear-sponsors",
+      "origine": "https://static.wixstatic.com/media/f7f44e_2a2a1e1786904b41a7f6d9b07c0d57f7~mv2.jpg",
+      "page": "https://www.gabrieldelmasdrummer.com/sponsors",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "GEAR/SPONSORS",
+        "page": "GABRIELDELMAS",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1500,
+      "largeur_origine": 6528,
+      "hauteur_origine": 4896,
+      "poids": 397591,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "gear-sponsors-2.jpg",
+      "nom": "gear-sponsors-2",
+      "origine": "https://static.wixstatic.com/media/f7f44e_4d0287600ae74fba89f3ca8fa1fd2afe~mv2.jpg",
+      "page": "https://www.gabrieldelmasdrummer.com/sponsors",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "GEAR/SPONSORS",
+        "page": "GABRIELDELMAS",
+        "fichier_origine": ""
+      },
+      "largeur": 1333,
+      "hauteur": 2000,
+      "largeur_origine": 3840,
+      "hauteur_origine": 5760,
+      "poids": 149066,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "sonor-vintage-kit-gabriel.jpg",
+      "nom": "sonor-vintage-kit-gabriel",
+      "origine": "https://static.wixstatic.com/media/f7f44e_1f537f006bf44fef877654c6a2adea76~mv2.jpg",
+      "page": "https://www.gabrieldelmasdrummer.com/sponsors",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "Sonor Vintage kit Gabriel Delmas",
+        "legende": "",
+        "titre": "",
+        "section": "GEAR/SPONSORS",
+        "page": "GABRIELDELMAS",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 1500,
+      "largeur_origine": 3000,
+      "hauteur_origine": 2250,
+      "poids": 626982,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "gear-sponsors-3.jpg",
+      "nom": "gear-sponsors-3",
+      "origine": "https://static.wixstatic.com/media/f7f44e_aff0ffdeb4e54570bd4f4a0aeb12a917~mv2.jpg",
+      "page": "https://www.gabrieldelmasdrummer.com/sponsors",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "GEAR/SPONSORS",
+        "page": "GABRIELDELMAS",
+        "fichier_origine": ""
+      },
+      "largeur": 2000,
+      "hauteur": 522,
+      "largeur_origine": 3434,
+      "hauteur_origine": 896,
+      "poids": 45201,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "maxresdefault.webp",
+      "nom": "maxresdefault",
+      "origine": "https://i.ytimg.com/vi_webp/ETjqclGjSoc/maxresdefault.webp",
+      "page": "https://www.gabrieldelmasdrummer.com/sponsors",
+      "pages": 1,
+      "emplacement": "reseau",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "",
+        "page": "GABRIELDELMAS",
+        "fichier_origine": "maxresdefault"
+      },
+      "largeur": 1280,
+      "hauteur": 720,
+      "poids": 54900,
+      "format": "webp",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "gear-sponsors-4.png",
+      "nom": "gear-sponsors-4",
+      "origine": "https://static.wixstatic.com/media/f7f44e_f0abe9a5c9d34c96821b33e083537a40~mv2.png",
+      "page": "https://www.gabrieldelmasdrummer.com/sponsors",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "GEAR/SPONSORS",
+        "page": "GABRIELDELMAS",
+        "fichier_origine": ""
+      },
+      "largeur": 1200,
+      "hauteur": 480,
+      "poids": 38933,
+      "format": "png",
+      "transparence": true,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "gabriel-s-bio.jpg",
+      "nom": "gabriel-s-bio",
+      "origine": "https://static.wixstatic.com/media/f7f44e_0f89e201eee847c9bd9c2bec362583a6~mv2.jpeg",
+      "page": "https://www.gabrieldelmasdrummer.com/bio",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "",
+        "legende": "",
+        "titre": "",
+        "section": "GABRIEL'S BIO",
+        "page": "GABRIELDELMAS",
+        "fichier_origine": ""
+      },
+      "largeur": 1333,
+      "hauteur": 2000,
+      "largeur_origine": 3765,
+      "hauteur_origine": 5648,
+      "poids": 183271,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "autre"
+    },
+    {
+      "fichier": "rythme-interieur-3.jpg",
+      "nom": "rythme-interieur-3",
+      "origine": "https://static.wixstatic.com/media/f7f44e_c778aaae6c7846e3aa4f876b0bfb6942~mv2.jpg",
+      "page": "https://www.gabrieldelmasdrummer.com/product-page/le-rythme-interieur",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "Le Rythme Intérieur",
+        "legende": "",
+        "titre": "",
+        "section": "GABRIELDELMAS",
+        "page": "GABRIELDELMAS",
+        "fichier_origine": ""
+      },
+      "largeur": 1545,
+      "hauteur": 2000,
+      "largeur_origine": 2550,
+      "hauteur_origine": 3300,
+      "poids": 140413,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "produit"
+    },
+    {
+      "fichier": "rythme-interieur-4.jpg",
+      "nom": "rythme-interieur-4",
+      "origine": "https://static.wixstatic.com/media/f7f44e_d81ac1934f9947bb93e544735f1f9036~mv2.jpg",
+      "page": "https://www.gabrieldelmasdrummer.com/product-page/le-rythme-interieur",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "Le Rythme Intérieur",
+        "legende": "",
+        "titre": "",
+        "section": "GABRIELDELMAS",
+        "page": "GABRIELDELMAS",
+        "fichier_origine": ""
+      },
+      "largeur": 1545,
+      "hauteur": 2000,
+      "largeur_origine": 2550,
+      "hauteur_origine": 3300,
+      "poids": 251719,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "produit"
+    },
+    {
+      "fichier": "rythme-interieur-5.jpg",
+      "nom": "rythme-interieur-5",
+      "origine": "https://static.wixstatic.com/media/f7f44e_8842e0a5008b44a3ac66f01beb3373d8~mv2.jpg",
+      "page": "https://www.gabrieldelmasdrummer.com/product-page/le-rythme-interieur",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "Le Rythme Intérieur",
+        "legende": "",
+        "titre": "",
+        "section": "GABRIELDELMAS",
+        "page": "GABRIELDELMAS",
+        "fichier_origine": ""
+      },
+      "largeur": 1545,
+      "hauteur": 2000,
+      "largeur_origine": 2550,
+      "hauteur_origine": 3300,
+      "poids": 190050,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "produit"
+    },
+    {
+      "fichier": "rythme-interieur-6.jpg",
+      "nom": "rythme-interieur-6",
+      "origine": "https://static.wixstatic.com/media/f7f44e_537f5861b4c94b3b8d281f336f7a8bf9~mv2.jpg",
+      "page": "https://www.gabrieldelmasdrummer.com/product-page/le-rythme-interieur",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "Le Rythme Intérieur",
+        "legende": "",
+        "titre": "",
+        "section": "GABRIELDELMAS",
+        "page": "GABRIELDELMAS",
+        "fichier_origine": ""
+      },
+      "largeur": 1545,
+      "hauteur": 2000,
+      "largeur_origine": 2550,
+      "hauteur_origine": 3300,
+      "poids": 308564,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "produit"
+    },
+    {
+      "fichier": "pad-vers-groove-2.jpg",
+      "nom": "pad-vers-groove-2",
+      "origine": "https://static.wixstatic.com/media/f7f44e_27c206b695f54ba28bc6a9decf948730~mv2.jpg",
+      "page": "https://www.gabrieldelmasdrummer.com/product-page/du-pad-vers-le-groove-pdf",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "Du Pad vers le Groove",
+        "legende": "",
+        "titre": "",
+        "section": "GABRIELDELMAS",
+        "page": "GABRIELDELMAS",
+        "fichier_origine": ""
+      },
+      "largeur": 1240,
+      "hauteur": 1754,
+      "poids": 277211,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "produit"
+    },
+    {
+      "fichier": "pad-vers-groove-3.jpg",
+      "nom": "pad-vers-groove-3",
+      "origine": "https://static.wixstatic.com/media/f7f44e_44527b5faf1f44dc995cbc25d6b896ee~mv2.jpg",
+      "page": "https://www.gabrieldelmasdrummer.com/product-page/du-pad-vers-le-groove-pdf",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "Du Pad vers le Groove",
+        "legende": "",
+        "titre": "",
+        "section": "GABRIELDELMAS",
+        "page": "GABRIELDELMAS",
+        "fichier_origine": ""
+      },
+      "largeur": 1240,
+      "hauteur": 1754,
+      "poids": 201563,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "produit"
+    },
+    {
+      "fichier": "pad-vers-groove-4.jpg",
+      "nom": "pad-vers-groove-4",
+      "origine": "https://static.wixstatic.com/media/f7f44e_fe21244d43da42e29110fb467ad6956d~mv2.jpg",
+      "page": "https://www.gabrieldelmasdrummer.com/product-page/du-pad-vers-le-groove-pdf",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "Du Pad vers le Groove",
+        "legende": "",
+        "titre": "",
+        "section": "GABRIELDELMAS",
+        "page": "GABRIELDELMAS",
+        "fichier_origine": ""
+      },
+      "largeur": 1240,
+      "hauteur": 1754,
+      "poids": 721428,
+      "format": "jpeg",
+      "transparence": false,
+      "drapeau": "produit"
+    },
+    {
+      "fichier": "from-pad-groove-2.png",
+      "nom": "from-pad-groove-2",
+      "origine": "https://static.wixstatic.com/media/f7f44e_e2cd1300d1c24d13bc1ce0897fb9c24d~mv2.png",
+      "page": "https://www.gabrieldelmasdrummer.com/product-page/from-pad-to-groove",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "From Pad To Groove",
+        "legende": "",
+        "titre": "",
+        "section": "GABRIELDELMAS",
+        "page": "GABRIELDELMAS",
+        "fichier_origine": ""
+      },
+      "largeur": 1414,
+      "hauteur": 2000,
+      "poids": 356299,
+      "format": "png",
+      "transparence": true,
+      "drapeau": "produit"
+    },
+    {
+      "fichier": "from-pad-groove-3.png",
+      "nom": "from-pad-groove-3",
+      "origine": "https://static.wixstatic.com/media/f7f44e_514b263ece0648dda2884ac4d2bc7742~mv2.png",
+      "page": "https://www.gabrieldelmasdrummer.com/product-page/from-pad-to-groove",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "From Pad To Groove",
+        "legende": "",
+        "titre": "",
+        "section": "GABRIELDELMAS",
+        "page": "GABRIELDELMAS",
+        "fichier_origine": ""
+      },
+      "largeur": 1275,
+      "hauteur": 1650,
+      "poids": 183096,
+      "format": "png",
+      "transparence": true,
+      "drapeau": "produit"
+    },
+    {
+      "fichier": "from-pad-groove-4.png",
+      "nom": "from-pad-groove-4",
+      "origine": "https://static.wixstatic.com/media/f7f44e_e6126eff5e3446439706dacb96516f4f~mv2.png",
+      "page": "https://www.gabrieldelmasdrummer.com/product-page/from-pad-to-groove",
+      "pages": 1,
+      "emplacement": "img",
+      "contexte": {
+        "alt": "From Pad To Groove",
+        "legende": "",
+        "titre": "",
+        "section": "GABRIELDELMAS",
+        "page": "GABRIELDELMAS",
+        "fichier_origine": ""
+      },
+      "largeur": 1275,
+      "hauteur": 1650,
+      "poids": 181614,
+      "format": "png",
+      "transparence": true,
+      "drapeau": "produit"
+    }
+  ],
+  "ecartees": [
+    {
+      "url": "https://static.wixstatic.com/media/e316f544f9094143b9eac01f1f19e697.png",
+      "raison": "icone"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/9f9c321c774844b793180620472aa4f1.png",
+      "raison": "icone"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/11062b_ad1a1e62a5bb45c7835a3ec11d5188f2~mv2.png",
+      "raison": "reseau social"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/a1b09fe8b7f04378a9fe076748ad4a6a.png",
+      "raison": "icone"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/b027270699e640698abf456a70f5cac2.png",
+      "raison": "icone"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/f7f44e_2efc66457407421f9af35e3ac03f42bd~mv2.png",
+      "raison": "icone"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/f7f44e_9110cac46ebc478283e104054578a50d~mv2.png",
+      "raison": "icone"
+    },
+    {
+      "url": "https://www.youtube.com/generate_204?9bjV3A",
+      "raison": "icone"
+    },
+    {
+      "url": "https://yt3.ggpht.com/sxMvut-1d6ReAzeuadHjHA9qC1SkF741c_g5_6VY3KZ2Ye_aXGuY59IDDtPvyo6CRNIUifp4=s68-c-k-c0x00ffffff-no-rj",
+      "raison": "68 px de large"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/f7f44e_173766f1b73d4540a613e77f0ba2e17f~mv2.jpg",
+      "raison": "meme image que https://static.wixstatic.com/media/f7f44e_a2c2085368a748c08b00ccb3a6a22da9~mv2.jpg en 2121x2924"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/f7f44e_af0f52663c384035b8dd81b2ab274f75~mv2.jpg",
+      "raison": "meme image que https://static.wixstatic.com/media/f7f44e_caa2bc747fab4e9d9de3a74521f72611~mv2.jpg en 1772x3000"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/f7f44e_23603a82339248daa76b797a466ec449%7Emv2.jpg",
+      "raison": "meme image que https://static.wixstatic.com/media/f7f44e_23603a82339248daa76b797a466ec449~mv2.jpg en 2788x1702"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/f7f44e_651ffad43a604a04a2cba47c30a9d4ad~mv2.png",
+      "raison": "meme image que https://static.wixstatic.com/media/f7f44e_657bd35a0c8b495bbf4dea9ff76cd756~mv2.png en 1640x624"
+    },
+    {
+      "url": "https://static.wixstatic.com/media/f7f44e_ad320379373447b5bf94c90d21545983~mv2.jpg",
+      "raison": "meme image que https://static.wixstatic.com/media/f7f44e_ff7b169689b044e1a37a979c7f4b669f~mv2.jpg en 500x707"
+    }
+  ]
+}

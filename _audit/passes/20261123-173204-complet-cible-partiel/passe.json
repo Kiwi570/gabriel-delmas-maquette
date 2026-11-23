@@ -1,0 +1,16 @@
+{
+ "id": "20261123-173204-complet-cible-partiel",
+ "date": "2026-11-23T17:41:14.942Z",
+ "niveau": "complet",
+ "pages": "/,/contact,/en,/en/bio,/en/clinics-et-studio,/en/contact,/en/methodes,/en/musique,/musique",
+ "etapes": [
+  "fichiers",
+  "mesures"
+ ],
+ "version": "1",
+ "echecs": 4,
+ "aRegarder": 27,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "échecs"
+}

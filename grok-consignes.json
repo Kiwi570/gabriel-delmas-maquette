@@ -1,0 +1,116 @@
+{
+  "client": "Gabriel Delmas",
+  "activite": "spectacle",
+  "direction": "New Step",
+  "date": "2026-11-23T15:54:40.475Z",
+  "images": [
+    {
+      "nom": "clinic",
+      "fichier": "clinic.jpg",
+      "page": "clinics",
+      "emplacement": "Ouverture de la page Clinics & studio (plein cadre, texte à gauche) (ordinateur)",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "Wide shot of a drum clinic inside a small independent music store in the evening: a vintage drum kit with bronze cymbals and coated white drum heads set on a low wooden riser, the drummer's stool empty, walls lined with hanging cymbals and stacked drum shells all without any logo, three short rows of folding chairs with a small attentive audience seen only from behind as dark silhouettes, warm tungsten spotlight on the kit, soft haze. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Cinematic night-event photography, warm, direct, intimate late-evening jazz mood, palette of deep studio black, warm stone grey and a single accent of lava red, warm tungsten light with soft falloff into darkness, touches of deep red light, tactile coated drum heads, brushed bronze cymbals, worn wooden stage boards, matte black fabric, set in the south of France on an autumn evening, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "clinic",
+      "fichier": "clinic-mobile.jpg",
+      "page": "clinics",
+      "emplacement": "Ouverture de la page Clinics & studio (plein cadre, texte à gauche) (téléphone)",
+      "role": "ouverture",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "Wide shot of a drum clinic inside a small independent music store in the evening: a vintage drum kit with bronze cymbals and coated white drum heads set on a low wooden riser, the drummer's stool empty, walls lined with hanging cymbals and stacked drum shells all without any logo, three short rows of folding chairs with a small attentive audience seen only from behind as dark silhouettes, warm tungsten spotlight on the kit, soft haze. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Cinematic night-event photography, warm, direct, intimate late-evening jazz mood, palette of deep studio black, warm stone grey and a single accent of lava red, warm tungsten light with soft falloff into darkness, touches of deep red light, tactile coated drum heads, brushed bronze cymbals, worn wooden stage boards, matte black fabric, set in the south of France on an autumn evening, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "studio",
+      "fichier": "studio.jpg",
+      "page": "clinics",
+      "emplacement": "Section Enregistrer à distance (accueil et page Clinics & studio)",
+      "role": "galerie",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [
+        "écrans"
+      ],
+      "consigne": "A small private recording room for drums: a vintage drum kit with coated white heads and bronze cymbals, surrounded by condenser microphones on black stands pointing at the drums, overhead microphones above the cymbals, closed studio headphones resting on the floor tom, dark acoustic foam panels on the walls, a warm desk lamp glow, cables neatly coiled on a dark rug, nobody in the room. Landscape composition, aspect ratio 3:2. Cinematic night-event photography, warm, direct, intimate late-evening jazz mood, palette of deep studio black, warm stone grey and a single accent of lava red, warm tungsten light with soft falloff into darkness, touches of deep red light, tactile coated drum heads, brushed bronze cymbals, worn wooden stage boards, matte black fabric, set in the south of France on an autumn evening, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. Screen turned away from the camera, or showing only a soft abstract glow with no interface; plain unbranded devices. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "club",
+      "fichier": "club.jpg",
+      "page": "musique",
+      "emplacement": "Fond des sections Dates et appel final (accueil et page Musique) (ordinateur)",
+      "role": "section-fond",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "An intimate jazz club stage just before the show: a vintage drum kit with bronze cymbals on a small low stage in warm amber light, a deep red curtain behind, an upright piano partly visible in the shadow, a few small round tables with candles in the blurred foreground, light haze, nobody in the frame, the upper third of the image dark and calm for a title. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Cinematic night-event photography, warm, direct, intimate late-evening jazz mood, palette of deep studio black, warm stone grey and a single accent of lava red, warm tungsten light with soft falloff into darkness, touches of deep red light, tactile coated drum heads, brushed bronze cymbals, worn wooden stage boards, matte black fabric, set in the south of France on an autumn evening, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "club",
+      "fichier": "club-mobile.jpg",
+      "page": "musique",
+      "emplacement": "Fond des sections Dates et appel final (accueil et page Musique) (téléphone)",
+      "role": "section-fond",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "Conseillée",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "An intimate jazz club stage just before the show: a vintage drum kit with bronze cymbals on a small low stage in warm amber light, a deep red curtain behind, an upright piano partly visible in the shadow, a few small round tables with candles in the blurred foreground, light haze, nobody in the frame, the upper third of the image dark and calm for a title. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Cinematic night-event photography, warm, direct, intimate late-evening jazz mood, palette of deep studio black, warm stone grey and a single accent of lava red, warm tungsten light with soft falloff into darkness, touches of deep red light, tactile coated drum heads, brushed bronze cymbals, worn wooden stage boards, matte black fabric, set in the south of France on an autumn evening, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "pad-metronome",
+      "fichier": "pad-metronome.jpg",
+      "page": "methodes",
+      "emplacement": "Section Comment travailler (page Méthodes)",
+      "role": "galerie",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "scene-metier",
+      "pieges": [
+        "texte parasite"
+      ],
+      "consigne": "Still life on a dark walnut table, seen from slightly above: a round grey rubber drum practice pad, a pair of wooden drumsticks crossed on it, a vintage wooden pyramid metronome with its pendulum moving, a closed plain black notebook, warm lamp light from the left, deep shadows, nothing written anywhere. Landscape composition, aspect ratio 3:2. Cinematic night-event photography, warm, direct, intimate late-evening jazz mood, palette of deep studio black, warm stone grey and a single accent of lava red, warm tungsten light with soft falloff into darkness, touches of deep red light, tactile coated drum heads, brushed bronze cymbals, worn wooden stage boards, matte black fabric, set in the south of France on an autumn evening, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. Pages completely blank, blank book spines, abstract unreadable marks, plain unmarked surfaces, dials with tick marks only and no numbers. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "scene-404",
+      "fichier": "scene-404.jpg",
+      "page": "404",
+      "emplacement": "Page 404 (fond plein cadre)",
+      "role": "section-fond",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "404",
+      "pieges": [],
+      "consigne": "A single wooden drumstick lying alone on the worn dark wooden floor of an empty small stage, caught in a round pool of warm spotlight, the rest of the stage fading into darkness, light haze, nobody, the upper half of the image dark and empty. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Cinematic night-event photography, warm, direct, intimate late-evening jazz mood, palette of deep studio black, warm stone grey and a single accent of lava red, warm tungsten light with soft falloff into darkness, touches of deep red light, tactile coated drum heads, brushed bronze cymbals, worn wooden stage boards, matte black fabric, set in the south of France on an autumn evening, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "sessions",
+      "fichier": "sessions.jpg",
+      "page": "clinics",
+      "emplacement": "Section Sessions intensives (page Clinics & studio)",
+      "role": "galerie",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "Facultative",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "A quiet practice room in an old house with thick stone walls: a vintage drum kit with bronze cymbals near a tall open window looking onto green rolling countryside, soft golden late-afternoon light, a wooden chair with a folded towel, a small practice pad on a stand, nobody, peaceful and warm. Landscape composition, aspect ratio 3:2. Cinematic night-event photography, warm, direct, intimate late-evening jazz mood, palette of deep studio black, warm stone grey and a single accent of lava red, warm tungsten light with soft falloff into darkness, touches of deep red light, tactile coated drum heads, brushed bronze cymbals, worn wooden stage boards, matte black fabric, set in the south of France on an autumn evening, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    }
+  ]
+}

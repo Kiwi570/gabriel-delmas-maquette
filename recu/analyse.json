@@ -1,0 +1,2507 @@
+{
+  "dossier": "/home/claude/gabriel-delmas-maquette/recu",
+  "date": "2026-11-23T15:58:22.535Z",
+  "detection": "mesures sharp seulement",
+  "planches": [
+    "planche.jpg",
+    "planche-2.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [
+    {
+      "garder": "from-pad-groove.jpg",
+      "ecarter": "pad-vers-groove.jpg",
+      "type": "quasi-doublon",
+      "distance": 10,
+      "ressemblance": 0.86
+    }
+  ],
+  "images": [
+    {
+      "fichier": "logo-sombre.jpg",
+      "nom": "logo-sombre",
+      "drapeau": "logo",
+      "largeur": 900,
+      "hauteur": 900,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 44257,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 28.1,
+        "l": 93.8,
+        "h": 43.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        52
+      ],
+      "cadrage_css": "48% 52%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.85,
+          "ton": "sombre",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "bas",
+          "score": 0.83,
+          "ton": "sombre",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "droite",
+          "score": 0.4,
+          "ton": "sombre",
+          "recouvre_sujet": 0.4
+        },
+        {
+          "cote": "gauche",
+          "score": 0.34,
+          "ton": "sombre",
+          "recouvre_sujet": 0.4
+        }
+      ],
+      "qualite": {
+        "nettete": 12.9,
+        "bruit": 0.11,
+        "compression": 1.21,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "0032b4b0ba921208",
+      "drapeaux": [
+        "logo",
+        "calme haut/bas"
+      ]
+    },
+    {
+      "fichier": "gabrieldelmas.jpg",
+      "nom": "gabrieldelmas",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1501,
+      "ratio": "4:3",
+      "ratio_valeur": 1.332,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 121470,
+      "transparence": false,
+      "sujet": {
+        "x": 9.4,
+        "y": 41.7,
+        "l": 46.9,
+        "h": 58.3,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        37,
+        82
+      ],
+      "cadrage_css": "37% 82%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.87,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.87,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.55,
+          "ton": "sombre",
+          "recouvre_sujet": 0.45
+        },
+        {
+          "cote": "bas",
+          "score": 0.35,
+          "ton": "sombre",
+          "recouvre_sujet": 0.47
+        }
+      ],
+      "qualite": {
+        "nettete": 19.1,
+        "bruit": 0.29,
+        "compression": 1.24,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "f0f0f0e0e8e89480",
+      "drapeaux": [
+        "autre",
+        "calme droite/haut"
+      ]
+    },
+    {
+      "fichier": "rythme-interieur.jpg",
+      "nom": "rythme-interieur",
+      "drapeau": "produit",
+      "largeur": 1414,
+      "hauteur": 2000,
+      "ratio": "0.71",
+      "ratio_valeur": 0.707,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 387629,
+      "transparence": false,
+      "sujet": {
+        "x": 4.3,
+        "y": 6.3,
+        "l": 91.3,
+        "h": 87.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        58,
+        58
+      ],
+      "cadrage_css": "58% 58%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.24,
+          "ton": "sombre",
+          "recouvre_sujet": 0.78
+        },
+        {
+          "cote": "bas",
+          "score": 0.24,
+          "ton": "sombre",
+          "recouvre_sujet": 0.75
+        },
+        {
+          "cote": "haut",
+          "score": 0.14,
+          "ton": "moyen",
+          "recouvre_sujet": 0.75
+        },
+        {
+          "cote": "droite",
+          "score": 0.07,
+          "ton": "sombre",
+          "recouvre_sujet": 0.78
+        }
+      ],
+      "qualite": {
+        "nettete": 62.8,
+        "bruit": 0.74,
+        "compression": 0.93,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "ca8cdc508ecec69e",
+      "drapeaux": [
+        "produit"
+      ]
+    },
+    {
+      "fichier": "pad-vers-groove.jpg",
+      "nom": "pad-vers-groove",
+      "drapeau": "produit",
+      "largeur": 1414,
+      "hauteur": 2000,
+      "ratio": "0.71",
+      "ratio_valeur": 0.707,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 423973,
+      "transparence": false,
+      "sujet": {
+        "x": 8.7,
+        "y": 12.5,
+        "l": 87,
+        "h": 87.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        61,
+        55
+      ],
+      "cadrage_css": "61% 55%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.2,
+          "ton": "sombre",
+          "recouvre_sujet": 0.68
+        },
+        {
+          "cote": "haut",
+          "score": 0.11,
+          "ton": "moyen",
+          "recouvre_sujet": 0.56
+        },
+        {
+          "cote": "bas",
+          "score": 0.09,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.78
+        }
+      ],
+      "qualite": {
+        "nettete": 68.7,
+        "bruit": 0.74,
+        "compression": 0.99,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "a6a4d2dbf37bf14f",
+      "doublon_de": {
+        "fichier": "from-pad-groove.jpg",
+        "type": "quasi-doublon",
+        "distance": 10,
+        "ressemblance": 0.86
+      },
+      "drapeaux": [
+        "produit",
+        "quasi-doublon de from-pad-groove.jpg"
+      ]
+    },
+    {
+      "fichier": "pas-evenements-moment.jpg",
+      "nom": "pas-evenements-moment",
+      "drapeau": "autre",
+      "largeur": 1181,
+      "hauteur": 2000,
+      "ratio": "0.59",
+      "ratio_valeur": 0.591,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 95053,
+      "transparence": false,
+      "sujet": {
+        "x": 15.8,
+        "y": 6.3,
+        "l": 73.7,
+        "h": 68.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        35
+      ],
+      "cadrage_css": "54% 35%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.77,
+          "ton": "sombre",
+          "recouvre_sujet": 0.21
+        },
+        {
+          "cote": "gauche",
+          "score": 0.69,
+          "ton": "sombre",
+          "recouvre_sujet": 0.42
+        },
+        {
+          "cote": "droite",
+          "score": 0.66,
+          "ton": "sombre",
+          "recouvre_sujet": 0.51
+        },
+        {
+          "cote": "haut",
+          "score": 0.61,
+          "ton": "sombre",
+          "recouvre_sujet": 0.6
+        }
+      ],
+      "qualite": {
+        "nettete": 5.8,
+        "bruit": 0.18,
+        "compression": 0.92,
+        "faible": true,
+        "raisons": [
+          "1181 px de large",
+          "floue"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "e0e4e69b8d8eb2f0",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "floue",
+        "calme bas/gauche/droite"
+      ]
+    },
+    {
+      "fichier": "gabrieldelmas-2.jpg",
+      "nom": "gabrieldelmas-2",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1221,
+      "ratio": "16:10",
+      "ratio_valeur": 1.638,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 199262,
+      "transparence": false,
+      "sujet": {
+        "x": 12.5,
+        "y": 0,
+        "l": 87.5,
+        "h": 95,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        56,
+        56
+      ],
+      "cadrage_css": "56% 56%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.29,
+          "ton": "sombre",
+          "recouvre_sujet": 0.75
+        },
+        {
+          "cote": "gauche",
+          "score": 0.2,
+          "ton": "sombre",
+          "recouvre_sujet": 0.65
+        },
+        {
+          "cote": "droite",
+          "score": 0.09,
+          "ton": "sombre",
+          "recouvre_sujet": 0.95
+        },
+        {
+          "cote": "haut",
+          "score": 0.09,
+          "ton": "moyen",
+          "recouvre_sujet": 0.88
+        }
+      ],
+      "qualite": {
+        "nettete": 13.4,
+        "bruit": 0.45,
+        "compression": 1.37,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "9eb7936034929713",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "gabrieldelmas-3.png",
+      "nom": "gabrieldelmas-3",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 761,
+      "ratio": "2.63",
+      "ratio_valeur": 2.628,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 884983,
+      "transparence": false,
+      "sujet": {
+        "x": 15.6,
+        "y": 0,
+        "l": 65.6,
+        "h": 92.3,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        52
+      ],
+      "cadrage_css": "50% 52%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.18,
+          "ton": "clair",
+          "recouvre_sujet": 0.49
+        },
+        {
+          "cote": "gauche",
+          "score": 0.16,
+          "ton": "clair",
+          "recouvre_sujet": 0.56
+        },
+        {
+          "cote": "haut",
+          "score": 0.13,
+          "ton": "clair",
+          "recouvre_sujet": 0.66
+        },
+        {
+          "cote": "bas",
+          "score": 0.03,
+          "ton": "clair",
+          "recouvre_sujet": 0.51
+        }
+      ],
+      "qualite": {
+        "nettete": 41.5,
+        "bruit": 0.42,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "4c4d0b0b4dcc2f23",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "gabriel-delmas-trio-gael.jpg",
+      "nom": "gabriel-delmas-trio-gael",
+      "drapeau": "autre",
+      "largeur": 1280,
+      "hauteur": 720,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 219973,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 11.1,
+        "l": 93.8,
+        "h": 88.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        49
+      ],
+      "cadrage_css": "48% 49%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.18,
+          "ton": "clair",
+          "recouvre_sujet": 0.64
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.82
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.82
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.94
+        }
+      ],
+      "qualite": {
+        "nettete": 48.6,
+        "bruit": 1.36,
+        "compression": 1.13,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "69491e969d9a0abc",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "gabrieldelmas-4.jpg",
+      "nom": "gabrieldelmas-4",
+      "drapeau": "autre",
+      "largeur": 1024,
+      "hauteur": 598,
+      "ratio": "1.71",
+      "ratio_valeur": 1.712,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 56298,
+      "transparence": false,
+      "sujet": {
+        "x": 15.6,
+        "y": 21.1,
+        "l": 78.1,
+        "h": 68.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        58
+      ],
+      "cadrage_css": "51% 58%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.59,
+          "ton": "sombre",
+          "recouvre_sujet": 0.31
+        },
+        {
+          "cote": "gauche",
+          "score": 0.43,
+          "ton": "sombre",
+          "recouvre_sujet": 0.42
+        },
+        {
+          "cote": "droite",
+          "score": 0.19,
+          "ton": "sombre",
+          "recouvre_sujet": 0.58
+        },
+        {
+          "cote": "bas",
+          "score": 0.1,
+          "ton": "sombre",
+          "recouvre_sujet": 0.55
+        }
+      ],
+      "qualite": {
+        "nettete": 30,
+        "bruit": 0.51,
+        "compression": 1.29,
+        "faible": true,
+        "raisons": [
+          "1024 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "64b4f262e2e6eae0",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "from-pad-groove.jpg",
+      "nom": "from-pad-groove",
+      "drapeau": "produit",
+      "largeur": 1451,
+      "hauteur": 2000,
+      "ratio": "0.73",
+      "ratio_valeur": 0.726,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 454097,
+      "transparence": false,
+      "sujet": {
+        "x": 16.7,
+        "y": 18.8,
+        "l": 79.2,
+        "h": 81.3,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        63,
+        62
+      ],
+      "cadrage_css": "63% 62%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.33,
+          "ton": "sombre",
+          "recouvre_sujet": 0.47
+        },
+        {
+          "cote": "haut",
+          "score": 0.24,
+          "ton": "sombre",
+          "recouvre_sujet": 0.37
+        },
+        {
+          "cote": "bas",
+          "score": 0.07,
+          "ton": "sombre",
+          "recouvre_sujet": 0.79
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.73
+        }
+      ],
+      "qualite": {
+        "nettete": 76.3,
+        "bruit": 0.91,
+        "compression": 0.94,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "c4e4d2d2f37bb74e",
+      "drapeaux": [
+        "produit"
+      ]
+    },
+    {
+      "fichier": "rythme-interieur-2.jpg",
+      "nom": "rythme-interieur-2",
+      "drapeau": "produit",
+      "largeur": 1414,
+      "hauteur": 2000,
+      "ratio": "0.71",
+      "ratio_valeur": 0.707,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 334930,
+      "transparence": false,
+      "sujet": {
+        "x": 4.3,
+        "y": 6.3,
+        "l": 91.3,
+        "h": 90.6,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        67,
+        48
+      ],
+      "cadrage_css": "67% 48%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.36,
+          "ton": "sombre",
+          "recouvre_sujet": 0.83
+        },
+        {
+          "cote": "droite",
+          "score": 0.32,
+          "ton": "sombre",
+          "recouvre_sujet": 0.81
+        },
+        {
+          "cote": "haut",
+          "score": 0.24,
+          "ton": "sombre",
+          "recouvre_sujet": 0.75
+        },
+        {
+          "cote": "gauche",
+          "score": 0.2,
+          "ton": "sombre",
+          "recouvre_sujet": 0.81
+        }
+      ],
+      "qualite": {
+        "nettete": 65.7,
+        "bruit": 0.57,
+        "compression": 0.97,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "92a2818191d293ac",
+      "drapeaux": [
+        "produit"
+      ]
+    },
+    {
+      "fichier": "gabrieldelmas-5.png",
+      "nom": "gabrieldelmas-5",
+      "drapeau": "autre",
+      "largeur": 1080,
+      "hauteur": 1350,
+      "ratio": "4:5",
+      "ratio_valeur": 0.8,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 1462524,
+      "transparence": false,
+      "sujet": {
+        "x": 3.8,
+        "y": 6.3,
+        "l": 76.9,
+        "h": 71.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        34,
+        31
+      ],
+      "cadrage_css": "34% 31%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.49,
+          "ton": "sombre",
+          "recouvre_sujet": 0.37
+        },
+        {
+          "cote": "bas",
+          "score": 0.37,
+          "ton": "sombre",
+          "recouvre_sujet": 0.29
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.65
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.63
+        }
+      ],
+      "qualite": {
+        "nettete": 66,
+        "bruit": 0.87,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1080 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "a6a4a4c7139392cc",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "gabriel-delmas-trio-gael-2.jpg",
+      "nom": "gabriel-delmas-trio-gael-2",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1521,
+      "ratio": "4:3",
+      "ratio_valeur": 1.315,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 499120,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 92,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        50
+      ],
+      "cadrage_css": "51% 50%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.1,
+          "ton": "moyen",
+          "recouvre_sujet": 0.77
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.92
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.92
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 28.7,
+        "bruit": 0.84,
+        "compression": 1.2,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "59196765a6a7bdb4",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "gabriel-delmas-trio-feat.jpg",
+      "nom": "gabriel-delmas-trio-feat",
+      "drapeau": "autre",
+      "largeur": 1280,
+      "hauteur": 720,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 123769,
+      "transparence": false,
+      "sujet": {
+        "x": 6.3,
+        "y": 16.7,
+        "l": 87.5,
+        "h": 77.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        51
+      ],
+      "cadrage_css": "49% 51%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.09,
+          "ton": "sombre",
+          "recouvre_sujet": 0.46
+        },
+        {
+          "cote": "droite",
+          "score": 0.02,
+          "ton": "sombre",
+          "recouvre_sujet": 0.66
+        },
+        {
+          "cote": "gauche",
+          "score": 0.01,
+          "ton": "sombre",
+          "recouvre_sujet": 0.66
+        },
+        {
+          "cote": "bas",
+          "score": 0.01,
+          "ton": "sombre",
+          "recouvre_sujet": 0.74
+        }
+      ],
+      "qualite": {
+        "nettete": 38,
+        "bruit": 0.63,
+        "compression": 1.32,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "69d496a6888ecada",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "gabriel-delmas-trio-live.jpg",
+      "nom": "gabriel-delmas-trio-live",
+      "drapeau": "autre",
+      "largeur": 1280,
+      "hauteur": 720,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 104473,
+      "transparence": false,
+      "sujet": {
+        "x": 12.5,
+        "y": 22.2,
+        "l": 71.9,
+        "h": 66.7,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        51
+      ],
+      "cadrage_css": "48% 51%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.37,
+          "ton": "sombre",
+          "recouvre_sujet": 0.26
+        },
+        {
+          "cote": "gauche",
+          "score": 0.21,
+          "ton": "sombre",
+          "recouvre_sujet": 0.46
+        },
+        {
+          "cote": "droite",
+          "score": 0.21,
+          "ton": "sombre",
+          "recouvre_sujet": 0.41
+        },
+        {
+          "cote": "bas",
+          "score": 0.15,
+          "ton": "sombre",
+          "recouvre_sujet": 0.49
+        }
+      ],
+      "qualite": {
+        "nettete": 23.8,
+        "bruit": 0.56,
+        "compression": 1.28,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "e5ccd2d290d1d88e",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "gabriel-delmas-trio-groove.jpg",
+      "nom": "gabriel-delmas-trio-groove",
+      "drapeau": "autre",
+      "largeur": 1280,
+      "hauteur": 720,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 127486,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 5.6,
+        "l": 96.9,
+        "h": 94.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        59
+      ],
+      "cadrage_css": "51% 59%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.94
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.81
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.97
+        }
+      ],
+      "qualite": {
+        "nettete": 44.9,
+        "bruit": 0.65,
+        "compression": 1.31,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "d092d2f870f9b1a2",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "gabriel-delmas-trio-feat-2.jpg",
+      "nom": "gabriel-delmas-trio-feat-2",
+      "drapeau": "autre",
+      "largeur": 1280,
+      "hauteur": 720,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 169654,
+      "transparence": false,
+      "sujet": {
+        "x": 21.9,
+        "y": 16.7,
+        "l": 78.1,
+        "h": 77.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        62,
+        67
+      ],
+      "cadrage_css": "62% 67%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.14,
+          "ton": "sombre",
+          "recouvre_sujet": 0.35
+        },
+        {
+          "cote": "haut",
+          "score": 0.13,
+          "ton": "moyen",
+          "recouvre_sujet": 0.41
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.78
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.66
+        }
+      ],
+      "qualite": {
+        "nettete": 58.3,
+        "bruit": 1,
+        "compression": 1.19,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "f0d8d878687adae0",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "gear-sponsors.jpg",
+      "nom": "gear-sponsors",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1500,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 397591,
+      "transparence": false,
+      "sujet": {
+        "x": 12.5,
+        "y": 25,
+        "l": 68.8,
+        "h": 37.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        34,
+        43
+      ],
+      "cadrage_css": "34% 43%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.58,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.53,
+          "ton": "sombre",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "droite",
+          "score": 0.43,
+          "ton": "sombre",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "gauche",
+          "score": 0.4,
+          "ton": "sombre",
+          "recouvre_sujet": 0.26
+        }
+      ],
+      "qualite": {
+        "nettete": 43.7,
+        "bruit": 0.76,
+        "compression": 1.17,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "e82cc8c090d672fa",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "gear-sponsors-2.jpg",
+      "nom": "gear-sponsors-2",
+      "drapeau": "autre",
+      "largeur": 1333,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 149066,
+      "transparence": false,
+      "sujet": {
+        "x": 18.2,
+        "y": 25,
+        "l": 36.4,
+        "h": 53.1,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        42,
+        43
+      ],
+      "cadrage_css": "42% 43%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.87,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.76,
+          "ton": "sombre",
+          "recouvre_sujet": 0.14
+        },
+        {
+          "cote": "haut",
+          "score": 0.72,
+          "ton": "sombre",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "gauche",
+          "score": 0.67,
+          "ton": "sombre",
+          "recouvre_sujet": 0.29
+        }
+      ],
+      "qualite": {
+        "nettete": 13.7,
+        "bruit": 0.52,
+        "compression": 0.95,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "e0f0f090ccccd038",
+      "drapeaux": [
+        "autre",
+        "calme droite/bas/haut/gauche"
+      ]
+    },
+    {
+      "fichier": "sonor-vintage-kit-gabriel.jpg",
+      "nom": "sonor-vintage-kit-gabriel",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1500,
+      "ratio": "4:3",
+      "ratio_valeur": 1.333,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 626982,
+      "transparence": false,
+      "sujet": {
+        "x": 6.3,
+        "y": 25,
+        "l": 75,
+        "h": 58.3,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        49
+      ],
+      "cadrage_css": "49% 49%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.47,
+          "ton": "sombre",
+          "recouvre_sujet": 0.21
+        },
+        {
+          "cote": "droite",
+          "score": 0.3,
+          "ton": "sombre",
+          "recouvre_sujet": 0.31
+        },
+        {
+          "cote": "bas",
+          "score": 0.27,
+          "ton": "sombre",
+          "recouvre_sujet": 0.39
+        },
+        {
+          "cote": "gauche",
+          "score": 0.12,
+          "ton": "sombre",
+          "recouvre_sujet": 0.49
+        }
+      ],
+      "qualite": {
+        "nettete": 73.4,
+        "bruit": 1.7,
+        "compression": 1.1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "e0e0a8aca89cd6f0",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "gear-sponsors-3.jpg",
+      "nom": "gear-sponsors-3",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 522,
+      "ratio": "3.83",
+      "ratio_valeur": 3.831,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 45201,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 11.1,
+        "l": 96.9,
+        "h": 66.7,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        44
+      ],
+      "cadrage_css": "50% 44%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.08,
+          "ton": "sombre",
+          "recouvre_sujet": 0.35
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.67
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.62
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.66
+        }
+      ],
+      "qualite": {
+        "nettete": 27.5,
+        "bruit": 0.21,
+        "compression": 1.1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "c5b6b6da6a6e4408",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "maxresdefault.webp",
+      "nom": "maxresdefault",
+      "drapeau": "autre",
+      "largeur": 1280,
+      "hauteur": 720,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "webp",
+      "poids": 54900,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 5.6,
+        "l": 90.6,
+        "h": 88.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        50
+      ],
+      "cadrage_css": "46% 50%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.82
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.75
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.76
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.76
+        }
+      ],
+      "qualite": {
+        "nettete": 51.9,
+        "bruit": 0.41,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "b6b6a6a5f1e8f9d9",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "gear-sponsors-4.png",
+      "nom": "gear-sponsors-4",
+      "drapeau": "autre",
+      "largeur": 1200,
+      "hauteur": 480,
+      "ratio": "2.5",
+      "ratio_valeur": 2.5,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 38933,
+      "transparence": true,
+      "sujet": {
+        "x": 3.1,
+        "y": 7.7,
+        "l": 93.8,
+        "h": 84.6,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        59
+      ],
+      "cadrage_css": "50% 59%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.04,
+          "ton": "sombre",
+          "recouvre_sujet": 0.73
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.78
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.78
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.73
+        }
+      ],
+      "qualite": {
+        "nettete": 53,
+        "bruit": 0.04,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "6969719686c8aee4",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "gabriel-s-bio.jpg",
+      "nom": "gabriel-s-bio",
+      "drapeau": "autre",
+      "largeur": 1333,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 183271,
+      "transparence": false,
+      "sujet": {
+        "x": 22.7,
+        "y": 25,
+        "l": 54.5,
+        "h": 46.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        51
+      ],
+      "cadrage_css": "52% 51%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.75,
+          "ton": "sombre",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "bas",
+          "score": 0.75,
+          "ton": "sombre",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "gauche",
+          "score": 0.73,
+          "ton": "sombre",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "droite",
+          "score": 0.65,
+          "ton": "sombre",
+          "recouvre_sujet": 0.2
+        }
+      ],
+      "qualite": {
+        "nettete": 17.1,
+        "bruit": 0.6,
+        "compression": 0.95,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "f0f0f8c8e4644c0a",
+      "drapeaux": [
+        "autre",
+        "calme haut/bas/gauche/droite"
+      ]
+    },
+    {
+      "fichier": "rythme-interieur-3.jpg",
+      "nom": "rythme-interieur-3",
+      "drapeau": "produit",
+      "largeur": 1545,
+      "hauteur": 2000,
+      "ratio": "0.77",
+      "ratio_valeur": 0.773,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 140413,
+      "transparence": false,
+      "sujet": {
+        "x": 16,
+        "y": 6.3,
+        "l": 64,
+        "h": 75,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        53
+      ],
+      "cadrage_css": "50% 53%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.52,
+          "ton": "clair",
+          "recouvre_sujet": 0.52
+        },
+        {
+          "cote": "droite",
+          "score": 0.44,
+          "ton": "clair",
+          "recouvre_sujet": 0.38
+        },
+        {
+          "cote": "bas",
+          "score": 0.43,
+          "ton": "clair",
+          "recouvre_sujet": 0.3
+        },
+        {
+          "cote": "gauche",
+          "score": 0.42,
+          "ton": "clair",
+          "recouvre_sujet": 0.45
+        }
+      ],
+      "qualite": {
+        "nettete": 76.9,
+        "bruit": 0.18,
+        "compression": 1.06,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "4d4e171b13130b26",
+      "drapeaux": [
+        "produit"
+      ]
+    },
+    {
+      "fichier": "rythme-interieur-4.jpg",
+      "nom": "rythme-interieur-4",
+      "drapeau": "produit",
+      "largeur": 1545,
+      "hauteur": 2000,
+      "ratio": "0.77",
+      "ratio_valeur": 0.773,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 251719,
+      "transparence": false,
+      "sujet": {
+        "x": 16,
+        "y": 6.3,
+        "l": 24,
+        "h": 68.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        23,
+        24
+      ],
+      "cadrage_css": "23% 24%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.64,
+          "ton": "clair",
+          "recouvre_sujet": 0.07
+        },
+        {
+          "cote": "droite",
+          "score": 0.61,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.42,
+          "ton": "clair",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "gauche",
+          "score": 0.38,
+          "ton": "clair",
+          "recouvre_sujet": 0.41
+        }
+      ],
+      "qualite": {
+        "nettete": 98.3,
+        "bruit": 0.53,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "630b1f3f2b171686",
+      "drapeaux": [
+        "produit"
+      ]
+    },
+    {
+      "fichier": "rythme-interieur-5.jpg",
+      "nom": "rythme-interieur-5",
+      "drapeau": "produit",
+      "largeur": 1545,
+      "hauteur": 2000,
+      "ratio": "0.77",
+      "ratio_valeur": 0.773,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 190050,
+      "transparence": false,
+      "sujet": {
+        "x": 12,
+        "y": 6.3,
+        "l": 72,
+        "h": 81.3,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        46
+      ],
+      "cadrage_css": "47% 46%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.36,
+          "ton": "clair",
+          "recouvre_sujet": 0.49
+        },
+        {
+          "cote": "bas",
+          "score": 0.3,
+          "ton": "clair",
+          "recouvre_sujet": 0.46
+        },
+        {
+          "cote": "haut",
+          "score": 0.27,
+          "ton": "clair",
+          "recouvre_sujet": 0.59
+        },
+        {
+          "cote": "gauche",
+          "score": 0.19,
+          "ton": "clair",
+          "recouvre_sujet": 0.57
+        }
+      ],
+      "qualite": {
+        "nettete": 79.3,
+        "bruit": 0.32,
+        "compression": 0.99,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "590f331737550f27",
+      "drapeaux": [
+        "produit"
+      ]
+    },
+    {
+      "fichier": "rythme-interieur-6.jpg",
+      "nom": "rythme-interieur-6",
+      "drapeau": "produit",
+      "largeur": 1545,
+      "hauteur": 2000,
+      "ratio": "0.77",
+      "ratio_valeur": 0.773,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 308564,
+      "transparence": false,
+      "sujet": {
+        "x": 4,
+        "y": 3.1,
+        "l": 56,
+        "h": 93.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        15,
+        46
+      ],
+      "cadrage_css": "15% 46%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.74,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.37,
+          "ton": "clair",
+          "recouvre_sujet": 0.51
+        },
+        {
+          "cote": "haut",
+          "score": 0.28,
+          "ton": "clair",
+          "recouvre_sujet": 0.51
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.84
+        }
+      ],
+      "qualite": {
+        "nettete": 78.2,
+        "bruit": 0.59,
+        "compression": 0.98,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "69cdfcf9edf8edd4",
+      "drapeaux": [
+        "produit",
+        "calme droite"
+      ]
+    },
+    {
+      "fichier": "pad-vers-groove-2.jpg",
+      "nom": "pad-vers-groove-2",
+      "drapeau": "produit",
+      "largeur": 1240,
+      "hauteur": 1754,
+      "ratio": "0.71",
+      "ratio_valeur": 0.707,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 277211,
+      "transparence": false,
+      "sujet": {
+        "x": 4.3,
+        "y": 3.1,
+        "l": 82.6,
+        "h": 84.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        41,
+        56
+      ],
+      "cadrage_css": "41% 56%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.34,
+          "ton": "clair",
+          "recouvre_sujet": 0.57
+        },
+        {
+          "cote": "haut",
+          "score": 0.25,
+          "ton": "clair",
+          "recouvre_sujet": 0.75
+        },
+        {
+          "cote": "bas",
+          "score": 0.12,
+          "ton": "clair",
+          "recouvre_sujet": 0.53
+        },
+        {
+          "cote": "gauche",
+          "score": 0.05,
+          "ton": "clair",
+          "recouvre_sujet": 0.75
+        }
+      ],
+      "qualite": {
+        "nettete": 112.1,
+        "bruit": 0.25,
+        "compression": 1.11,
+        "faible": true,
+        "raisons": [
+          "1240 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "79290f0f1f865331",
+      "drapeaux": [
+        "produit",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "pad-vers-groove-3.jpg",
+      "nom": "pad-vers-groove-3",
+      "drapeau": "produit",
+      "largeur": 1240,
+      "hauteur": 1754,
+      "ratio": "0.71",
+      "ratio_valeur": 0.707,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 201563,
+      "transparence": false,
+      "sujet": {
+        "x": 4.3,
+        "y": 3.1,
+        "l": 69.6,
+        "h": 84.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        45
+      ],
+      "cadrage_css": "47% 45%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.53,
+          "ton": "clair",
+          "recouvre_sujet": 0.29
+        },
+        {
+          "cote": "bas",
+          "score": 0.4,
+          "ton": "clair",
+          "recouvre_sujet": 0.45
+        },
+        {
+          "cote": "haut",
+          "score": 0.32,
+          "ton": "clair",
+          "recouvre_sujet": 0.63
+        },
+        {
+          "cote": "gauche",
+          "score": 0.28,
+          "ton": "clair",
+          "recouvre_sujet": 0.75
+        }
+      ],
+      "qualite": {
+        "nettete": 101.6,
+        "bruit": 0.19,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1240 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "4ece4d2b17860e17",
+      "drapeaux": [
+        "produit",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "pad-vers-groove-4.jpg",
+      "nom": "pad-vers-groove-4",
+      "drapeau": "produit",
+      "largeur": 1240,
+      "hauteur": 1754,
+      "ratio": "0.71",
+      "ratio_valeur": 0.707,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 721428,
+      "transparence": false,
+      "sujet": {
+        "x": 4.3,
+        "y": 6.3,
+        "l": 82.6,
+        "h": 93.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        65
+      ],
+      "cadrage_css": "49% 65%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.32,
+          "ton": "sombre",
+          "recouvre_sujet": 0.63
+        },
+        {
+          "cote": "haut",
+          "score": 0.25,
+          "ton": "sombre",
+          "recouvre_sujet": 0.68
+        },
+        {
+          "cote": "gauche",
+          "score": 0.21,
+          "ton": "sombre",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "bas",
+          "score": 0.09,
+          "ton": "sombre",
+          "recouvre_sujet": 0.83
+        }
+      ],
+      "qualite": {
+        "nettete": 89.6,
+        "bruit": 0.25,
+        "compression": 1.01,
+        "faible": true,
+        "raisons": [
+          "1240 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "33f2f071f0b2b2b0",
+      "drapeaux": [
+        "produit",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "from-pad-groove-2.png",
+      "nom": "from-pad-groove-2",
+      "drapeau": "produit",
+      "largeur": 1414,
+      "hauteur": 2000,
+      "ratio": "0.71",
+      "ratio_valeur": 0.707,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 356299,
+      "transparence": true,
+      "sujet": {
+        "x": 13,
+        "y": 3.1,
+        "l": 73.9,
+        "h": 96.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        72
+      ],
+      "cadrage_css": "52% 72%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.49,
+          "ton": "sombre",
+          "recouvre_sujet": 0.65
+        },
+        {
+          "cote": "droite",
+          "score": 0.48,
+          "ton": "sombre",
+          "recouvre_sujet": 0.65
+        },
+        {
+          "cote": "haut",
+          "score": 0.41,
+          "ton": "sombre",
+          "recouvre_sujet": 0.67
+        },
+        {
+          "cote": "bas",
+          "score": 0.27,
+          "ton": "sombre",
+          "recouvre_sujet": 0.74
+        }
+      ],
+      "qualite": {
+        "nettete": 56.7,
+        "bruit": 0.14,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "3373f071f032b2f0",
+      "drapeaux": [
+        "produit"
+      ]
+    },
+    {
+      "fichier": "from-pad-groove-3.png",
+      "nom": "from-pad-groove-3",
+      "drapeau": "produit",
+      "largeur": 1275,
+      "hauteur": 1650,
+      "ratio": "0.77",
+      "ratio_valeur": 0.773,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 183096,
+      "transparence": true,
+      "sujet": {
+        "x": 8,
+        "y": 3.1,
+        "l": 76,
+        "h": 84.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        43,
+        57
+      ],
+      "cadrage_css": "43% 57%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.42,
+          "ton": "clair",
+          "recouvre_sujet": 0.51
+        },
+        {
+          "cote": "haut",
+          "score": 0.37,
+          "ton": "clair",
+          "recouvre_sujet": 0.69
+        },
+        {
+          "cote": "gauche",
+          "score": 0.18,
+          "ton": "clair",
+          "recouvre_sujet": 0.68
+        },
+        {
+          "cote": "bas",
+          "score": 0.14,
+          "ton": "clair",
+          "recouvre_sujet": 0.49
+        }
+      ],
+      "qualite": {
+        "nettete": 124.2,
+        "bruit": 0.04,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1275 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "794b0f0f0f965333",
+      "drapeaux": [
+        "produit",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "from-pad-groove-4.png",
+      "nom": "from-pad-groove-4",
+      "drapeau": "produit",
+      "largeur": 1275,
+      "hauteur": 1650,
+      "ratio": "0.77",
+      "ratio_valeur": 0.773,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 181614,
+      "transparence": true,
+      "sujet": {
+        "x": 12,
+        "y": 3.1,
+        "l": 76,
+        "h": 87.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        61
+      ],
+      "cadrage_css": "48% 61%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.3,
+          "ton": "clair",
+          "recouvre_sujet": 0.69
+        },
+        {
+          "cote": "droite",
+          "score": 0.23,
+          "ton": "clair",
+          "recouvre_sujet": 0.61
+        },
+        {
+          "cote": "gauche",
+          "score": 0.14,
+          "ton": "clair",
+          "recouvre_sujet": 0.61
+        },
+        {
+          "cote": "bas",
+          "score": 0.07,
+          "ton": "clair",
+          "recouvre_sujet": 0.56
+        }
+      ],
+      "qualite": {
+        "nettete": 136.7,
+        "bruit": 0.05,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1275 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "4e0f4f0d37333735",
+      "drapeaux": [
+        "produit",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "logo-remo.png",
+      "nom": "logo-remo",
+      "drapeau": null,
+      "largeur": 1152,
+      "hauteur": 436,
+      "ratio": "2.64",
+      "ratio_valeur": 2.642,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 24166,
+      "transparence": true,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 92.3,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        57
+      ],
+      "cadrage_css": "50% 57%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.58,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0.56,
+          "ton": "clair",
+          "recouvre_sujet": 0.78
+        },
+        {
+          "cote": "gauche",
+          "score": 0.55,
+          "ton": "clair",
+          "recouvre_sujet": 0.92
+        },
+        {
+          "cote": "droite",
+          "score": 0.55,
+          "ton": "clair",
+          "recouvre_sujet": 0.92
+        }
+      ],
+      "qualite": {
+        "nettete": 5.5,
+        "bruit": 0.06,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1152 px de large",
+          "floue"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "16968ee851171551",
+      "drapeaux": [
+        "petite",
+        "floue"
+      ]
+    },
+    {
+      "fichier": "logo-sonor.png",
+      "nom": "logo-sonor",
+      "drapeau": null,
+      "largeur": 1927,
+      "hauteur": 387,
+      "ratio": "4.98",
+      "ratio_valeur": 4.979,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 78534,
+      "transparence": true,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 85.7,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        44
+      ],
+      "cadrage_css": "50% 44%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.63,
+          "ton": "clair",
+          "recouvre_sujet": 0.59
+        },
+        {
+          "cote": "gauche",
+          "score": 0.55,
+          "ton": "clair",
+          "recouvre_sujet": 0.86
+        },
+        {
+          "cote": "droite",
+          "score": 0.53,
+          "ton": "clair",
+          "recouvre_sujet": 0.86
+        },
+        {
+          "cote": "haut",
+          "score": 0.48,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 3.4,
+        "bruit": 0.04,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "floue"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "48494d25a59589a9",
+      "drapeaux": [
+        "floue"
+      ]
+    },
+    {
+      "fichier": "logo-zildjian.png",
+      "nom": "logo-zildjian",
+      "drapeau": null,
+      "largeur": 874,
+      "hauteur": 374,
+      "ratio": "21:9",
+      "ratio_valeur": 2.337,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 41352,
+      "transparence": true,
+      "sujet": {
+        "x": 3.1,
+        "y": 0,
+        "l": 96.9,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        56
+      ],
+      "cadrage_css": "49% 56%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.62,
+          "ton": "clair",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "gauche",
+          "score": 0.59,
+          "ton": "clair",
+          "recouvre_sujet": 0.92
+        },
+        {
+          "cote": "droite",
+          "score": 0.57,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0.56,
+          "ton": "clair",
+          "recouvre_sujet": 0.97
+        }
+      ],
+      "qualite": {
+        "nettete": 2.2,
+        "bruit": 0.04,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "874 px de large",
+          "floue"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "18585e0c4d4b250c",
+      "drapeaux": [
+        "petite",
+        "floue"
+      ]
+    },
+    {
+      "fichier": "new-step-visuel.png",
+      "nom": "new-step-visuel",
+      "drapeau": null,
+      "largeur": 358,
+      "hauteur": 536,
+      "ratio": "2:3",
+      "ratio_valeur": 0.668,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 315806,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 95.5,
+        "h": 100,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        48
+      ],
+      "cadrage_css": "48% 48%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "sombre",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        }
+      ],
+      "qualite": {
+        "nettete": 20,
+        "bruit": 0.86,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "358 px de large"
+        ]
+      },
+      "lisible": null,
+      "empreinte": "466e7b5f6f8b2107",
+      "drapeaux": [
+        "petite"
+      ]
+    }
+  ]
+}

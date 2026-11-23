@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en" data-v="1" data-page="clinics" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Clinics, intensive sessions and remote recording: Gabriel Delmas</title>
+<meta name="description" content="Clinics and masterclasses in music stores, festivals and drum schools, one- or two-day intensive sessions, lessons and remote drum recording.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://gabriel-delmas-maquette.vercel.app/en/clinics-et-studio">
+<link rel="alternate" hreflang="fr" href="https://gabriel-delmas-maquette.vercel.app/clinics-et-studio">
+<link rel="alternate" hreflang="en" href="https://gabriel-delmas-maquette.vercel.app/en/clinics-et-studio">
+<link rel="alternate" hreflang="x-default" href="https://gabriel-delmas-maquette.vercel.app/clinics-et-studio">
+<style>:root{--fond:#111010;--texte:#dcd8ce;--voile-fond:#111010;--ouverture-fond:#111010;--menu-fond:#111010}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/big-shoulders-900.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/figtree-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="stylesheet" href="/assets/js/modules/panier-en-tiroir/module.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#111010">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Gabriel Delmas">
+<meta property="og:locale" content="en_GB">
+<meta property="og:title" content="Clinics, intensive sessions and remote recording: Gabriel Delmas">
+<meta property="og:description" content="Clinics and masterclasses in music stores, festivals and drum schools, one- or two-day intensive sessions, lessons and remote drum recording.">
+<meta property="og:url" content="https://gabriel-delmas-maquette.vercel.app/en/clinics-et-studio">
+<meta property="og:image" content="https://gabriel-delmas-maquette.vercel.app/assets/partage/clinics-en.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="A drum clinic in a music store (AI-generated illustration)">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Gabriel Delmas","jobTitle":"Drummer and musician","url":"https://gabriel-delmas-maquette.vercel.app/","email":"delmas648@hotmail.com","sameAs":["https://www.instagram.com/delmasgabriel","https://www.youtube.com/@gabrieldelmasdrummer","https://www.facebook.com/gabriel.delmas.73/","https://www.tiktok.com/@gabrieldelmasdrummer"],"description":"Jazz, funk and New Orleans drummer, leader of the Gabriel Delmas Trio, author of the Le Rythme Intérieur and From Pad To Groove methods."}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="glisse" aria-hidden="true"><div class="voile-contenu"><span class="voile-marque">Gabriel Delmas</span><span data-voile-libelle>Clinics &amp; studio</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <p class="ouverture-nom"><span class="ouverture-mot">Gabriel</span><span class="ouverture-mot">Delmas</span></p>
+  <div class="pas pas--intro" data-ouverture-objet><i class="temps"></i><i class=""></i><i class=""></i><i class=""></i><i class="temps"></i><i class=""></i><i class=""></i><i class=""></i><i class="temps"></i><i class=""></i><i class=""></i><i class=""></i><i class="temps"></i><i class=""></i><i class=""></i><i class=""></i></div>
+  <p class="ouverture-ligne">Drummer · Musician</p>
+</div>
+<a class="evitement" href="#contenu">Skip to content</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/en" data-libelle="Home" aria-label="Gabriel Delmas, home"><span class="marque" aria-hidden="true"><span>Gabriel</span><span>Delmas</span></span></a>
+    <nav data-nav aria-label="Main navigation">
+      <ul><li><a href="/en/musique" data-libelle="Music">Music</a></li><li><a href="/en/methodes" data-libelle="Methods">Methods</a></li><li><a href="/en/clinics-et-studio" data-libelle="Clinics &amp; studio" aria-current="page">Clinics &amp; studio</a></li><li><a href="/en/bio" data-libelle="Bio &amp; gear">Bio &amp; gear</a></li><li><a href="/en/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="entete-langue" href="/clinics-et-studio" hreflang="fr" lang="fr" data-langue="fr" aria-label="Version française">fr</a>
+      <button type="button" class="entete-panier" data-panier-ouvrir data-envol-cible aria-label="Cart"><svg viewBox="0 0 24 24" aria-hidden="true" width="22" height="22"><path d="M5 7h14l-1.2 11.2a2 2 0 0 1-2 1.8H8.2a2 2 0 0 1-2-1.8L5 7Z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M9 9V6a3 3 0 0 1 6 0v3" fill="none" stroke="currentColor" stroke-width="1.8"/></svg><span class="pet-compte est-vide" data-panier-compte>0</span></button>
+      <a class="bouton entete-action" href="/en/contact#demande" data-libelle="Contact">Hire Gabriel</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Close"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Close</a></p>
+  <ul><li style="--i:0"><a href="/en" class="menu-lien" data-libelle="Home">Home</a></li><li style="--i:1"><a href="/en/musique" class="menu-lien" data-libelle="Music">Music</a></li><li style="--i:2"><a href="/en/methodes" class="menu-lien" data-libelle="Methods">Methods</a></li><li style="--i:3"><a href="/en/clinics-et-studio" class="menu-lien" data-libelle="Clinics &amp; studio" aria-current="page">Clinics &amp; studio</a></li><li style="--i:4"><a href="/en/bio" class="menu-lien" data-libelle="Bio &amp; gear">Bio &amp; gear</a></li><li style="--i:5"><a href="/en/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="/en/contact#demande" data-libelle="Contact">Hire Gabriel</a></p>
+  <p class="menu-email">delmas648@hotmail.com</p>
+  <p><a class="entete-langue menu-langue" href="/clinics-et-studio" hreflang="fr" lang="fr" data-langue="fr">Version française</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="tete-plein ecran theme-noir" id="debut">
+  <figure class="media tete-plein-media" data-grok data-iris-centre data-fx="parallaxe" data-fx-force="6" style="--cadrage:62% 50%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/clinic-mobile-640.webp 640w, /assets/images/grok/clinic-mobile-1080.webp 1080w" sizes="100vw">
+    <img src="/assets/images/grok/clinic-1280.webp" srcset="/assets/images/grok/clinic-640.webp 640w, /assets/images/grok/clinic-1280.webp 1280w, /assets/images/grok/clinic-1920.webp 1920w" sizes="100vw" alt="A drum clinic in a music store, audience seen from behind" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">AI-generated illustration</figcaption>
+</figure>
+  <div class="conteneur tete-plein-texte">
+    <p class="surtitre hero-surtitre" data-anime="gsap">Clinics, sessions and studio</p>
+    <h1 class="titre-geant hero-titre" data-anime="gsap">
+      <span class="ligne-masque"><span class="hero-ligne">Passing on</span></span>
+      <span class="ligne-masque"><span class="hero-ligne hero-ligne--rouge">the groove</span></span>
+    </h1>
+    <div class="hero-detail" data-anime="gsap">
+      <p class="masque-ecran-bas">Gabriel comes to your music store, festival or drum school, hosts intensive sessions and records your drums remotely.</p>
+      <p class="hero-info" data-info-cle>Music stores · festivals · drum schools</p>
+      <p class="actions">
+        <a class="bouton" href="#organiser" data-action-principale data-survol="magnetique">Set up a clinic</a>
+        <a class="bouton bouton--contour" href="#studio">Remote recording</a>
+      </p>
+    </div>
+  </div>
+</section>
+<section class="themes section theme-pierre" id="themes">
+  <div class="conteneur">
+    <h2 class="titre-section" data-anime="lignes">What a clinic covers</h2>
+    <p class="themes-intro">Each clinic builds on the Le Rythme Intérieur and From Pad To Groove methods.</p>
+    <ul class="cartes-themes" data-anime="cascade" data-visuel>
+      <li class="carte-theme"><span class="carte-theme-icone"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 6v8M24 34v8M6 24h8M34 24h8M11 11l6 6M31 31l6 6M37 11l-6 6M17 31l-6 6" stroke="currentColor" stroke-width="3" stroke-linecap="round" fill="none"/><circle cx="24" cy="24" r="5" fill="currentColor"/></svg></span><span class="carte-theme-n">01</span><h3>Creativity</h3><p>Sharpen your sense of improvisation and find new ideas.</p></li><li class="carte-theme"><span class="carte-theme-icone"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M4 30c4 0 4-12 8-12s4 12 8 12 4-20 8-20 4 20 8 20 4-8 8-8" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></span><span class="carte-theme-n">02</span><h3>Groove</h3><p>Improve your groove by working on your sound, all the way to a personal sound.</p></li><li class="carte-theme"><span class="carte-theme-icone"><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="8" y="10" width="32" height="30" rx="3" stroke="currentColor" stroke-width="3" fill="none"/><path d="M8 18h32M16 6v8M32 6v8M15 26h6M27 26h6M15 33h6" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg></span><span class="carte-theme-n">03</span><h3>Practice method</h3><p>Organise your sessions and save time while learning.</p></li>
+    </ul>
+  </div>
+</section>
+<section class="organiser section theme-noir" id="organiser">
+  <div class="conteneur organiser-grille">
+    <div>
+      <h2 class="titre-section" data-anime="lignes">Set up a clinic</h2>
+      <p>Stores, festivals and schools write to Gabriel directly. For a masterclass, Sonor&#39;s artist manager can also be contacted.</p>
+      <dl class="contacts">
+        <div><dt>Gabriel Delmas</dt><dd><a class="email" href="mailto:delmas648@hotmail.com">delmas648@hotmail.com</a></dd></div>
+        <div><dt>Sonor, artist manager</dt><dd><a class="email" href="mailto:n.lange@sonor.de">n.lange@sonor.de</a></dd></div>
+      </dl>
+      <p><a href="/en/contact?sujet=clinic#demande" class="bouton" data-libelle="Contact" data-survol="magnetique">Request a clinic</a></p>
+    </div>
+    <figure class="media organiser-media" data-anime="rideau" style="--cadrage:50% 35%;aspect-ratio:4 / 5">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/portrait-caisse-claire-mobile-640.webp 640w, /assets/images/portrait-caisse-claire-mobile-1080.webp 1080w" sizes="(max-width: 760px) 100vw, 36vw">
+    <img src="/assets/images/portrait-caisse-claire-1280.webp" srcset="/assets/images/portrait-caisse-claire-640.webp 640w, /assets/images/portrait-caisse-claire-1280.webp 1280w, /assets/images/portrait-caisse-claire-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 36vw" alt="Gabriel Delmas on a black background, a red snare drum under his arm" width="1280" height="1600" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  </div>
+</section>
+<section class="sessions section theme-pierre" id="sessions">
+  <div class="conteneur sessions-grille">
+    <figure class="media sessions-media" data-grok data-fx="zoom" style="--cadrage:50% 50%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/grok/sessions-1600.webp" srcset="/assets/images/grok/sessions-1024.webp 1024w, /assets/images/grok/sessions-1168.webp 1168w, /assets/images/grok/sessions-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 50vw" alt="A drum kit near a window open onto the countryside" width="1600" height="1067" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">AI-generated illustration</figcaption>
+</figure>
+    <div>
+      <h2 class="titre-section" data-anime="lignes">Intensive sessions</h2>
+      <p>One-to-one immersion in Sauveterre-de-Rouergue, Aveyron.</p>
+      <ul class="liste-faits" data-anime="cascade"><li>Over 1 or 2 days</li><li>About 7 hours of drumming a day</li><li>Slots all year round</li><li>For amateurs and pros</li><li>Full board available</li></ul>
+      <p class="petit">Rates and availability by e-mail.</p>
+      <p class="actions">
+        <a href="/en/contact?sujet=cours#demande" class="bouton" data-libelle="Contact">Book a session</a>
+        <a href="/en/contact?sujet=cours#demande" class="bouton bouton--contour" data-libelle="Contact">Ask about lessons</a>
+      </p>
+      <p class="petit">Drum lessons : Formats and availability on request.</p>
+    </div>
+  </div>
+</section>
+<section class="studio section theme-noir" id="studio">
+  <div class="conteneur studio-grille">
+    <div>
+      <h2 class="titre-section" data-anime="lignes">Drums recorded remotely</h2>
+      <p>Since 2020, Gabriel has recorded drum parts for many artists in his home studio. He also subs for other drummers and joins projects as a sideman.</p>
+      <ul class="liste-faits liste-faits--clair" data-anime="cascade"><li>Remote recording</li><li>Subbing</li><li>Projects and sideman work</li></ul>
+      <p><a href="/en/contact?sujet=studio#demande" class="bouton" data-libelle="Contact" data-survol="magnetique">Get drums recorded</a></p>
+    </div>
+    <div class="studio-images">
+      <figure class="media studio-media" data-grok data-fx="parallaxe" data-fx-force="8" style="--cadrage:50% 50%;aspect-ratio:3 / 2">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/studio-mobile-640.webp 640w, /assets/images/grok/studio-mobile-1080.webp 1080w" sizes="(max-width: 760px) 100vw, 50vw">
+    <img src="/assets/images/grok/studio-1600.webp" srcset="/assets/images/grok/studio-1024.webp 1024w, /assets/images/grok/studio-1168.webp 1168w, /assets/images/grok/studio-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 50vw" alt="A drum kit surrounded by microphones in a small studio" width="1600" height="1067" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">AI-generated illustration</figcaption>
+</figure>
+      <figure class="media studio-vignette" data-anime="rideau" style="--cadrage:50% 50%;aspect-ratio:4 / 3">
+  <picture>
+    <img src="/assets/images/home-studio-800.webp" srcset="/assets/images/home-studio-640.webp 640w, /assets/images/home-studio-800.webp 800w" sizes="220px" alt="Gabriel Delmas in his home studio, next to his Sonor AQ2 kit" width="800" height="600" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-nom">
+      <p class="pied-marque"><span class="marque" aria-hidden="true"><span>Gabriel</span><span>Delmas</span></span><span class="visuellement-cache">Gabriel Delmas</span></p>
+      <p>Jazz, funk and New Orleans drummer. Leader of the Gabriel Delmas Trio, sideman, author of three methods.</p>
+    </div>
+    <div>
+      <p class="pied-titre">Write</p>
+      <p class="pied-email"><span>Gabriel</span><br><a href="mailto:delmas648@hotmail.com">delmas648@hotmail.com</a></p>
+      <p class="pied-email"><span>Trio booking</span><br><a href="mailto:gabriel.delmas.trio@gmail.com">gabriel.delmas.trio@gmail.com</a></p>
+    </div>
+    <nav aria-label="Site map">
+      <p class="pied-titre">Site map</p>
+      <ul><li><a href="/en" data-libelle="Home">Home</a></li><li><a href="/en/musique" data-libelle="Music">Music</a></li><li><a href="/en/methodes" data-libelle="Methods">Methods</a></li><li><a href="/en/clinics-et-studio" data-libelle="Clinics &amp; studio" aria-current="page">Clinics &amp; studio</a></li><li><a href="/en/bio" data-libelle="Bio &amp; gear">Bio &amp; gear</a></li><li><a href="/en/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Listen and follow</p>
+      <ul><li><a href="https://www.instagram.com/delmasgabriel" target="_blank" rel="noopener">Instagram</a></li><li><a href="https://www.youtube.com/@gabrieldelmasdrummer" target="_blank" rel="noopener">YouTube</a></li><li><a href="https://www.facebook.com/gabriel.delmas.73/" target="_blank" rel="noopener">Facebook</a></li><li><a href="https://www.tiktok.com/@gabrieldelmasdrummer" target="_blank" rel="noopener">TikTok</a></li><li><a href="https://open.spotify.com/intl-fr/album/4tYwqiktRfPv5EPbK9bOdt" target="_blank" rel="noopener">Spotify</a></li></ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas">
+    <p>Legal notice (to be completed) · Privacy policy (to be completed)</p>
+    <p>Demo mock-up: forms and cart are simulated, nothing is sent.</p>
+    <p><a href="#haut" data-sans-transition>Back to top</a></p>
+  </div>
+</footer>
+<div data-barre-fixe>
+  <a href="/en/musique#album" class="bouton bouton--contour" data-libelle="Music">Listen</a>
+  <a href="/en/contact#demande" class="bouton" data-libelle="Contact">Hire Gabriel</a>
+</div>
+<div data-module="panier-en-tiroir" data-panier-tiroir><script type="application/json" data-panier-reglages>{"devise":"EUR","seuil_livraison":0,"frais_livraison":0,"tva":null,"cle":"gabriel-delmas-panier","prefixe":"GD","livraison":true,"envol":"auto","livraison_texte":"Calculated at checkout (PDF: none; free from 3 methods)"}</script></div>
+</body>
+</html>

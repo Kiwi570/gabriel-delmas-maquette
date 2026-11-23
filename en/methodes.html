@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en" data-v="1" data-page="methodes" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Gabriel Delmas&#39;s methods: Le Rythme Intérieur, From Pad To Groove</title>
+<meta name="description" content="Three methods to work on rhythm and groove, from the pad to the kit: Le Rythme Intérieur (€28), From Pad To Groove and Du Pad vers le Groove (€15 as PDF).">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://gabriel-delmas-maquette.vercel.app/en/methodes">
+<link rel="alternate" hreflang="fr" href="https://gabriel-delmas-maquette.vercel.app/methodes">
+<link rel="alternate" hreflang="en" href="https://gabriel-delmas-maquette.vercel.app/en/methodes">
+<link rel="alternate" hreflang="x-default" href="https://gabriel-delmas-maquette.vercel.app/methodes">
+<style>:root{--fond:#111010;--texte:#dcd8ce;--voile-fond:#111010;--ouverture-fond:#111010;--menu-fond:#111010}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/big-shoulders-900.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/figtree-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="stylesheet" href="/assets/js/modules/panier-en-tiroir/module.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#111010">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Gabriel Delmas">
+<meta property="og:locale" content="en_GB">
+<meta property="og:title" content="Gabriel Delmas&#39;s methods: Le Rythme Intérieur, From Pad To Groove">
+<meta property="og:description" content="Three methods to work on rhythm and groove, from the pad to the kit: Le Rythme Intérieur (€28), From Pad To Groove and Du Pad vers le Groove (€15 as PDF).">
+<meta property="og:url" content="https://gabriel-delmas-maquette.vercel.app/en/methodes">
+<meta property="og:image" content="https://gabriel-delmas-maquette.vercel.app/assets/partage/methodes-en.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Gabriel Delmas holding a practice pad">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Gabriel Delmas","jobTitle":"Drummer and musician","url":"https://gabriel-delmas-maquette.vercel.app/","email":"delmas648@hotmail.com","sameAs":["https://www.instagram.com/delmasgabriel","https://www.youtube.com/@gabrieldelmasdrummer","https://www.facebook.com/gabriel.delmas.73/","https://www.tiktok.com/@gabrieldelmasdrummer"],"description":"Jazz, funk and New Orleans drummer, leader of the Gabriel Delmas Trio, author of the Le Rythme Intérieur and From Pad To Groove methods."}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="glisse" aria-hidden="true"><div class="voile-contenu"><span class="voile-marque">Gabriel Delmas</span><span data-voile-libelle>Methods</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <p class="ouverture-nom"><span class="ouverture-mot">Gabriel</span><span class="ouverture-mot">Delmas</span></p>
+  <div class="pas pas--intro" data-ouverture-objet><i class="temps"></i><i class=""></i><i class=""></i><i class=""></i><i class="temps"></i><i class=""></i><i class=""></i><i class=""></i><i class="temps"></i><i class=""></i><i class=""></i><i class=""></i><i class="temps"></i><i class=""></i><i class=""></i><i class=""></i></div>
+  <p class="ouverture-ligne">Drummer · Musician</p>
+</div>
+<a class="evitement" href="#contenu">Skip to content</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/en" data-libelle="Home" aria-label="Gabriel Delmas, home"><span class="marque" aria-hidden="true"><span>Gabriel</span><span>Delmas</span></span></a>
+    <nav data-nav aria-label="Main navigation">
+      <ul><li><a href="/en/musique" data-libelle="Music">Music</a></li><li><a href="/en/methodes" data-libelle="Methods" aria-current="page">Methods</a></li><li><a href="/en/clinics-et-studio" data-libelle="Clinics &amp; studio">Clinics &amp; studio</a></li><li><a href="/en/bio" data-libelle="Bio &amp; gear">Bio &amp; gear</a></li><li><a href="/en/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="entete-langue" href="/methodes" hreflang="fr" lang="fr" data-langue="fr" aria-label="Version française">fr</a>
+      <button type="button" class="entete-panier" data-panier-ouvrir data-envol-cible aria-label="Cart"><svg viewBox="0 0 24 24" aria-hidden="true" width="22" height="22"><path d="M5 7h14l-1.2 11.2a2 2 0 0 1-2 1.8H8.2a2 2 0 0 1-2-1.8L5 7Z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M9 9V6a3 3 0 0 1 6 0v3" fill="none" stroke="currentColor" stroke-width="1.8"/></svg><span class="pet-compte est-vide" data-panier-compte>0</span></button>
+      <a class="bouton entete-action" href="/en/contact#demande" data-libelle="Contact">Hire Gabriel</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Close"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Close</a></p>
+  <ul><li style="--i:0"><a href="/en" class="menu-lien" data-libelle="Home">Home</a></li><li style="--i:1"><a href="/en/musique" class="menu-lien" data-libelle="Music">Music</a></li><li style="--i:2"><a href="/en/methodes" class="menu-lien" data-libelle="Methods" aria-current="page">Methods</a></li><li style="--i:3"><a href="/en/clinics-et-studio" class="menu-lien" data-libelle="Clinics &amp; studio">Clinics &amp; studio</a></li><li style="--i:4"><a href="/en/bio" class="menu-lien" data-libelle="Bio &amp; gear">Bio &amp; gear</a></li><li style="--i:5"><a href="/en/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="/en/contact#demande" data-libelle="Contact">Hire Gabriel</a></p>
+  <p class="menu-email">delmas648@hotmail.com</p>
+  <p><a class="entete-langue menu-langue" href="/methodes" hreflang="fr" lang="fr" data-langue="fr">Version française</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="tete-scindee ecran theme-noir" id="debut">
+  <div class="conteneur tete-scindee-grille">
+    <div class="tete-scindee-texte">
+      <p class="surtitre hero-surtitre" data-anime="gsap">Gabriel Delmas&#39;s methods</p>
+      <h1 class="titre-geant hero-titre" data-anime="gsap">
+        <span class="ligne-masque"><span class="hero-ligne">From pad</span></span>
+        <span class="ligne-masque"><span class="hero-ligne hero-ligne--rouge">to groove</span></span>
+      </h1>
+      <div class="hero-detail" data-anime="gsap">
+        <p class="masque-ecran-bas">Three books to count, sing and groove: on a pad, on the train or behind the kit.</p>
+        <p class="hero-info" data-info-cle>From €15 · PDFs available right away</p>
+        <p class="actions"><a class="bouton" href="#livres" data-action-principale data-survol="magnetique">See the books</a></p>
+      </div>
+    </div>
+    <div class="tete-scindee-visuel">
+      <figure class="media tete-portrait" data-iris-centre style="--cadrage:50% 35%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/portrait-pad-mobile-640.webp 640w, /assets/images/portrait-pad-mobile-1080.webp 1080w" sizes="(max-width: 760px) 100vw, 40vw">
+    <img src="/assets/images/portrait-pad-1280.webp" srcset="/assets/images/portrait-pad-640.webp 640w, /assets/images/portrait-pad-1280.webp 1280w, /assets/images/portrait-pad-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 40vw" alt="Gabriel Delmas holding a colourful practice pad" width="1280" height="1600" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+      <div class="eventail" data-effet="eventail" aria-hidden="true">
+        <span class="eventail-livre"><figure class="media eventail-media" style="--cadrage:50% 50%;aspect-ratio:707 / 1000">
+  <picture>
+    <img src="/assets/images/livre-rythme-interieur-1600.webp" srcset="/assets/images/livre-rythme-interieur-800.webp 800w, /assets/images/livre-rythme-interieur-1600.webp 1600w" sizes="160px" alt="" width="1600" height="2263" loading="lazy" decoding="async">
+  </picture>
+</figure></span><span class="eventail-livre"><figure class="media eventail-media" style="--cadrage:50% 50%;aspect-ratio:707 / 1000">
+  <picture>
+    <img src="/assets/images/livre-pad-vers-groove-1600.webp" srcset="/assets/images/livre-pad-vers-groove-800.webp 800w, /assets/images/livre-pad-vers-groove-1600.webp 1600w" sizes="160px" alt="" width="1600" height="2263" loading="lazy" decoding="async">
+  </picture>
+</figure></span><span class="eventail-livre"><figure class="media eventail-media" style="--cadrage:50% 50%;aspect-ratio:707 / 1000">
+  <picture>
+    <img src="/assets/images/livre-from-pad-to-groove-1600.webp" srcset="/assets/images/livre-from-pad-to-groove-800.webp 800w, /assets/images/livre-from-pad-to-groove-1600.webp 1600w" sizes="160px" alt="" width="1600" height="2263" loading="lazy" decoding="async">
+  </picture>
+</figure></span>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="livres section theme-pierre" id="livres">
+  <div class="conteneur">
+    <h2 class="titre-section" data-anime="lignes">The books</h2>
+    <div class="livres-liste">
+      <article class="livre" id="livre-rythme-interieur" data-panier-produit>
+        <div class="livre-couverture">
+          <figure class="media livre-media" data-fx="vitesse" data-fx-force="2" style="--cadrage:50% 50%;aspect-ratio:707 / 1000">
+  <picture>
+    <img src="/assets/images/livre-rythme-interieur-1600.webp" srcset="/assets/images/livre-rythme-interieur-800.webp 800w, /assets/images/livre-rythme-interieur-1600.webp 1600w" sizes="(max-width: 760px) 70vw, 26vw" alt="Le Rythme Intérieur" width="1600" height="2263" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        </div>
+        <div class="livre-texte">
+          <p class="surtitre">Book, 108 pages · 2025</p>
+          <h3>Le Rythme Intérieur</h3>
+          <p class="livre-accroche">A travel workbook to work on your rhythm anywhere, with your voice, hands, feet and a metronome, no instrument needed.</p>
+          <p class="livre-chiffre">over 300 video exercises</p>
+          <p class="livre-avis">★★★★★ 5,0 out of 5 · 10 reviews</p>
+          <dl class="livre-details">
+            <div><dt>Who it&#39;s for</dt><dd>Intermediate to advanced musicians, any instrument</dd></div>
+            <div><dt>What&#39;s inside</dt><dd><ul><li>Counting and singing phrases</li><li>Mixed and layered subdivisions</li><li>Voice, hands and feet</li><li>Note groupings</li><li>Improving your tempo</li><li>Finding your way in a cycle</li><li>Odd meters</li><li>Clave work</li></ul></dd></div>
+          </dl>
+          <div class="livre-achat">
+            <p class="livre-prix" data-prix>28 €</p>
+            <p class="livre-dispo">In stock</p>
+            <a class="bouton" href="/en/contact?sujet=methodes#demande" data-sans-transition data-panier-ajouter="rythme-interieur" data-nom="Le Rythme Intérieur" data-prix="28" data-image="/assets/images/livre-rythme-interieur-800.webp" data-options='{&quot;Format&quot;:&quot;Book, 108 pages&quot;}'>Add to cart</a>
+          </div>
+        </div>
+      </article><article class="livre" id="livre-pad-vers-groove" data-panier-produit>
+        <div class="livre-couverture">
+          <figure class="media livre-media" data-fx="vitesse" data-fx-force="2" style="--cadrage:50% 50%;aspect-ratio:707 / 1000">
+  <picture>
+    <img src="/assets/images/livre-pad-vers-groove-1600.webp" srcset="/assets/images/livre-pad-vers-groove-800.webp 800w, /assets/images/livre-pad-vers-groove-1600.webp 1600w" sizes="(max-width: 760px) 70vw, 26vw" alt="Du Pad vers le Groove" width="1600" height="2263" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        </div>
+        <div class="livre-texte">
+          <p class="surtitre">French PDF · 2021</p>
+          <h3>Du Pad vers le Groove</h3>
+          <p class="livre-accroche">Start on the pad for technique, then move each sticking to the kit to build your own groove.</p>
+          <p class="livre-chiffre">195 exercise videos (QR code)</p>
+          <p class="livre-distinction">Coup de cœur of the Confédération musicale de France, 2022-2023 repertoire</p>
+          <dl class="livre-details">
+            <div><dt>Who it&#39;s for</dt><dd>Drummers who want to grow as musicians, not only technically</dd></div>
+            <div><dt>What&#39;s inside</dt><dd><ul><li>Active Pad concept</li><li>Nuances and dynamics</li><li>Ghost notes</li><li>Using a metronome</li><li>Independence</li><li>Using your voice</li><li>From technique to groove</li><li>Orchestrations on the kit</li><li>Hi-hat foot in grooves</li><li>Cowbell grooves</li></ul></dd></div>
+          </dl>
+          <div class="livre-achat">
+            <p class="livre-prix" data-prix>15 €</p>
+            <p class="livre-dispo">Print edition sold out, PDF available</p>
+            <a class="bouton" href="/en/contact?sujet=methodes#demande" data-sans-transition data-panier-ajouter="pad-vers-groove" data-nom="Du Pad vers le Groove" data-prix="15" data-image="/assets/images/livre-pad-vers-groove-800.webp" data-options='{&quot;Format&quot;:&quot;French PDF&quot;}'>Add to cart</a>
+          </div>
+        </div>
+      </article><article class="livre" id="livre-from-pad-to-groove" data-panier-produit>
+        <div class="livre-couverture">
+          <figure class="media livre-media" data-fx="vitesse" data-fx-force="2" style="--cadrage:50% 50%;aspect-ratio:707 / 1000">
+  <picture>
+    <img src="/assets/images/livre-from-pad-to-groove-1600.webp" srcset="/assets/images/livre-from-pad-to-groove-800.webp 800w, /assets/images/livre-from-pad-to-groove-1600.webp 1600w" sizes="(max-width: 760px) 70vw, 26vw" alt="From Pad To Groove" width="1600" height="2263" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        </div>
+        <div class="livre-texte">
+          <p class="surtitre">English PDF · 2021</p>
+          <h3>From Pad To Groove</h3>
+          <p class="livre-accroche">The same method, translated by Susan Harold, for English-speaking drummers.</p>
+          <p class="livre-chiffre">195 exercise videos (two QR codes)</p>
+          <dl class="livre-details">
+            <div><dt>Who it&#39;s for</dt><dd>The English edition of Du Pad vers le Groove</dd></div>
+            <div><dt>What&#39;s inside</dt><dd><ul><li>Active Pad Concept</li><li>Nuances and dynamics</li><li>Ghost notes</li><li>Metronome</li><li>Independence</li><li>Voice</li><li>Cowbell grooves</li><li>Hi-hat foot</li></ul></dd></div>
+          </dl>
+          <div class="livre-achat">
+            <p class="livre-prix" data-prix>15 €</p>
+            <p class="livre-dispo">PDF available</p>
+            <a class="bouton" href="/en/contact?sujet=methodes#demande" data-sans-transition data-panier-ajouter="from-pad-to-groove" data-nom="From Pad To Groove" data-prix="15" data-image="/assets/images/livre-from-pad-to-groove-800.webp" data-options='{&quot;Format&quot;:&quot;English PDF&quot;}'>Add to cart</a>
+          </div>
+        </div>
+      </article>
+    </div>
+    <ul class="conditions">
+      <li>Free shipping from 3 methods, standard delivery.</li>
+      <li>Music schools: 10% off for more than 5 books, on request by e-mail.</li>
+    </ul>
+  </div>
+</section>
+<section class="feuilleter section theme-noir" id="feuilleter">
+  <div class="conteneur">
+    <h2 class="titre-section" data-anime="lignes">Look inside</h2>
+    <p>A few pages, to see how the work goes. Tap a page to enlarge it.</p>
+    <ul class="pages-livre">
+      <li><button type="button" class="page-livre" data-page-livre data-grande="/assets/images/rythme-interieur-sommaire-800.webp" data-alt="Le Rythme Intérieur: contents" aria-label="Enlarge: Le Rythme Intérieur: contents">
+        <figure class="media page-livre-media" data-fx="vitesse" data-fx-force="3" style="--cadrage:50% 50%;aspect-ratio:707 / 1000">
+  <picture>
+    <img src="/assets/images/rythme-interieur-sommaire-800.webp" srcset="/assets/images/rythme-interieur-sommaire-640.webp 640w, /assets/images/rythme-interieur-sommaire-800.webp 800w" sizes="(max-width: 760px) 45vw, 15vw" alt="" width="800" height="1036" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <span>Le Rythme Intérieur</span>
+      </button></li><li><button type="button" class="page-livre" data-page-livre data-grande="/assets/images/rythme-interieur-page-800.webp" data-alt="Le Rythme Intérieur: hands and voice" aria-label="Enlarge: Le Rythme Intérieur: hands and voice">
+        <figure class="media page-livre-media" data-fx="vitesse" data-fx-force="3" style="--cadrage:50% 50%;aspect-ratio:707 / 1000">
+  <picture>
+    <img src="/assets/images/rythme-interieur-page-800.webp" srcset="/assets/images/rythme-interieur-page-640.webp 640w, /assets/images/rythme-interieur-page-800.webp 800w" sizes="(max-width: 760px) 45vw, 15vw" alt="" width="800" height="1036" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <span>Le Rythme Intérieur</span>
+      </button></li><li><button type="button" class="page-livre" data-page-livre data-grande="/assets/images/rythme-interieur-dos-800.webp" data-alt="Le Rythme Intérieur: back cover" aria-label="Enlarge: Le Rythme Intérieur: back cover">
+        <figure class="media page-livre-media" data-fx="vitesse" data-fx-force="3" style="--cadrage:50% 50%;aspect-ratio:707 / 1000">
+  <picture>
+    <img src="/assets/images/rythme-interieur-dos-800.webp" srcset="/assets/images/rythme-interieur-dos-640.webp 640w, /assets/images/rythme-interieur-dos-800.webp 800w" sizes="(max-width: 760px) 45vw, 15vw" alt="" width="800" height="1132" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <span>Le Rythme Intérieur</span>
+      </button></li><li><button type="button" class="page-livre" data-page-livre data-grande="/assets/images/pad-vers-groove-page-800.webp" data-alt="Du Pad vers le Groove: &quot;Koum&quot; and &quot;Ka&quot;" aria-label="Enlarge: Du Pad vers le Groove: &quot;Koum&quot; and &quot;Ka&quot;">
+        <figure class="media page-livre-media" data-fx="vitesse" data-fx-force="3" style="--cadrage:50% 50%;aspect-ratio:707 / 1000">
+  <picture>
+    <img src="/assets/images/pad-vers-groove-page-800.webp" srcset="/assets/images/pad-vers-groove-page-640.webp 640w, /assets/images/pad-vers-groove-page-800.webp 800w" sizes="(max-width: 760px) 45vw, 15vw" alt="" width="800" height="1132" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <span>Du Pad vers le Groove</span>
+      </button></li><li><button type="button" class="page-livre" data-page-livre data-grande="/assets/images/pad-vers-groove-dos-800.webp" data-alt="Du Pad vers le Groove: back cover" aria-label="Enlarge: Du Pad vers le Groove: back cover">
+        <figure class="media page-livre-media" data-fx="vitesse" data-fx-force="3" style="--cadrage:50% 50%;aspect-ratio:707 / 1000">
+  <picture>
+    <img src="/assets/images/pad-vers-groove-dos-800.webp" srcset="/assets/images/pad-vers-groove-dos-640.webp 640w, /assets/images/pad-vers-groove-dos-800.webp 800w" sizes="(max-width: 760px) 45vw, 15vw" alt="" width="800" height="1132" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <span>Du Pad vers le Groove</span>
+      </button></li><li><button type="button" class="page-livre" data-page-livre data-grande="/assets/images/from-pad-to-groove-dos-800.webp" data-alt="From Pad To Groove: back cover" aria-label="Enlarge: From Pad To Groove: back cover">
+        <figure class="media page-livre-media" data-fx="vitesse" data-fx-force="3" style="--cadrage:50% 50%;aspect-ratio:707 / 1000">
+  <picture>
+    <img src="/assets/images/from-pad-to-groove-dos-800.webp" srcset="/assets/images/from-pad-to-groove-dos-640.webp 640w, /assets/images/from-pad-to-groove-dos-800.webp 800w" sizes="(max-width: 760px) 45vw, 15vw" alt="" width="800" height="1132" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <span>From Pad To Groove</span>
+      </button></li>
+    </ul>
+  </div>
+  <div class="visionneuse" data-visionneuse data-recouvrement role="dialog" aria-modal="true" aria-label="Look inside" hidden>
+    <figure class="visionneuse-cadre"><img src="/assets/images/rythme-interieur-sommaire-800.webp" alt="" width="800" height="1036"><figcaption data-visionneuse-legende></figcaption></figure>
+    <button type="button" class="visionneuse-bouton visionneuse-fermer" data-visionneuse-fermer>Close</button>
+    <button type="button" class="visionneuse-bouton visionneuse-precedent" data-visionneuse-precedent aria-label="Previous page">←</button>
+    <button type="button" class="visionneuse-bouton visionneuse-suivant" data-visionneuse-suivant aria-label="Next page">→</button>
+  </div>
+</section>
+<section class="travailler section theme-pierre" id="travailler">
+  <div class="conteneur travailler-grille">
+    <figure class="media travailler-media" data-grok data-fx="parallaxe" data-fx-force="8" style="--cadrage:50% 50%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/grok/pad-metronome-1600.webp" srcset="/assets/images/grok/pad-metronome-1024.webp 1024w, /assets/images/grok/pad-metronome-1168.webp 1168w, /assets/images/grok/pad-metronome-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 46vw" alt="A practice pad, drumsticks and a metronome on a wooden table" width="1600" height="1067" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">AI-generated illustration</figcaption>
+</figure>
+    <div>
+      <h2 class="titre-section" data-anime="lignes">Count, sing, groove</h2>
+      <ol class="etapes" data-anime="cascade">
+        <li><span class="etape-n">01</span><h3>Count</h3><p>Count and sing the phrase out loud, with the metronome on the off-beat.</p></li><li><span class="etape-n">02</span><h3>Sing</h3><p>Voice, hands and feet answer each other, then swap: that&#39;s the switch.</p></li><li><span class="etape-n">03</span><h3>Groove</h3><p>The sticking worked on the pad moves to the kit and becomes a groove: &quot;Koum&quot; on the bass drum, &quot;Ka&quot; on the snare.</p></li>
+      </ol>
+      <div class="question" id="question">
+        <h3>A question about a method?</h3>
+        <p>Bulk order for a school, print edition, level: Gabriel answers himself.</p>
+        <p><a href="/en/contact?sujet=methodes#demande" class="bouton" data-libelle="Contact" data-survol="magnetique">Write to Gabriel</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-nom">
+      <p class="pied-marque"><span class="marque" aria-hidden="true"><span>Gabriel</span><span>Delmas</span></span><span class="visuellement-cache">Gabriel Delmas</span></p>
+      <p>Jazz, funk and New Orleans drummer. Leader of the Gabriel Delmas Trio, sideman, author of three methods.</p>
+    </div>
+    <div>
+      <p class="pied-titre">Write</p>
+      <p class="pied-email"><span>Gabriel</span><br><a href="mailto:delmas648@hotmail.com">delmas648@hotmail.com</a></p>
+      <p class="pied-email"><span>Trio booking</span><br><a href="mailto:gabriel.delmas.trio@gmail.com">gabriel.delmas.trio@gmail.com</a></p>
+    </div>
+    <nav aria-label="Site map">
+      <p class="pied-titre">Site map</p>
+      <ul><li><a href="/en" data-libelle="Home">Home</a></li><li><a href="/en/musique" data-libelle="Music">Music</a></li><li><a href="/en/methodes" data-libelle="Methods" aria-current="page">Methods</a></li><li><a href="/en/clinics-et-studio" data-libelle="Clinics &amp; studio">Clinics &amp; studio</a></li><li><a href="/en/bio" data-libelle="Bio &amp; gear">Bio &amp; gear</a></li><li><a href="/en/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Listen and follow</p>
+      <ul><li><a href="https://www.instagram.com/delmasgabriel" target="_blank" rel="noopener">Instagram</a></li><li><a href="https://www.youtube.com/@gabrieldelmasdrummer" target="_blank" rel="noopener">YouTube</a></li><li><a href="https://www.facebook.com/gabriel.delmas.73/" target="_blank" rel="noopener">Facebook</a></li><li><a href="https://www.tiktok.com/@gabrieldelmasdrummer" target="_blank" rel="noopener">TikTok</a></li><li><a href="https://open.spotify.com/intl-fr/album/4tYwqiktRfPv5EPbK9bOdt" target="_blank" rel="noopener">Spotify</a></li></ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas">
+    <p>Legal notice (to be completed) · Privacy policy (to be completed)</p>
+    <p>Demo mock-up: forms and cart are simulated, nothing is sent.</p>
+    <p><a href="#haut" data-sans-transition>Back to top</a></p>
+  </div>
+</footer>
+<div data-barre-fixe>
+  <a href="/en/musique#album" class="bouton bouton--contour" data-libelle="Music">Listen</a>
+  <a href="/en/contact#demande" class="bouton" data-libelle="Contact">Hire Gabriel</a>
+</div>
+<div data-module="panier-en-tiroir" data-panier-tiroir><script type="application/json" data-panier-reglages>{"devise":"EUR","seuil_livraison":0,"frais_livraison":0,"tva":null,"cle":"gabriel-delmas-panier","prefixe":"GD","livraison":true,"envol":"auto","livraison_texte":"Calculated at checkout (PDF: none; free from 3 methods)"}</script></div>
+</body>
+</html>

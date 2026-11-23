@@ -1,0 +1,25 @@
+{
+  "titre": "New Step",
+  "artiste": "Gabriel Delmas Trio & Gaël Horellou",
+  "label": "Jazz Family",
+  "sortie": "2026-05-29",
+  "titres": [
+    { "n": "01", "titre": "Deltal" },
+    { "n": "02", "titre": "Herbie N Be", "video": "RTMXY30aFoU" },
+    { "n": "03", "titre": "Huitochocolat" },
+    { "n": "04", "titre": "Funky Ruffel" },
+    { "n": "05", "titre": "Seven Spirit" },
+    { "n": "06", "titre": "Morse Time" },
+    { "n": "07", "titre": "Drop Interlude" },
+    { "n": "08", "titre": "Drop" },
+    { "n": "09", "titre": "Thriller", "note": { "fr": "reprise de Michael Jackson", "en": "Michael Jackson cover" } },
+    { "n": "10", "titre": "New Step, part. 1" },
+    { "n": "11", "titre": "New Step, part. 2" }
+  ],
+  "musiciens": [
+    { "nom": "Gabriel Delmas", "instrument": { "fr": "batterie, compositions", "en": "drums, compositions" } },
+    { "nom": "Florent Hortal", "instrument": { "fr": "guitare", "en": "guitar" } },
+    { "nom": "Nicolas Blancot", "instrument": { "fr": "claviers", "en": "keys" } },
+    { "nom": "Gaël Horellou", "instrument": { "fr": "saxophone, invité", "en": "saxophone, guest" } }
+  ]
+}

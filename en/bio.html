@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en" data-v="1" data-page="bio" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bio and gear: Gabriel Delmas&#39;s story</title>
+<meta name="description" content="From Beaumont-de-Lomagne to the Moulin Rouge and Jazz in Marciac: Gabriel Delmas&#39;s story, the stages he shared and his Sonor, Zildjian and Remo kit.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://gabriel-delmas-maquette.vercel.app/en/bio">
+<link rel="alternate" hreflang="fr" href="https://gabriel-delmas-maquette.vercel.app/bio">
+<link rel="alternate" hreflang="en" href="https://gabriel-delmas-maquette.vercel.app/en/bio">
+<link rel="alternate" hreflang="x-default" href="https://gabriel-delmas-maquette.vercel.app/bio">
+<style>:root{--fond:#111010;--texte:#dcd8ce;--voile-fond:#111010;--ouverture-fond:#111010;--menu-fond:#111010}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/big-shoulders-900.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/figtree-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="stylesheet" href="/assets/js/modules/panier-en-tiroir/module.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#111010">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Gabriel Delmas">
+<meta property="og:locale" content="en_GB">
+<meta property="og:title" content="Bio and gear: Gabriel Delmas&#39;s story">
+<meta property="og:description" content="From Beaumont-de-Lomagne to the Moulin Rouge and Jazz in Marciac: Gabriel Delmas&#39;s story, the stages he shared and his Sonor, Zildjian and Remo kit.">
+<meta property="og:url" content="https://gabriel-delmas-maquette.vercel.app/en/bio">
+<meta property="og:image" content="https://gabriel-delmas-maquette.vercel.app/assets/partage/bio-en.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Gabriel Delmas behind a white Sonor kit in a grey studio">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Gabriel Delmas","jobTitle":"Drummer and musician","url":"https://gabriel-delmas-maquette.vercel.app/","email":"delmas648@hotmail.com","sameAs":["https://www.instagram.com/delmasgabriel","https://www.youtube.com/@gabrieldelmasdrummer","https://www.facebook.com/gabriel.delmas.73/","https://www.tiktok.com/@gabrieldelmasdrummer"],"description":"Jazz, funk and New Orleans drummer, leader of the Gabriel Delmas Trio, author of the Le Rythme Intérieur and From Pad To Groove methods."}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="glisse" aria-hidden="true"><div class="voile-contenu"><span class="voile-marque">Gabriel Delmas</span><span data-voile-libelle>Bio &amp; gear</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <p class="ouverture-nom"><span class="ouverture-mot">Gabriel</span><span class="ouverture-mot">Delmas</span></p>
+  <div class="pas pas--intro" data-ouverture-objet><i class="temps"></i><i class=""></i><i class=""></i><i class=""></i><i class="temps"></i><i class=""></i><i class=""></i><i class=""></i><i class="temps"></i><i class=""></i><i class=""></i><i class=""></i><i class="temps"></i><i class=""></i><i class=""></i><i class=""></i></div>
+  <p class="ouverture-ligne">Drummer · Musician</p>
+</div>
+<a class="evitement" href="#contenu">Skip to content</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/en" data-libelle="Home" aria-label="Gabriel Delmas, home"><span class="marque" aria-hidden="true"><span>Gabriel</span><span>Delmas</span></span></a>
+    <nav data-nav aria-label="Main navigation">
+      <ul><li><a href="/en/musique" data-libelle="Music">Music</a></li><li><a href="/en/methodes" data-libelle="Methods">Methods</a></li><li><a href="/en/clinics-et-studio" data-libelle="Clinics &amp; studio">Clinics &amp; studio</a></li><li><a href="/en/bio" data-libelle="Bio &amp; gear" aria-current="page">Bio &amp; gear</a></li><li><a href="/en/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="entete-langue" href="/bio" hreflang="fr" lang="fr" data-langue="fr" aria-label="Version française">fr</a>
+      <button type="button" class="entete-panier" data-panier-ouvrir data-envol-cible aria-label="Cart"><svg viewBox="0 0 24 24" aria-hidden="true" width="22" height="22"><path d="M5 7h14l-1.2 11.2a2 2 0 0 1-2 1.8H8.2a2 2 0 0 1-2-1.8L5 7Z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M9 9V6a3 3 0 0 1 6 0v3" fill="none" stroke="currentColor" stroke-width="1.8"/></svg><span class="pet-compte est-vide" data-panier-compte>0</span></button>
+      <a class="bouton entete-action" href="/en/contact#demande" data-libelle="Contact">Hire Gabriel</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Close"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Close</a></p>
+  <ul><li style="--i:0"><a href="/en" class="menu-lien" data-libelle="Home">Home</a></li><li style="--i:1"><a href="/en/musique" class="menu-lien" data-libelle="Music">Music</a></li><li style="--i:2"><a href="/en/methodes" class="menu-lien" data-libelle="Methods">Methods</a></li><li style="--i:3"><a href="/en/clinics-et-studio" class="menu-lien" data-libelle="Clinics &amp; studio">Clinics &amp; studio</a></li><li style="--i:4"><a href="/en/bio" class="menu-lien" data-libelle="Bio &amp; gear" aria-current="page">Bio &amp; gear</a></li><li style="--i:5"><a href="/en/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="/en/contact#demande" data-libelle="Contact">Hire Gabriel</a></p>
+  <p class="menu-email">delmas648@hotmail.com</p>
+  <p><a class="entete-langue menu-langue" href="/bio" hreflang="fr" lang="fr" data-langue="fr">Version française</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="tete-plein tete-plein--clair ecran theme-noir" id="debut">
+  <figure class="media tete-plein-media" data-iris-centre data-fx="parallaxe" data-fx-force="6" style="--cadrage:50% 62%;--cadrage-mobile:46% 50%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/studio-gris-mobile-640.webp 640w, /assets/images/studio-gris-mobile-1080.webp 1080w" sizes="100vw">
+    <img src="/assets/images/studio-gris-1280.webp" srcset="/assets/images/studio-gris-640.webp 640w, /assets/images/studio-gris-1280.webp 1280w, /assets/images/studio-gris-1920.webp 1920w" sizes="100vw" alt="Gabriel Delmas behind a white Sonor Vintage kit, alone in a grey studio" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+  <div class="conteneur tete-plein-texte">
+    <p class="surtitre hero-surtitre" data-anime="gsap">Bio &amp; gear</p>
+    <h1 class="titre-geant hero-titre" data-anime="gsap">
+      <span class="ligne-masque"><span class="hero-ligne">A life</span></span>
+      <span class="ligne-masque"><span class="hero-ligne hero-ligne--rouge">in rhythm</span></span>
+    </h1>
+    <div class="hero-detail" data-anime="gsap">
+      <p class="masque-ecran-bas">From his grandmother&#39;s pots and pans to the Moulin Rouge, from Jazz in Marciac to a first album: Gabriel Delmas&#39;s story.</p>
+      <p class="hero-info" data-info-cle>First lessons at 4 · trained in Toulouse</p>
+      <p class="actions"><a class="bouton" href="#parcours" data-action-principale data-survol="magnetique">See the story</a></p>
+    </div>
+  </div>
+</section>
+<section class="parcours section theme-pierre" id="parcours">
+  <div class="conteneur parcours-grille">
+    <div class="parcours-tete">
+      <h2 class="titre-section" data-anime="lignes">The story</h2>
+      <figure class="media parcours-media" data-anime="rideau" style="--cadrage:50% 40%;aspect-ratio:4 / 5">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/portrait-exterieur-mobile-640.webp 640w, /assets/images/portrait-exterieur-mobile-1080.webp 1080w" sizes="(max-width: 760px) 100vw, 30vw">
+    <img src="/assets/images/portrait-exterieur-1280.webp" srcset="/assets/images/portrait-exterieur-640.webp 640w, /assets/images/portrait-exterieur-1280.webp 1280w, /assets/images/portrait-exterieur-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 30vw" alt="Portrait of Gabriel Delmas outdoors, under the trees" width="1280" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </div>
+    <div class="frise" data-effet="frise">
+      <span class="frise-trait" aria-hidden="true"></span>
+      <ol><li class="frise-point"><span class="frise-quand">Age 2</span><p>He keeps time on his grandmother&#39;s pots and pans.</p></li><li class="frise-point"><span class="frise-quand">Age 4</span><p>First drum lessons in Beaumont-de-Lomagne, in the south of France.</p></li><li class="frise-point"><span class="frise-quand">Toulouse</span><p>Rock bands, then the Dante Agostini school, where his career begins. Franck Agulhon becomes his teacher.</p></li><li class="frise-point"><span class="frise-quand">2015 · 2016</span><p>Wikidrummer, alongside Tony Royster, Benny Greb and Damien Schmitt.</p></li><li class="frise-point"><span class="frise-quand">2017</span><p>MAKAFUNK, soul and funk, all the way to Jazz in Marciac.</p></li><li class="frise-point"><span class="frise-quand">October 2017</span><p>Winner of La Baguetterie&#39;s contest, demo at the Moulin Rouge with Sonny Emory, Aaron Spears, Robert Sput and Benny Greb.</p></li><li class="frise-point"><span class="frise-quand">October 2019</span><p>The Gabriel Delmas Trio is born: groove compositions, three EPs, jazz festivals.</p></li><li class="frise-point"><span class="frise-quand">2020</span><p>First remote recordings in his home studio, for many artists.</p></li><li class="frise-point"><span class="frise-quand">2021</span><p>Du Pad vers le Groove, his first method, in French and English.</p></li><li class="frise-point"><span class="frise-quand">2022 · 2023</span><p>Coup de cœur of the Confédération musicale de France.</p></li><li class="frise-point"><span class="frise-quand">February 2025</span><p>Le Rythme Intérieur, his second book, for every musician.</p></li><li class="frise-point"><span class="frise-quand">May 2025</span><p>Opening for Dave Weckl in Toulouse.</p></li><li class="frise-point"><span class="frise-quand">May 2026</span><p>New Step, the trio&#39;s first album with Gaël Horellou, on Jazz Family.</p></li></ol>
+    </div>
+  </div>
+</section>
+<section class="partage section theme-noir" id="scenes">
+  <div class="conteneur partage-grille">
+    <div>
+      <h2 class="titre-section" data-anime="lignes">Shared stages</h2>
+      <p>On stage and in contests with:</p>
+      <ul class="noms noms--grands" data-anime="cascade"><li>Sonny Emory</li><li>Aaron Spears</li><li>Robert Sput</li><li>Benny Greb</li><li>Dave Weckl</li><li>Tony Royster</li><li>Damien Schmitt</li></ul>
+      <p>Guests of the Groove Nights at Jazz Club Taquin, Toulouse:</p>
+      <ul class="noms" data-anime="cascade"><li>Sylvain Gontard</li><li>Nicolas Folmer</li><li>Tom Ibarra</li><li>Emeline Fougeray</li><li>Stéphane Guillaume</li><li>Gaël Horellou</li><li>Guillaume Farley</li><li>Laurent Coulondre</li><li>Pierre Lapprand</li></ul>
+    </div>
+    <figure class="media partage-media" data-fx="zoom" style="--cadrage:50% 50%;aspect-ratio:16 / 9">
+  <picture>
+    <img src="/assets/images/live-club-800.webp" srcset="/assets/images/live-club-640.webp 640w, /assets/images/live-club-800.webp 800w" sizes="(max-width: 760px) 100vw, 40vw" alt="Gabriel Delmas live, lit in purple" width="800" height="450" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  </div>
+</section>
+<section class="materiel section theme-pierre" id="materiel">
+  <div class="conteneur">
+    <h2 class="titre-section" data-anime="lignes">The gear</h2>
+    <p class="materiel-intro">Sonor, Zildjian and Remo back Gabriel. Here is the kit, piece by piece.</p>
+    <figure class="media materiel-media" data-fx="parallaxe" data-fx-force="8" style="--cadrage:55% 45%;aspect-ratio:16 / 9">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/kit-red-oyster-mobile-640.webp 640w, /assets/images/kit-red-oyster-mobile-1080.webp 1080w" sizes="(max-width: 760px) 100vw, 90vw">
+    <img src="/assets/images/kit-red-oyster-1280.webp" srcset="/assets/images/kit-red-oyster-640.webp 640w, /assets/images/kit-red-oyster-1280.webp 1280w, /assets/images/kit-red-oyster-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 90vw" alt="Gabriel&#39;s Sonor Vintage Red Oyster kit seen from above" width="1280" height="960" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="marques" data-anime="cascade">
+      <article class="marque-bloc">
+        <div class="marque-logo"><figure class="media logo-marque logo-marque--sombre" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/logo-sonor-480.webp" srcset="/assets/images/logo-sonor-240.webp 240w, /assets/images/logo-sonor-480.webp 480w" sizes="160px" alt="Sonor" width="480" height="96" loading="lazy" decoding="async">
+  </picture>
+</figure></div>
+        <p class="surtitre">Drums</p>
+        <ul><li>Vintage Series Red Oyster: 20x14 or 18x14, 10x8, 14x12, 16x14</li><li>SQ² White Oyster: 20x14, 10x8, 12x7, 14x14, 16x15</li><li>AQ² Safari Transparent Black: 16x14, 10x7, 13x12</li><li>Snares: Vintage Black Slate Stripes 14x5.75, Vintage Red Oyster 13x6, Prolite Red Fiery 13x5, Benny Greb Brass Signature 13x5.75, AQ2 13x6</li><li>Standard Jojo Mayer pedal, 4000 series hardware</li></ul>
+        <p><a class="lien-fleche" href="https://www.sonor.com/artists/gabriel-delmas" target="_blank" rel="noopener">Artist page Sonor</a></p>
+      </article><article class="marque-bloc">
+        <div class="marque-logo"><figure class="media logo-marque logo-marque--sombre" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/logo-zildjian-480.webp" srcset="/assets/images/logo-zildjian-240.webp 240w, /assets/images/logo-zildjian-480.webp 480w" sizes="160px" alt="Zildjian" width="480" height="205" loading="lazy" decoding="async">
+  </picture>
+</figure></div>
+        <p class="surtitre">Cymbals</p>
+        <ul><li>Constantinople 20&quot; and 22&quot; Renaissance, 22&quot; Bounce, 16&quot;</li><li>Constantinople Hi-Hat 14&quot;</li><li>Kerope 18&quot;</li><li>Special Dry Crash 19&quot;</li><li>Armand Beautiful Baby 19&quot;</li><li>A Custom Splash 8&quot;</li></ul>
+        <p><a class="lien-fleche" href="https://zildjian.com/gabriel-delmas.html" target="_blank" rel="noopener">Artist page Zildjian</a></p>
+      </article><article class="marque-bloc">
+        <div class="marque-logo"><figure class="media logo-marque logo-marque--sombre" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/logo-remo-480.webp" srcset="/assets/images/logo-remo-240.webp 240w, /assets/images/logo-remo-480.webp 480w" sizes="160px" alt="Remo" width="480" height="182" loading="lazy" decoding="async">
+  </picture>
+</figure></div>
+        <p class="surtitre">Drumheads</p>
+        <ul><li>Ambassador Coated: snares, 10&quot; and 12&quot; toms</li><li>Emperor Coated: floor toms</li><li>PowerStroke III Coated: bass drums</li></ul>
+      </article>
+    </div>
+    <div class="unboxing">
+      <a class="video" href="https://www.youtube.com/@gabrieldelmasdrummer" target="_blank" rel="noopener" aria-label="Unboxing SQ², Watch on YouTube, new tab">
+    <figure class="media video-media" style="--cadrage:50% 50%;aspect-ratio:16 / 9">
+  <picture>
+    <img src="/assets/images/video-unboxing-sq2-800.webp" srcset="/assets/images/video-unboxing-sq2-640.webp 640w, /assets/images/video-unboxing-sq2-800.webp 800w" sizes="(max-width: 760px) 100vw, 36vw" alt="" width="800" height="450" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <span class="video-lecture" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span>
+    <span class="video-titre">Unboxing SQ²</span>
+    <span class="video-detail">Unboxing the SQ² kit</span>
+  </a>
+      <div>
+        <h3>Hear him live</h3>
+        <p>Concert, clinic, studio: Gabriel answers himself.</p>
+        <p><a href="/en/contact#demande" class="bouton" data-libelle="Contact" data-survol="magnetique">Hire Gabriel</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-nom">
+      <p class="pied-marque"><span class="marque" aria-hidden="true"><span>Gabriel</span><span>Delmas</span></span><span class="visuellement-cache">Gabriel Delmas</span></p>
+      <p>Jazz, funk and New Orleans drummer. Leader of the Gabriel Delmas Trio, sideman, author of three methods.</p>
+    </div>
+    <div>
+      <p class="pied-titre">Write</p>
+      <p class="pied-email"><span>Gabriel</span><br><a href="mailto:delmas648@hotmail.com">delmas648@hotmail.com</a></p>
+      <p class="pied-email"><span>Trio booking</span><br><a href="mailto:gabriel.delmas.trio@gmail.com">gabriel.delmas.trio@gmail.com</a></p>
+    </div>
+    <nav aria-label="Site map">
+      <p class="pied-titre">Site map</p>
+      <ul><li><a href="/en" data-libelle="Home">Home</a></li><li><a href="/en/musique" data-libelle="Music">Music</a></li><li><a href="/en/methodes" data-libelle="Methods">Methods</a></li><li><a href="/en/clinics-et-studio" data-libelle="Clinics &amp; studio">Clinics &amp; studio</a></li><li><a href="/en/bio" data-libelle="Bio &amp; gear" aria-current="page">Bio &amp; gear</a></li><li><a href="/en/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Listen and follow</p>
+      <ul><li><a href="https://www.instagram.com/delmasgabriel" target="_blank" rel="noopener">Instagram</a></li><li><a href="https://www.youtube.com/@gabrieldelmasdrummer" target="_blank" rel="noopener">YouTube</a></li><li><a href="https://www.facebook.com/gabriel.delmas.73/" target="_blank" rel="noopener">Facebook</a></li><li><a href="https://www.tiktok.com/@gabrieldelmasdrummer" target="_blank" rel="noopener">TikTok</a></li><li><a href="https://open.spotify.com/intl-fr/album/4tYwqiktRfPv5EPbK9bOdt" target="_blank" rel="noopener">Spotify</a></li></ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas">
+    <p>Legal notice (to be completed) · Privacy policy (to be completed)</p>
+    <p>Demo mock-up: forms and cart are simulated, nothing is sent.</p>
+    <p><a href="#haut" data-sans-transition>Back to top</a></p>
+  </div>
+</footer>
+<div data-barre-fixe>
+  <a href="/en/musique#album" class="bouton bouton--contour" data-libelle="Music">Listen</a>
+  <a href="/en/contact#demande" class="bouton" data-libelle="Contact">Hire Gabriel</a>
+</div>
+<div data-module="panier-en-tiroir" data-panier-tiroir><script type="application/json" data-panier-reglages>{"devise":"EUR","seuil_livraison":0,"frais_livraison":0,"tva":null,"cle":"gabriel-delmas-panier","prefixe":"GD","livraison":true,"envol":"auto","livraison_texte":"Calculated at checkout (PDF: none; free from 3 methods)"}</script></div>
+</body>
+</html>

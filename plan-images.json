@@ -1,0 +1,418 @@
+[
+  {
+    "source": "recu/gear-sponsors-2.jpg",
+    "nom": "portrait-caisse-claire",
+    "role": "ouverture",
+    "ratio": "4:5",
+    "mobile": "9:16",
+    "zone_texte": "haut",
+    "beaute": 5,
+    "page": "accueil",
+    "alt": "Gabriel Delmas sur fond noir, une caisse claire Sonor rouge sous le bras"
+  },
+  {
+    "source": "recu/sonor-vintage-kit-gabriel.jpg",
+    "nom": "kit-red-oyster",
+    "role": "section-fond",
+    "ratio": "4:3",
+    "mobile": "4:5",
+    "beaute": 5,
+    "alt": "Le kit Sonor Vintage Red Oyster de Gabriel vu de dessus, cymbales Zildjian et peaux Remo",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ]
+  },
+  {
+    "source": "recu/gabriel-delmas-trio-gael-2.jpg",
+    "nom": "quartet",
+    "role": "ouverture",
+    "ratio": "4:3",
+    "mobile": false,
+    "beaute": 4,
+    "page": "musique",
+    "alt": "Le quartet de New Step assis sur un canapé orange devant un mur en lambris"
+  },
+  {
+    "source": "recu/gabrieldelmas.jpg",
+    "nom": "studio-gris",
+    "role": "ouverture",
+    "ratio": "16:9",
+    "mobile": "9:16",
+    "zone_texte": "gauche",
+    "beaute": 4,
+    "page": "bio",
+    "alt": "Gabriel Delmas derrière un kit Sonor Vintage blanc, seul dans un studio gris"
+  },
+  {
+    "source": "recu/gabriel-s-bio.jpg",
+    "nom": "portrait-pad",
+    "role": "ouverture",
+    "ratio": "4:5",
+    "mobile": "9:16",
+    "zone_texte": "haut",
+    "beaute": 4,
+    "page": "methodes",
+    "alt": "Gabriel Delmas assis sur un tabouret, un pad d'entraînement coloré à la main"
+  },
+  {
+    "source": "recu/gabrieldelmas-2.jpg",
+    "nom": "portrait-exterieur",
+    "role": "ouverture",
+    "ratio": "16:10",
+    "mobile": "4:5",
+    "beaute": 4,
+    "page": "contact",
+    "alt": "Portrait de Gabriel Delmas en extérieur, le regard levé, sous les arbres"
+  },
+  {
+    "source": "recu/gabriel-delmas-trio-live.jpg",
+    "nom": "seance-studio",
+    "role": "galerie",
+    "ratio": "16:9",
+    "mobile": false,
+    "beaute": 3,
+    "alt": "Le trio en séance dans un studio en bois : claviers, batterie et guitare"
+  },
+  {
+    "source": "recu/gabrieldelmas-4.jpg",
+    "nom": "live-club",
+    "role": "vignette",
+    "ratio": "16:9",
+    "mobile": false,
+    "beaute": 3,
+    "alt": "Gabriel Delmas en concert, éclairé de violet, les baguettes sur la caisse claire"
+  },
+  {
+    "source": "recu/gear-sponsors.jpg",
+    "nom": "home-studio",
+    "role": "vignette",
+    "ratio": "4:3",
+    "mobile": false,
+    "beaute": 2,
+    "alt": "Gabriel Delmas dans son home studio, à côté de son kit Sonor AQ2"
+  },
+  {
+    "source": "recu/new-step-visuel.png",
+    "nom": "new-step-pochette",
+    "role": "produit",
+    "ratio": "2:3",
+    "mobile": false,
+    "beaute": 3,
+    "cadrage": [
+      50,
+      50
+    ],
+    "alt": "Visuel de l'album New Step : une planète noire et rouge au-dessus d'une mer déchaînée"
+  },
+  {
+    "source": "recu/rythme-interieur.jpg",
+    "nom": "livre-rythme-interieur",
+    "role": "produit",
+    "ratio": "707:1000",
+    "mobile": false,
+    "beaute": 4,
+    "cadrage": [
+      50,
+      50
+    ],
+    "alt": "Couverture du livre Le Rythme Intérieur de Gabriel Delmas"
+  },
+  {
+    "source": "recu/pad-vers-groove.jpg",
+    "nom": "livre-pad-vers-groove",
+    "role": "produit",
+    "ratio": "707:1000",
+    "mobile": false,
+    "beaute": 4,
+    "cadrage": [
+      50,
+      50
+    ],
+    "alt": "Couverture de la méthode Du Pad vers le Groove de Gabriel Delmas"
+  },
+  {
+    "source": "recu/from-pad-groove.jpg",
+    "nom": "livre-from-pad-to-groove",
+    "role": "produit",
+    "ratio": "707:1000",
+    "mobile": false,
+    "beaute": 4,
+    "cadrage": [
+      50,
+      50
+    ],
+    "alt": "Couverture de la méthode From Pad To Groove, version anglaise"
+  },
+  {
+    "source": "recu/rythme-interieur-2.jpg",
+    "nom": "rythme-interieur-dos",
+    "role": "vignette",
+    "ratio": "707:1000",
+    "mobile": false,
+    "beaute": 3,
+    "cadrage": [
+      50,
+      50
+    ],
+    "alt": "Quatrième de couverture du Rythme Intérieur : contenu de la méthode"
+  },
+  {
+    "source": "recu/rythme-interieur-6.jpg",
+    "nom": "rythme-interieur-sommaire",
+    "role": "vignette",
+    "ratio": "1545:2000",
+    "mobile": false,
+    "beaute": 3,
+    "cadrage": [
+      50,
+      50
+    ],
+    "alt": "Sommaire du Rythme Intérieur"
+  },
+  {
+    "source": "recu/rythme-interieur-4.jpg",
+    "nom": "rythme-interieur-page",
+    "role": "vignette",
+    "ratio": "1545:2000",
+    "mobile": false,
+    "beaute": 3,
+    "cadrage": [
+      50,
+      50
+    ],
+    "alt": "Page intérieure du Rythme Intérieur : travail mains et voix"
+  },
+  {
+    "source": "recu/pad-vers-groove-4.jpg",
+    "nom": "pad-vers-groove-dos",
+    "role": "vignette",
+    "ratio": "707:1000",
+    "mobile": false,
+    "beaute": 3,
+    "cadrage": [
+      50,
+      50
+    ],
+    "alt": "Quatrième de couverture de Du Pad vers le Groove : liste des chapitres"
+  },
+  {
+    "source": "recu/pad-vers-groove-3.jpg",
+    "nom": "pad-vers-groove-page",
+    "role": "vignette",
+    "ratio": "707:1000",
+    "mobile": false,
+    "beaute": 3,
+    "cadrage": [
+      50,
+      50
+    ],
+    "alt": "Page intérieure de Du Pad vers le Groove : Koum pour la grosse caisse, Ka pour la caisse claire"
+  },
+  {
+    "source": "recu/from-pad-groove-2.png",
+    "nom": "from-pad-to-groove-dos",
+    "role": "vignette",
+    "ratio": "707:1000",
+    "mobile": false,
+    "beaute": 3,
+    "cadrage": [
+      50,
+      50
+    ],
+    "alt": "Back cover of From Pad To Groove: list of chapters"
+  },
+  {
+    "source": "recu/gabriel-delmas-trio-gael.jpg",
+    "nom": "video-herbie",
+    "role": "vignette",
+    "ratio": "16:9",
+    "mobile": false,
+    "beaute": 3,
+    "cadrage": [
+      50,
+      50
+    ],
+    "alt": "Vignette de la vidéo Herbie N Be"
+  },
+  {
+    "source": "recu/gabriel-delmas-trio-feat.jpg",
+    "nom": "video-sax-solo",
+    "role": "vignette",
+    "ratio": "16:9",
+    "mobile": false,
+    "beaute": 3,
+    "cadrage": [
+      50,
+      50
+    ],
+    "alt": "Vignette de la vidéo Amazing Sax Solo avec Gaël Horellou"
+  },
+  {
+    "source": "recu/gabriel-delmas-trio-groove.jpg",
+    "nom": "video-dirty-old-man",
+    "role": "vignette",
+    "ratio": "16:9",
+    "mobile": false,
+    "beaute": 3,
+    "cadrage": [
+      50,
+      50
+    ],
+    "alt": "Vignette de la vidéo Groove On Dirty Old Man"
+  },
+  {
+    "source": "recu/gabriel-delmas-trio-feat-2.jpg",
+    "nom": "video-teenage-fantasy",
+    "role": "vignette",
+    "ratio": "16:9",
+    "mobile": false,
+    "beaute": 3,
+    "cadrage": [
+      50,
+      50
+    ],
+    "alt": "Vignette de la vidéo Teenage Fantasy avec Kris Pageron"
+  },
+  {
+    "source": "recu/maxresdefault.webp",
+    "nom": "video-unboxing-sq2",
+    "role": "vignette",
+    "ratio": "16:9",
+    "mobile": false,
+    "beaute": 3,
+    "cadrage": [
+      50,
+      50
+    ],
+    "alt": "Vignette de la vidéo de déballage du kit Sonor SQ2"
+  },
+  {
+    "source": "recu/grok/clinic.png",
+    "source_mobile": "recu/grok/clinic-mobile.png",
+    "nom": "grok/clinic",
+    "role": "ouverture",
+    "ratio": "16:9",
+    "mobile": "9:16",
+    "zone_texte": "gauche",
+    "page": "clinics",
+    "emplacement": "Ouverture de la page Clinics & studio (plein cadre, texte à gauche)",
+    "priorite": "Indispensable",
+    "gabarit": "scene-metier",
+    "alt": "Une clinic de batterie dans un magasin de musique, public de dos",
+    "consigne_scene": "Wide shot of a drum clinic inside a small independent music store in the evening: a vintage drum kit with bronze cymbals and coated white drum heads set on a low wooden riser, the drummer's stool empty, walls lined with hanging cymbals and stacked drum shells all without any logo, three short rows of folding chairs with a small attentive audience seen only from behind as dark silhouettes, warm tungsten spotlight on the kit, soft haze",
+    "beaute": 4
+  },
+  {
+    "source": "recu/grok/studio.png",
+    "nom": "grok/studio",
+    "role": "galerie",
+    "ratio": "3:2",
+    "mobile": "4:5",
+    "page": "clinics",
+    "emplacement": "Section Enregistrer à distance (accueil et page Clinics & studio)",
+    "priorite": "Indispensable",
+    "gabarit": "scene-metier",
+    "alt": "Un kit de batterie entouré de micros dans un petit studio d'enregistrement",
+    "consigne_scene": "A small private recording room for drums: a vintage drum kit with coated white heads and bronze cymbals, surrounded by condenser microphones on black stands pointing at the drums, overhead microphones above the cymbals, closed studio headphones resting on the floor tom, dark acoustic foam panels on the walls, a warm desk lamp glow, cables neatly coiled on a dark rug, nobody in the room",
+    "beaute": 5
+  },
+  {
+    "source": "recu/grok/club.png",
+    "source_mobile": "recu/grok/club-mobile.png",
+    "nom": "grok/club",
+    "role": "section-fond",
+    "ratio": "16:9",
+    "mobile": "9:16",
+    "zone_texte": "haut",
+    "page": "musique",
+    "emplacement": "Fond des sections Dates et appel final (accueil et page Musique)",
+    "priorite": "Conseillée",
+    "gabarit": "scene-metier",
+    "alt": "La petite scène d'un club de jazz avant le concert, une batterie dans la lumière",
+    "consigne_scene": "An intimate jazz club stage just before the show: a vintage drum kit with bronze cymbals on a small low stage in warm amber light, a deep red curtain behind, an upright piano partly visible in the shadow, a few small round tables with candles in the blurred foreground, light haze, nobody in the frame, the upper third of the image dark and calm for a title",
+    "beaute": 4,
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ]
+  },
+  {
+    "source": "recu/grok/pad-metronome.png",
+    "nom": "grok/pad-metronome",
+    "role": "galerie",
+    "ratio": "3:2",
+    "mobile": false,
+    "page": "methodes",
+    "emplacement": "Section Comment travailler (page Méthodes)",
+    "priorite": "Conseillée",
+    "gabarit": "scene-metier",
+    "alt": "Un pad d'entraînement, des baguettes et un métronome sur une table en bois",
+    "consigne_scene": "Still life on a dark walnut table, seen from slightly above: a round grey rubber drum practice pad, a pair of wooden drumsticks crossed on it, a vintage wooden pyramid metronome with its pendulum moving, a closed plain black notebook, warm lamp light from the left, deep shadows, nothing written anywhere",
+    "beaute": 4
+  },
+  {
+    "source": "recu/grok/scene-404.png",
+    "nom": "grok/scene-404",
+    "role": "section-fond",
+    "ratio": "16:9",
+    "mobile": "9:16",
+    "zone_texte": "haut",
+    "page": "404",
+    "emplacement": "Page 404 (fond plein cadre)",
+    "priorite": "Conseillée",
+    "gabarit": "404",
+    "alt": "Une baguette oubliée sur une scène vide, dans un rond de lumière",
+    "consigne_scene": "A single wooden drumstick lying alone on the worn dark wooden floor of an empty small stage, caught in a round pool of warm spotlight, the rest of the stage fading into darkness, light haze, nobody, the upper half of the image dark and empty",
+    "beaute": 4,
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ]
+  },
+  {
+    "source": "recu/grok/sessions.png",
+    "nom": "grok/sessions",
+    "role": "galerie",
+    "ratio": "3:2",
+    "mobile": false,
+    "page": "clinics",
+    "emplacement": "Section Sessions intensives (page Clinics & studio)",
+    "priorite": "Facultative",
+    "gabarit": "scene-metier",
+    "alt": "Une batterie près d'une grande fenêtre ouverte sur la campagne",
+    "consigne_scene": "A quiet practice room in an old house with thick stone walls: a vintage drum kit with bronze cymbals near a tall open window looking onto green rolling countryside, soft golden late-afternoon light, a wooden chair with a folded towel, a small practice pad on a stand, nobody, peaceful and warm",
+    "beaute": 4
+  },
+  {
+    "source": "recu/logo-zildjian.png",
+    "nom": "logo-zildjian",
+    "role": "logo",
+    "alt": "Zildjian",
+    "mobile": false
+  },
+  {
+    "source": "recu/logo-sonor.png",
+    "nom": "logo-sonor",
+    "role": "logo",
+    "alt": "Sonor",
+    "mobile": false
+  },
+  {
+    "source": "recu/logo-remo.png",
+    "nom": "logo-remo",
+    "role": "logo",
+    "alt": "Remo",
+    "mobile": false
+  },
+  {
+    "source": "recu/logo-gabriel-clair.png",
+    "nom": "logo-clair",
+    "role": "logo",
+    "alt": "Gabriel Delmas",
+    "mobile": false
+  }
+]

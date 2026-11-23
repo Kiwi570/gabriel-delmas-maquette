@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-page="404" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Page introuvable : Gabriel Delmas</title>
+<meta name="description" content="Cette page n&#39;existe pas ou plus.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://gabriel-delmas-maquette.vercel.app/404">
+<style>:root{--fond:#111010;--texte:#dcd8ce;--voile-fond:#111010;--ouverture-fond:#111010;--menu-fond:#111010}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/big-shoulders-900.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/figtree-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="stylesheet" href="/assets/js/modules/panier-en-tiroir/module.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#111010">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Gabriel Delmas">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Page introuvable : Gabriel Delmas">
+<meta property="og:description" content="Cette page n&#39;existe pas ou plus.">
+<meta property="og:url" content="https://gabriel-delmas-maquette.vercel.app/404">
+<meta property="og:image" content="https://gabriel-delmas-maquette.vercel.app/assets/partage/accueil-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Gabriel Delmas sur fond noir, une caisse claire rouge sous le bras">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Gabriel Delmas","jobTitle":"Batteur et musicien","url":"https://gabriel-delmas-maquette.vercel.app/","email":"delmas648@hotmail.com","sameAs":["https://www.instagram.com/delmasgabriel","https://www.youtube.com/@gabrieldelmasdrummer","https://www.facebook.com/gabriel.delmas.73/","https://www.tiktok.com/@gabrieldelmasdrummer"],"description":"Batteur jazz, funk et New Orleans, leader du Gabriel Delmas Trio, auteur des méthodes Le Rythme Intérieur et Du Pad vers le Groove."}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="glisse" aria-hidden="true"><div class="voile-contenu"><span class="voile-marque">Gabriel Delmas</span><span data-voile-libelle>Page introuvable</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <p class="ouverture-nom"><span class="ouverture-mot">Gabriel</span><span class="ouverture-mot">Delmas</span></p>
+  <div class="pas pas--intro" data-ouverture-objet><i class="temps"></i><i class=""></i><i class=""></i><i class=""></i><i class="temps"></i><i class=""></i><i class=""></i><i class=""></i><i class="temps"></i><i class=""></i><i class=""></i><i class=""></i><i class="temps"></i><i class=""></i><i class=""></i><i class=""></i></div>
+  <p class="ouverture-ligne">Batteur · Musicien</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil" aria-label="Gabriel Delmas, accueil"><span class="marque" aria-hidden="true"><span>Gabriel</span><span>Delmas</span></span></a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/musique" data-libelle="Musique">Musique</a></li><li><a href="/methodes" data-libelle="Méthodes">Méthodes</a></li><li><a href="/clinics-et-studio" data-libelle="Clinics &amp; studio">Clinics &amp; studio</a></li><li><a href="/bio" data-libelle="Bio &amp; matériel">Bio &amp; matériel</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <button type="button" class="entete-panier" data-panier-ouvrir data-envol-cible aria-label="Panier"><svg viewBox="0 0 24 24" aria-hidden="true" width="22" height="22"><path d="M5 7h14l-1.2 11.2a2 2 0 0 1-2 1.8H8.2a2 2 0 0 1-2-1.8L5 7Z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M9 9V6a3 3 0 0 1 6 0v3" fill="none" stroke="currentColor" stroke-width="1.8"/></svg><span class="pet-compte est-vide" data-panier-compte>0</span></button>
+      <a class="bouton entete-action" href="/contact#demande" data-libelle="Contact">Engager Gabriel</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/musique" class="menu-lien" data-libelle="Musique">Musique</a></li><li style="--i:2"><a href="/methodes" class="menu-lien" data-libelle="Méthodes">Méthodes</a></li><li style="--i:3"><a href="/clinics-et-studio" class="menu-lien" data-libelle="Clinics &amp; studio">Clinics &amp; studio</a></li><li style="--i:4"><a href="/bio" class="menu-lien" data-libelle="Bio &amp; matériel">Bio &amp; matériel</a></li><li style="--i:5"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="/contact#demande" data-libelle="Contact">Engager Gabriel</a></p>
+  <p class="menu-email">delmas648@hotmail.com</p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="tete-plein ecran theme-noir introuvable" id="debut">
+  <figure class="media tete-plein-media" data-grok data-iris-centre data-fx="parallaxe" data-fx-force="6" style="--cadrage:50% 70%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/scene-404-mobile-640.webp 640w" sizes="100vw">
+    <img src="/assets/images/grok/scene-404-1280.webp" srcset="/assets/images/grok/scene-404-640.webp 640w, /assets/images/grok/scene-404-1280.webp 1280w, /assets/images/grok/scene-404-1920.webp 1920w" sizes="100vw" alt="Une baguette oubliée sur une scène vide, dans un rond de lumière" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  <div class="conteneur tete-plein-texte">
+    <p class="surtitre hero-surtitre" data-anime="gsap">404</p>
+    <h1 class="titre-geant hero-titre" data-anime="gsap"><span class="ligne-masque"><span class="hero-ligne">Baguette perdue</span></span></h1>
+    <div class="hero-detail" data-anime="gsap">
+      <p>Cette page n&#39;existe pas ou plus. Le groove, lui, continue à l&#39;accueil.</p>
+      <p class="actions"><a href="/" class="bouton" data-libelle="Accueil" data-action-principale>Revenir à l&#39;accueil</a></p>
+      <p class="hero-info" data-info-cle>Écouter New Step : <a href="/musique#album" data-libelle="Musique">Musique</a></p>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-nom">
+      <p class="pied-marque"><span class="marque" aria-hidden="true"><span>Gabriel</span><span>Delmas</span></span><span class="visuellement-cache">Gabriel Delmas</span></p>
+      <p>Batteur jazz, funk et New Orleans. Leader du Gabriel Delmas Trio, sideman, auteur de trois méthodes.</p>
+    </div>
+    <div>
+      <p class="pied-titre">Écrire</p>
+      <p class="pied-email"><span>Gabriel</span><br><a href="mailto:delmas648@hotmail.com">delmas648@hotmail.com</a></p>
+      <p class="pied-email"><span>Booking du trio</span><br><a href="mailto:gabriel.delmas.trio@gmail.com">gabriel.delmas.trio@gmail.com</a></p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p class="pied-titre">Sommaire</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/musique" data-libelle="Musique">Musique</a></li><li><a href="/methodes" data-libelle="Méthodes">Méthodes</a></li><li><a href="/clinics-et-studio" data-libelle="Clinics &amp; studio">Clinics &amp; studio</a></li><li><a href="/bio" data-libelle="Bio &amp; matériel">Bio &amp; matériel</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Écouter et suivre</p>
+      <ul><li><a href="https://www.instagram.com/delmasgabriel" target="_blank" rel="noopener">Instagram</a></li><li><a href="https://www.youtube.com/@gabrieldelmasdrummer" target="_blank" rel="noopener">YouTube</a></li><li><a href="https://www.facebook.com/gabriel.delmas.73/" target="_blank" rel="noopener">Facebook</a></li><li><a href="https://www.tiktok.com/@gabrieldelmasdrummer" target="_blank" rel="noopener">TikTok</a></li><li><a href="https://open.spotify.com/intl-fr/album/4tYwqiktRfPv5EPbK9bOdt" target="_blank" rel="noopener">Spotify</a></li></ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas">
+    <p>Mentions légales (à compléter) · Politique de confidentialité (à compléter)</p>
+    <p>Maquette de démonstration : formulaires et panier simulés, rien n&#39;est envoyé.</p>
+    <p><a href="#haut" data-sans-transition>Retour en haut</a></p>
+  </div>
+</footer>
+<div data-barre-fixe>
+  <a href="/musique#album" class="bouton bouton--contour" data-libelle="Musique">Écouter</a>
+  <a href="/contact#demande" class="bouton" data-libelle="Contact">Engager Gabriel</a>
+</div>
+<div data-module="panier-en-tiroir" data-panier-tiroir><script type="application/json" data-panier-reglages>{"devise":"EUR","seuil_livraison":0,"frais_livraison":0,"tva":null,"cle":"gabriel-delmas-panier","prefixe":"GD","livraison":true,"envol":"auto","livraison_texte":"Calculée à la commande (PDF : aucun frais ; offerte dès 3 méthodes)"}</script></div>
+</body>
+</html>

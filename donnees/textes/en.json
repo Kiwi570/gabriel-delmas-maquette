@@ -1,0 +1,415 @@
+{
+  "commun": {
+    "navigation": "Main navigation",
+    "logoLibelle": "Gabriel Delmas, home",
+    "menu": "Menu",
+    "fermer": "Close",
+    "langueAutre": "Version française",
+    "actionEntete": "Hire Gabriel",
+    "ecouter": "Listen to New Step",
+    "panier": "Cart",
+    "sommaire": "Site map",
+    "ecrire": "Write",
+    "suivre": "Listen and follow",
+    "emailGabriel": "Gabriel",
+    "emailTrio": "Trio booking",
+    "piedTexte": "Jazz, funk and New Orleans drummer. Leader of the Gabriel Delmas Trio, sideman, author of three methods.",
+    "retourHaut": "Back to top",
+    "mentions": "Legal notice (to be completed) · Privacy policy (to be completed)",
+    "maquette": "Demo mock-up: forms and cart are simulated, nothing is sent.",
+    "evitement": "Skip to content",
+    "mentionIa": "AI-generated illustration",
+    "pause": "Pause",
+    "lecture": "Play",
+    "introLigne": "Drummer · Musician",
+    "passe": "Past",
+    "aVenir": "Upcoming",
+    "ouvrirYoutube": "Watch on YouTube, new tab",
+    "nouvelOnglet": "new tab",
+    "photoCredit": "Photo: Firmin de Montégut",
+    "livraisonTexte": "Calculated at checkout (PDF: none; free from 3 methods)",
+    "ecouterCourt": "Listen"
+  },
+  "pages": {
+    "accueil": {
+      "titre": "Gabriel Delmas, drummer: New Step, methods and clinics",
+      "description": "Jazz, funk and New Orleans drummer. New Step, the first album of the Gabriel Delmas Trio and Gaël Horellou, three drum methods, clinics and remote drum recording.",
+      "nav": "Home",
+      "partageAlt": "Gabriel Delmas on a black background, a red snare drum under his arm",
+      "accroche": "Drummer. Groove first."
+    },
+    "musique": {
+      "titre": "New Step: the Gabriel Delmas Trio and Gaël Horellou album",
+      "description": "Eleven jazz, funk and New Orleans tracks recorded live, on Jazz Family. The quartet, videos, dates and booking.",
+      "nav": "Music",
+      "partageAlt": "The New Step quartet on an orange sofa",
+      "accroche": "New Step, the trio's first album"
+    },
+    "methodes": {
+      "titre": "Gabriel Delmas's methods: Le Rythme Intérieur, From Pad To Groove",
+      "description": "Three methods to work on rhythm and groove, from the pad to the kit: Le Rythme Intérieur (€28), From Pad To Groove and Du Pad vers le Groove (€15 as PDF).",
+      "nav": "Methods",
+      "partageAlt": "Gabriel Delmas holding a practice pad",
+      "accroche": "From pad to groove, in three books"
+    },
+    "clinics": {
+      "titre": "Clinics, intensive sessions and remote recording: Gabriel Delmas",
+      "description": "Clinics and masterclasses in music stores, festivals and drum schools, one- or two-day intensive sessions, lessons and remote drum recording.",
+      "nav": "Clinics & studio",
+      "partageAlt": "A drum clinic in a music store (AI-generated illustration)",
+      "accroche": "Clinics, sessions and studio"
+    },
+    "bio": {
+      "titre": "Bio and gear: Gabriel Delmas's story",
+      "description": "From Beaumont-de-Lomagne to the Moulin Rouge and Jazz in Marciac: Gabriel Delmas's story, the stages he shared and his Sonor, Zildjian and Remo kit.",
+      "nav": "Bio & gear",
+      "partageAlt": "Gabriel Delmas behind a white Sonor kit in a grey studio",
+      "accroche": "The story and the kit"
+    },
+    "contact": {
+      "titre": "Hire Gabriel Delmas: booking, clinics, studio, lessons",
+      "description": "Book the quartet, set up a clinic, get drums recorded, find a sub or book an intensive session.",
+      "nav": "Contact",
+      "partageAlt": "Portrait of Gabriel Delmas outdoors",
+      "accroche": "Let's talk about your project"
+    },
+    "404": {
+      "titre": "Page not found: Gabriel Delmas",
+      "description": "This page does not exist anymore.",
+      "nav": "Page not found",
+      "partageAlt": "A drumstick left on an empty stage",
+      "accroche": "Page not found"
+    }
+  },
+  "accueil": {
+    "hero": {
+      "surtitre": "Drummer · jazz, funk, New Orleans",
+      "titre1": "Gabriel",
+      "titre2": "Delmas",
+      "titre3": "groove first",
+      "texte": "Leader of the Gabriel Delmas Trio, sideman on many projects, author of three drum methods.",
+      "info": "New album New Step, on Jazz Family",
+      "action": "Listen to New Step",
+      "engager": "Hire Gabriel",
+      "pas": "16-step grid playing silently"
+    },
+    "album": {
+      "surtitre": "The album",
+      "titre": "New Step",
+      "sous": "Gabriel Delmas Trio & Gaël Horellou",
+      "texte": "Ten originals and a Michael Jackson cover, recorded live. The energy of New Orleans, funk and today's jazz.",
+      "sortie": "Released 29 May 2026 · Jazz Family",
+      "spotify": "Listen on Spotify",
+      "plateformes": "All platforms",
+      "titres": "The 11 tracks",
+      "quartet": "The quartet",
+      "musique": "All about the album",
+      "alt": "New Step album artwork: a black and red planet above a raging sea"
+    },
+    "videos": {
+      "titre": "On video",
+      "texte": "The trio in clubs, in the studio and with guests.",
+      "toutes": "The YouTube channel",
+      "region": "Videos, horizontal scroll"
+    },
+    "groove": {
+      "surtitre": "Your turn",
+      "titre": "Koum, Ka, groove",
+      "texte": "In his methods, Gabriel has you sing before you play: \"Koum\" for the bass drum, \"Ka\" for the snare. Light up some steps, start the loop, set the tempo. Snare hits off beats 2 and 4 sound as ghost notes.",
+      "lecture": "Start the groove",
+      "arret": "Stop",
+      "tempo": "Tempo",
+      "bpm": "per quarter note",
+      "motif": "Pattern",
+      "motif1": "Basic",
+      "motif2": "Ghost notes",
+      "motif3": "New Orleans",
+      "effacer": "Clear",
+      "ligneTi": "Hi-hat",
+      "ligneKa": "Ka · snare",
+      "ligneKoum": "Koum · bass drum",
+      "case": "Step {n}",
+      "son": "Sound only starts when you start the groove.",
+      "methodes": "Discover the methods",
+      "annonceLecture": "The groove is playing",
+      "annonceArret": "The groove has stopped"
+    },
+    "methodes": {
+      "surtitre": "The methods",
+      "titre": "From pad to groove",
+      "texte": "Three books to work on rhythm anywhere, then take it to the kit. Every exercise has its video.",
+      "c1": "video exercises in Le Rythme Intérieur",
+      "c2": "videos in From Pad To Groove",
+      "c3": "pages of travel workbook",
+      "avis": "5.0 out of 5 · 10 reviews of Le Rythme Intérieur",
+      "cmf": "Coup de cœur of the Confédération musicale de France",
+      "voir": "See the methods"
+    },
+    "clinics": {
+      "surtitre": "Teaching and recording",
+      "titre": "Clinics & studio",
+      "clinicTitre": "Clinics and masterclasses",
+      "clinicTexte": "In music stores, festivals or drum schools: creativity, groove, practice method.",
+      "clinicLien": "Set up a clinic",
+      "studioTitre": "Remote drums",
+      "studioTexte": "Since 2020, Gabriel has recorded drum parts for many artists in his home studio.",
+      "studioLien": "Get drums recorded",
+      "sessions": "One- or two-day intensive sessions, for amateurs and pros"
+    },
+    "scenes": {
+      "surtitre": "Shared stages",
+      "titre": "On stage with the greats",
+      "texte": "After winning La Baguetterie's contest, Gabriel played the Moulin Rouge in October 2017 alongside Sonny Emory, Aaron Spears, Robert Sput and Benny Greb. In May 2025, he opened for Dave Weckl in Toulouse.",
+      "bio": "Read the bio",
+      "alt": "Gabriel Delmas live, lit in purple"
+    },
+    "kit": {
+      "mot1": "The",
+      "mot2": "kit",
+      "titre": "Sonor Vintage Red Oyster",
+      "texte": "Sonor shells, Zildjian cymbals, Remo heads: the three brands that back Gabriel.",
+      "materiel": "All the gear"
+    },
+    "fin": {
+      "surtitre": "Live",
+      "titre": "Upcoming dates",
+      "aucune": "The quartet's next dates will be listed here as soon as they are confirmed.",
+      "dernieres": "Recent shows",
+      "booking": "Book the quartet",
+      "engager": "Hire Gabriel"
+    }
+  },
+  "musique": {
+    "tete": {
+      "surtitre": "Gabriel Delmas Trio & Gaël Horellou",
+      "titre1": "New",
+      "titre2": "Step",
+      "texte": "The trio's first album, with Gaël Horellou on saxophone. Warm, free jazz, wholeheartedly turned towards the audience.",
+      "info": "Released 29 May 2026 · CD on 5 June · Jazz Family",
+      "ecouter": "Listen to the album",
+      "booking": "Book the quartet",
+      "alt": "The New Step quartet on an orange sofa"
+    },
+    "titres": {
+      "titre": "Eleven tracks",
+      "texte": "Ten originals and a Michael Jackson cover. Recorded live, the sound is raw and organic.",
+      "influences": "In their ears: the New Orleans of The Meters and Stanton Moore, the funk of Maceo Parker, the jazz of Mark Guiliana, Chris Potter and Snarky Puppy.",
+      "video": "Watch the video",
+      "spotify": "Listen on Spotify"
+    },
+    "quartet": {
+      "titre": "The quartet",
+      "texte": "The trio was born in October 2019 around Gabriel's compositions. In May 2024 it invited Gaël Horellou for a night at Le Taquin in Toulouse: New Step grew from there.",
+      "alt": "The trio in session in a wooden studio"
+    },
+    "videos": {
+      "titre": "The quartet on video",
+      "toutes": "The whole YouTube channel"
+    },
+    "dates": {
+      "titre": "Dates",
+      "aucune": "No date announced yet. The next ones will appear here as soon as they are confirmed.",
+      "passees": "Recent dates",
+      "booking": "Booking",
+      "bookingTexte": "Clubs, festivals, venues: book the quartet by e-mail.",
+      "bookingAction": "Book the quartet"
+    }
+  },
+  "methodes": {
+    "tete": {
+      "surtitre": "Gabriel Delmas's methods",
+      "titre1": "From pad",
+      "titre2": "to groove",
+      "texte": "Three books to count, sing and groove: on a pad, on the train or behind the kit.",
+      "info": "From €15 · PDFs available right away",
+      "action": "See the books",
+      "alt": "Gabriel Delmas holding a colourful practice pad"
+    },
+    "livres": {
+      "titre": "The books",
+      "pour": "Who it's for",
+      "contenu": "What's inside",
+      "ajouter": "Add to cart",
+      "prixLibelle": "Price",
+      "avis": "{note} out of 5 · {nombre} reviews",
+      "ecoles": "Music schools: 10% off for more than 5 books, on request by e-mail.",
+      "livraison": "Free shipping from 3 methods, standard delivery."
+    },
+    "feuilleter": {
+      "titre": "Look inside",
+      "texte": "A few pages, to see how the work goes. Tap a page to enlarge it.",
+      "fermer": "Close",
+      "precedent": "Previous page",
+      "suivant": "Next page",
+      "ouvrir": "Enlarge: {titre}"
+    },
+    "travailler": {
+      "titre": "Count, sing, groove",
+      "e1": "Count",
+      "t1": "Count and sing the phrase out loud, with the metronome on the off-beat.",
+      "e2": "Sing",
+      "t2": "Voice, hands and feet answer each other, then swap: that's the switch.",
+      "e3": "Groove",
+      "t3": "The sticking worked on the pad moves to the kit and becomes a groove: \"Koum\" on the bass drum, \"Ka\" on the snare.",
+      "alt": "A practice pad, drumsticks and a metronome on a wooden table"
+    },
+    "fin": {
+      "titre": "A question about a method?",
+      "texte": "Bulk order for a school, print edition, level: Gabriel answers himself.",
+      "action": "Write to Gabriel"
+    }
+  },
+  "clinics": {
+    "tete": {
+      "surtitre": "Clinics, sessions and studio",
+      "titre1": "Passing on",
+      "titre2": "the groove",
+      "texte": "Gabriel comes to your music store, festival or drum school, hosts intensive sessions and records your drums remotely.",
+      "info": "Music stores · festivals · drum schools",
+      "action": "Set up a clinic",
+      "alt": "A drum clinic in a music store, audience seen from behind"
+    },
+    "themes": {
+      "titre": "What a clinic covers",
+      "texte": "Each clinic builds on the Le Rythme Intérieur and From Pad To Groove methods.",
+      "t1": "Creativity",
+      "x1": "Sharpen your sense of improvisation and find new ideas.",
+      "t2": "Groove",
+      "x2": "Improve your groove by working on your sound, all the way to a personal sound.",
+      "t3": "Practice method",
+      "x3": "Organise your sessions and save time while learning."
+    },
+    "organiser": {
+      "titre": "Set up a clinic",
+      "texte": "Stores, festivals and schools write to Gabriel directly. For a masterclass, Sonor's artist manager can also be contacted.",
+      "gabriel": "Gabriel Delmas",
+      "sonor": "Sonor, artist manager",
+      "action": "Request a clinic"
+    },
+    "sessions": {
+      "titre": "Intensive sessions",
+      "texte": "One-to-one immersion in Sauveterre-de-Rouergue, Aveyron.",
+      "l1": "Over 1 or 2 days",
+      "l2": "About 7 hours of drumming a day",
+      "l3": "Slots all year round",
+      "l4": "For amateurs and pros",
+      "l5": "Full board available",
+      "tarif": "Rates and availability by e-mail.",
+      "action": "Book a session",
+      "alt": "A drum kit near a window open onto the countryside"
+    },
+    "studio": {
+      "titre": "Drums recorded remotely",
+      "texte": "Since 2020, Gabriel has recorded drum parts for many artists in his home studio. He also subs for other drummers and joins projects as a sideman.",
+      "l1": "Remote recording",
+      "l2": "Subbing",
+      "l3": "Projects and sideman work",
+      "action": "Get drums recorded",
+      "alt": "A drum kit surrounded by microphones in a small studio",
+      "altVignette": "Gabriel Delmas in his home studio, next to his Sonor AQ2 kit"
+    },
+    "cours": {
+      "titre": "Drum lessons",
+      "texte": "Formats and availability on request.",
+      "action": "Ask about lessons"
+    }
+  },
+  "bio": {
+    "tete": {
+      "surtitre": "Bio & gear",
+      "titre1": "A life",
+      "titre2": "in rhythm",
+      "texte": "From his grandmother's pots and pans to the Moulin Rouge, from Jazz in Marciac to a first album: Gabriel Delmas's story.",
+      "info": "First lessons at 4 · trained in Toulouse",
+      "action": "See the story",
+      "alt": "Gabriel Delmas behind a white Sonor Vintage kit, alone in a grey studio"
+    },
+    "parcours": {
+      "titre": "The story"
+    },
+    "scenes": {
+      "titre": "Shared stages",
+      "texte": "On stage and in contests with:",
+      "taquin": "Guests of the Groove Nights at Jazz Club Taquin, Toulouse:"
+    },
+    "materiel": {
+      "titre": "The gear",
+      "texte": "Sonor, Zildjian and Remo back Gabriel. Here is the kit, piece by piece.",
+      "alt": "Gabriel's Sonor Vintage Red Oyster kit seen from above",
+      "page": "Artist page",
+      "unboxing": "Unboxing the SQ² kit"
+    },
+    "fin": {
+      "titre": "Hear him live",
+      "texte": "Concert, clinic, studio: Gabriel answers himself.",
+      "action": "Hire Gabriel"
+    }
+  },
+  "contact": {
+    "tete": {
+      "surtitre": "Contact",
+      "titre1": "Let's talk about",
+      "titre2": "your project",
+      "texte": "Quartet booking, clinic, recording, subbing, intensive session or methods: pick one, Gabriel will get back to you.",
+      "info": "Reply by e-mail",
+      "action": "Start your request",
+      "alt": "Portrait of Gabriel Delmas outdoors, under the trees"
+    },
+    "form": {
+      "titre": "Your request",
+      "simule": "Demo form: nothing is sent.",
+      "etape1": "Project",
+      "q1": "What is your project?",
+      "s1": "Book the quartet",
+      "d1": "Club, festival, venue",
+      "s2": "Clinic or masterclass",
+      "d2": "Store, festival, school",
+      "s3": "Recording",
+      "d3": "Remote drums",
+      "s4": "Subbing or project",
+      "d4": "Sideman, tour, session",
+      "s5": "Lessons or intensive session",
+      "d5": "1 or 2 days, amateur or pro",
+      "s6": "Methods",
+      "d6": "Order, school, question",
+      "etape2": "Details",
+      "q2": "Tell us a little more",
+      "date": "Date or period",
+      "lieu": "City or venue",
+      "message": "Your message",
+      "etape3": "Your details",
+      "q3": "How can Gabriel reply?",
+      "nom": "Name",
+      "email": "E-mail",
+      "tel": "Phone (optional)",
+      "structure": "Organisation (optional)",
+      "accord": "I agree that this information is only used to answer my request.",
+      "donnees": "Your data is only used to answer your request. Privacy policy: to be completed.",
+      "etape4": "Summary",
+      "q4": "All correct?",
+      "precedent": "Back",
+      "suivant": "Continue",
+      "envoyer": "Send the request",
+      "merci": "Thank you, noted",
+      "merciTexte": "Demo: nothing was sent. On the final site, Gabriel receives your request by e-mail.",
+      "recommencer": "New request",
+      "mailto": "Or send it by e-mail"
+    },
+    "coordonnees": {
+      "titre": "Write directly",
+      "gabriel": "Gabriel Delmas",
+      "gabrielTexte": "Concerts, studio, clinics, lessons, methods",
+      "trio": "Quartet booking",
+      "trioTexte": "Gabriel Delmas Trio & Gaël Horellou",
+      "sonor": "Sonor masterclass",
+      "sonorTexte": "Sonor's artist manager",
+      "reseaux": "On social media"
+    }
+  },
+  "introuvable": {
+    "titre": "Lost drumstick",
+    "texte": "This page does not exist anymore. The groove goes on at home.",
+    "retour": "Back to home",
+    "alt": "A drumstick left on an empty stage, in a pool of light"
+  }
+}

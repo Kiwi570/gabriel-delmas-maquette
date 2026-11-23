@@ -1,0 +1,34 @@
+[
+  {
+    "id": "rythme-interieur", "titre": "Le Rythme Intérieur", "image": "livre-rythme-interieur", "prix": 28, "couleur": "#9e3023",
+    "format": { "fr": "Livre, 108 pages", "en": "Book, 108 pages" },
+    "annee": "2025",
+    "niveau": { "fr": "Musiciens de niveau intermédiaire à avancé, tous instruments", "en": "Intermediate to advanced musicians, any instrument" },
+    "accroche": { "fr": "Un cahier de voyage pour travailler son rythme partout, avec la voix, les mains, les pieds et le métronome, sans instrument.", "en": "A travel workbook to work on your rhythm anywhere, with your voice, hands, feet and a metronome, no instrument needed." },
+    "chiffre": { "fr": "plus de 300 exercices en vidéo", "en": "over 300 video exercises" },
+    "contenu": { "fr": ["Compter et chanter les phrases", "Subdivisions mélangées et superposées", "Voix, mains et pieds", "Groupes de notes", "Améliorer son tempo", "Se repérer dans un cycle", "Mesures impaires", "Travail des claves"], "en": ["Counting and singing phrases", "Mixed and layered subdivisions", "Voice, hands and feet", "Note groupings", "Improving your tempo", "Finding your way in a cycle", "Odd meters", "Clave work"] },
+    "avis": { "note": "5,0", "nombre": 10 },
+    "dispo": { "fr": "En stock", "en": "In stock" }
+  },
+  {
+    "id": "pad-vers-groove", "titre": "Du Pad vers le Groove", "image": "livre-pad-vers-groove", "prix": 15, "couleur": "#21447a",
+    "format": { "fr": "PDF en français", "en": "French PDF" },
+    "annee": "2021",
+    "niveau": { "fr": "Batteurs, pour progresser comme musicien et pas seulement en technique", "en": "Drummers who want to grow as musicians, not only technically" },
+    "accroche": { "fr": "Partir du pad pour la technique, puis transférer chaque doigté sur le kit pour créer son propre groove.", "en": "Start on the pad for technique, then move each sticking to the kit to build your own groove." },
+    "chiffre": { "fr": "195 vidéos d'exercices (QR code)", "en": "195 exercise videos (QR code)" },
+    "contenu": { "fr": ["Concept Actif Pad", "Nuances et dynamiques", "Ghost notes", "Utiliser le métronome", "Indépendance", "Utiliser la voix", "Du travail technique au groove", "Orchestrations sur le kit", "Charleston au pied", "Grooves à la cowbell"], "en": ["Active Pad concept", "Nuances and dynamics", "Ghost notes", "Using a metronome", "Independence", "Using your voice", "From technique to groove", "Orchestrations on the kit", "Hi-hat foot in grooves", "Cowbell grooves"] },
+    "distinction": { "fr": "Coup de cœur de la Confédération musicale de France, répertoire 2022-2023", "en": "Coup de cœur of the Confédération musicale de France, 2022-2023 repertoire" },
+    "dispo": { "fr": "Version papier épuisée, PDF disponible", "en": "Print edition sold out, PDF available" }
+  },
+  {
+    "id": "from-pad-to-groove", "titre": "From Pad To Groove", "image": "livre-from-pad-to-groove", "prix": 15, "couleur": "#21447a",
+    "format": { "fr": "PDF en anglais", "en": "English PDF" },
+    "annee": "2021",
+    "niveau": { "fr": "La version anglaise de Du Pad vers le Groove", "en": "The English edition of Du Pad vers le Groove" },
+    "accroche": { "fr": "La même méthode, traduite par Susan Harold, pour les batteurs anglophones.", "en": "The same method, translated by Susan Harold, for English-speaking drummers." },
+    "chiffre": { "fr": "195 vidéos d'exercices (deux QR codes)", "en": "195 exercise videos (two QR codes)" },
+    "contenu": { "fr": ["Active Pad Concept", "Nuances et dynamiques", "Ghost notes", "Métronome", "Indépendance", "Voix", "Grooves à la cowbell", "Charleston au pied"], "en": ["Active Pad Concept", "Nuances and dynamics", "Ghost notes", "Metronome", "Independence", "Voice", "Cowbell grooves", "Hi-hat foot"] },
+    "dispo": { "fr": "PDF disponible", "en": "PDF available" }
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "siteActuel": "www.gabrieldelmasdrummer.com",
+  "pagesTypes": ["/", "/musique", "/methodes", "/clinics-et-studio", "/contact"],
+  "effets": ["pas", "tete-de-lecture", "rangee-video", "grille-groove", "couvertures", "eventail", "frise"],
+  "grille": { "dispenses": {} }
+}

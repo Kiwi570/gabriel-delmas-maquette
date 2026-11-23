@@ -1,0 +1,16 @@
+{
+ "id": "20261123-171106-standard-cible-partiel",
+ "date": "2026-11-23T17:15:58.824Z",
+ "niveau": "standard",
+ "pages": "/,/404,/bio,/clinics-et-studio,/contact,/en,/en/bio,/en/clinics-et-studio,/en/contact,/en/methodes,/en/musique,/methodes,/musique",
+ "etapes": [
+  "fichiers",
+  "mesures"
+ ],
+ "version": "1",
+ "echecs": 6,
+ "aRegarder": 33,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "échecs"
+}

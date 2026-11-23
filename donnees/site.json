@@ -1,0 +1,68 @@
+{
+  "nom": "Gabriel Delmas",
+  "adresse": "https://gabriel-delmas-maquette.vercel.app",
+  "siteActuel": "www.gabrieldelmasdrummer.com",
+  "version": 1,
+  "langues": [
+    "fr",
+    "en"
+  ],
+  "navigation": [
+    "accueil",
+    "musique",
+    "methodes",
+    "clinics",
+    "bio",
+    "contact"
+  ],
+  "actionEntete": {
+    "page": "contact",
+    "ancre": "demande"
+  },
+  "couleurs": {
+    "fond": "#111010",
+    "texte": "#dcd8ce",
+    "voile": "#111010",
+    "ouverture": "#111010",
+    "menu": "#111010",
+    "theme": "#111010"
+  },
+  "formeVoile": "glisse",
+  "contact": {
+    "email": "delmas648@hotmail.com",
+    "emailTrio": "gabriel.delmas.trio@gmail.com",
+    "emailSonor": "n.lange@sonor.de"
+  },
+  "reseaux": [
+    {
+      "nom": "Instagram",
+      "url": "https://www.instagram.com/delmasgabriel"
+    },
+    {
+      "nom": "YouTube",
+      "url": "https://www.youtube.com/@gabrieldelmasdrummer"
+    },
+    {
+      "nom": "Facebook",
+      "url": "https://www.facebook.com/gabriel.delmas.73/"
+    },
+    {
+      "nom": "TikTok",
+      "url": "https://www.tiktok.com/@gabrieldelmasdrummer"
+    },
+    {
+      "nom": "Spotify",
+      "url": "https://open.spotify.com/intl-fr/album/4tYwqiktRfPv5EPbK9bOdt"
+    }
+  ],
+  "ecoute": {
+    "spotify": "https://open.spotify.com/intl-fr/album/4tYwqiktRfPv5EPbK9bOdt",
+    "plateformes": "https://idol-io.ffm.to/newstep"
+  },
+  "polices": [
+    "/assets/fonts/big-shoulders-900.woff2",
+    "/assets/fonts/figtree-400.woff2"
+  ],
+  "imagePartage": "portrait-caisse-claire-1280.webp",
+  "curseur": true
+}

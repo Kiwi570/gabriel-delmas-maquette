@@ -1,0 +1,72 @@
+[
+ {
+  "marque": "Sonor",
+  "role": {
+   "fr": "Batteries",
+   "en": "Drums"
+  },
+  "url": "https://www.sonor.com/artists/gabriel-delmas",
+  "pieces": [
+   {
+    "fr": "Vintage Series Red Oyster : 20x14 ou 18x14, 10x8, 14x12, 16x14",
+    "en": "Vintage Series Red Oyster: 20x14 or 18x14, 10x8, 14x12, 16x14"
+   },
+   {
+    "fr": "SQ² White Oyster : 20x14, 10x8, 12x7, 14x14, 16x15",
+    "en": "SQ² White Oyster: 20x14, 10x8, 12x7, 14x14, 16x15"
+   },
+   {
+    "fr": "AQ² Safari Transparent Black : 16x14, 10x7, 13x12",
+    "en": "AQ² Safari Transparent Black: 16x14, 10x7, 13x12"
+   },
+   {
+    "fr": "Caisses claires : Vintage Black Slate Stripes 14x5.75, Vintage Red Oyster 13x6, Prolite Red Fiery 13x5, Benny Greb Brass Signature 13x5.75, AQ2 13x6",
+    "en": "Snares: Vintage Black Slate Stripes 14x5.75, Vintage Red Oyster 13x6, Prolite Red Fiery 13x5, Benny Greb Brass Signature 13x5.75, AQ2 13x6"
+   },
+   {
+    "fr": "Pédale Standard Jojo Mayer, hardware série 4000",
+    "en": "Standard Jojo Mayer pedal, 4000 series hardware"
+   }
+  ]
+ },
+ {
+  "marque": "Zildjian",
+  "role": {
+   "fr": "Cymbales",
+   "en": "Cymbals"
+  },
+  "url": "https://zildjian.com/gabriel-delmas.html",
+  "pieces": [
+   {
+    "fr": "Constantinople 20\" et 22\" Renaissance, 22\" Bounce, 16\"",
+    "en": "Constantinople 20\" and 22\" Renaissance, 22\" Bounce, 16\""
+   },
+   "Constantinople Hi-Hat 14\"",
+   "Kerope 18\"",
+   "Special Dry Crash 19\"",
+   "Armand Beautiful Baby 19\"",
+   "A Custom Splash 8\""
+  ]
+ },
+ {
+  "marque": "Remo",
+  "role": {
+   "fr": "Peaux",
+   "en": "Drumheads"
+  },
+  "pieces": [
+   {
+    "fr": "Ambassador Coated : caisses claires, toms 10\" et 12\"",
+    "en": "Ambassador Coated: snares, 10\" and 12\" toms"
+   },
+   {
+    "fr": "Emperor Coated : toms basses",
+    "en": "Emperor Coated: floor toms"
+   },
+   {
+    "fr": "PowerStroke III Coated : grosses caisses",
+    "en": "PowerStroke III Coated: bass drums"
+   }
+  ]
+ }
+]

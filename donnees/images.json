@@ -1,0 +1,2336 @@
+{
+  "portrait-caisse-claire": {
+    "nom": "portrait-caisse-claire",
+    "source": "recu/gear-sponsors-2.jpg",
+    "role": "ouverture",
+    "alt": "Gabriel Delmas sur fond noir, une caisse claire Sonor rouge sous le bras",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "9ec5349973c8de14",
+    "ratio": "4:5",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 43%"
+    },
+    "cadrage": "42% 52%",
+    "sujet": {
+      "x": 18.2,
+      "y": 30,
+      "l": 36.4,
+      "h": 63.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.87,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.76,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.72,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.67,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "haut",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1333,
+      "height": 1666,
+      "source": [
+        1333,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,44 fois (source de 1333 px après recadrage)"
+    ],
+    "fichiers": [
+      "portrait-caisse-claire-640.webp",
+      "portrait-caisse-claire-1280.webp",
+      "portrait-caisse-claire-1920.webp",
+      "portrait-caisse-claire-mobile-640.webp",
+      "portrait-caisse-claire-mobile-1080.webp"
+    ],
+    "poids": {
+      "portrait-caisse-claire-640.webp": 13928,
+      "portrait-caisse-claire-1280.webp": 41674,
+      "portrait-caisse-claire-1920.webp": 74208,
+      "portrait-caisse-claire-mobile-640.webp": 18340,
+      "portrait-caisse-claire-mobile-1080.webp": 42594
+    },
+    "media": "c.media({ nom: 'portrait-caisse-claire', alt: \"Gabriel Delmas sur fond noir, une caisse claire Sonor rouge sous le bras\", cadrage: '42% 52%', cadrageMobile: '50% 43%', sizes: '100vw', priorite: true })"
+  },
+  "kit-red-oyster": {
+    "nom": "kit-red-oyster",
+    "source": "recu/sonor-vintage-kit-gabriel.jpg",
+    "role": "section-fond",
+    "alt": "Le kit Sonor Vintage Red Oyster de Gabriel vu de dessus, cymbales Zildjian et peaux Remo",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "6439cdd081276fac",
+    "ratio": "4:3",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 49%"
+    },
+    "cadrage": "49% 49%",
+    "sujet": {
+      "x": 6.3,
+      "y": 25,
+      "l": 75,
+      "h": 58.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.47,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.3,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.27,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.12,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "kit-red-oyster-640.webp",
+      "kit-red-oyster-1280.webp",
+      "kit-red-oyster-1920.webp",
+      "kit-red-oyster-mobile-640.webp",
+      "kit-red-oyster-mobile-1080.webp"
+    ],
+    "poids": {
+      "kit-red-oyster-640.webp": 42470,
+      "kit-red-oyster-1280.webp": 167012,
+      "kit-red-oyster-1920.webp": 281320,
+      "kit-red-oyster-mobile-640.webp": 85914,
+      "kit-red-oyster-mobile-1080.webp": 238318
+    },
+    "media": "c.media({ nom: 'kit-red-oyster', alt: \"Le kit Sonor Vintage Red Oyster de Gabriel vu de dessus, cymbales Zildjian et peaux Remo\", cadrage: '49% 49%', cadrageMobile: '50% 49%', sizes: '100vw' })"
+  },
+  "quartet": {
+    "nom": "quartet",
+    "source": "recu/gabriel-delmas-trio-gael-2.jpg",
+    "role": "ouverture",
+    "alt": "Le quartet de New Step assis sur un canapé orange devant un mur en lambris",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "ab4152d3506f8284",
+    "ratio": "4:3",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "51% 51%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 93.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.1,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1521
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "quartet-640.webp",
+      "quartet-1280.webp",
+      "quartet-1920.webp"
+    ],
+    "poids": {
+      "quartet-640.webp": 39728,
+      "quartet-1280.webp": 111584,
+      "quartet-1920.webp": 204658
+    },
+    "media": "c.media({ nom: 'quartet', alt: \"Le quartet de New Step assis sur un canapé orange devant un mur en lambris\", cadrage: '51% 51%', sizes: '100vw', priorite: true })"
+  },
+  "studio-gris": {
+    "nom": "studio-gris",
+    "source": "recu/gabrieldelmas.jpg",
+    "role": "ouverture",
+    "alt": "Gabriel Delmas derrière un kit Sonor Vintage blanc, seul dans un studio gris",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "5d7e5d0b3769b34e",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 82%"
+    },
+    "cadrage": "37% 76%",
+    "sujet": {
+      "x": 9.4,
+      "y": 22.2,
+      "l": 46.9,
+      "h": 77.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.87,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.87,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.55,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.35,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 376,
+      "width": 2000,
+      "height": 1125,
+      "source": [
+        2000,
+        1501
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "studio-gris-640.webp",
+      "studio-gris-1280.webp",
+      "studio-gris-1920.webp",
+      "studio-gris-mobile-640.webp",
+      "studio-gris-mobile-1080.webp"
+    ],
+    "poids": {
+      "studio-gris-640.webp": 8094,
+      "studio-gris-1280.webp": 22936,
+      "studio-gris-1920.webp": 41472,
+      "studio-gris-mobile-640.webp": 24984,
+      "studio-gris-mobile-1080.webp": 48344
+    },
+    "media": "c.media({ nom: 'studio-gris', alt: \"Gabriel Delmas derrière un kit Sonor Vintage blanc, seul dans un studio gris\", cadrage: '37% 76%', cadrageMobile: '50% 82%', sizes: '100vw', priorite: true })"
+  },
+  "portrait-pad": {
+    "nom": "portrait-pad",
+    "source": "recu/gabriel-s-bio.jpg",
+    "role": "ouverture",
+    "alt": "Gabriel Delmas assis sur un tabouret, un pad d'entraînement coloré à la main",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "a920f1b77026e5cf",
+    "ratio": "4:5",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 51%"
+    },
+    "cadrage": "52% 61%",
+    "sujet": {
+      "x": 22.7,
+      "y": 30,
+      "l": 54.5,
+      "h": 56.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.75,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.75,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.73,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.65,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "haut",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1333,
+      "height": 1666,
+      "source": [
+        1333,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,44 fois (source de 1333 px après recadrage)"
+    ],
+    "fichiers": [
+      "portrait-pad-640.webp",
+      "portrait-pad-1280.webp",
+      "portrait-pad-1920.webp",
+      "portrait-pad-mobile-640.webp",
+      "portrait-pad-mobile-1080.webp"
+    ],
+    "poids": {
+      "portrait-pad-640.webp": 16712,
+      "portrait-pad-1280.webp": 52438,
+      "portrait-pad-1920.webp": 92158,
+      "portrait-pad-mobile-640.webp": 23018,
+      "portrait-pad-mobile-1080.webp": 54332
+    },
+    "media": "c.media({ nom: 'portrait-pad', alt: \"Gabriel Delmas assis sur un tabouret, un pad d'entraînement coloré à la main\", cadrage: '52% 61%', cadrageMobile: '50% 51%', sizes: '100vw', priorite: true })"
+  },
+  "portrait-exterieur": {
+    "nom": "portrait-exterieur",
+    "source": "recu/gabrieldelmas-2.jpg",
+    "role": "ouverture",
+    "alt": "Portrait de Gabriel Delmas en extérieur, le regard levé, sous les arbres",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "966c8b1b7ade0500",
+    "ratio": "16:10",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 56%"
+    },
+    "cadrage": "55% 56%",
+    "sujet": {
+      "x": 10.4,
+      "y": 0,
+      "l": 89.6,
+      "h": 95
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.29,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.2,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.09,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.09,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 46,
+      "top": 0,
+      "width": 1954,
+      "height": 1221,
+      "source": [
+        2000,
+        1221
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "portrait-exterieur-640.webp",
+      "portrait-exterieur-1280.webp",
+      "portrait-exterieur-1920.webp",
+      "portrait-exterieur-mobile-640.webp",
+      "portrait-exterieur-mobile-1080.webp"
+    ],
+    "poids": {
+      "portrait-exterieur-640.webp": 16572,
+      "portrait-exterieur-1280.webp": 40038,
+      "portrait-exterieur-1920.webp": 67408,
+      "portrait-exterieur-mobile-640.webp": 23398,
+      "portrait-exterieur-mobile-1080.webp": 46792
+    },
+    "media": "c.media({ nom: 'portrait-exterieur', alt: \"Portrait de Gabriel Delmas en extérieur, le regard levé, sous les arbres\", cadrage: '55% 56%', cadrageMobile: '50% 56%', sizes: '100vw', priorite: true })"
+  },
+  "seance-studio": {
+    "nom": "seance-studio",
+    "source": "recu/gabriel-delmas-trio-live.jpg",
+    "role": "galerie",
+    "alt": "Le trio en séance dans un studio en bois : claviers, batterie et guitare",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "0b7b0ee1d72655f9",
+    "ratio": "16:9",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "48% 51%",
+    "sujet": {
+      "x": 12.5,
+      "y": 22.2,
+      "l": 71.9,
+      "h": 66.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.37,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.21,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.21,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.15,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720,
+      "source": [
+        1280,
+        720
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,25 fois (source de 1280 px après recadrage)"
+    ],
+    "fichiers": [
+      "seance-studio-1024.webp",
+      "seance-studio-1168.webp",
+      "seance-studio-1600.webp"
+    ],
+    "poids": {
+      "seance-studio-1024.webp": 39020,
+      "seance-studio-1168.webp": 44550,
+      "seance-studio-1600.webp": 61298
+    },
+    "media": "c.media({ nom: 'seance-studio', alt: \"Le trio en séance dans un studio en bois : claviers, batterie et guitare\", cadrage: '48% 51%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '16 / 9' })"
+  },
+  "live-club": {
+    "nom": "live-club",
+    "source": "recu/gabrieldelmas-4.jpg",
+    "role": "vignette",
+    "alt": "Gabriel Delmas en concert, éclairé de violet, les baguettes sur la caisse claire",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "5ef4f67b7c2b2dc5",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "51% 56%",
+    "sujet": {
+      "x": 15.6,
+      "y": 18.1,
+      "l": 78.1,
+      "h": 71
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.59,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.43,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.19,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.1,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 22,
+      "width": 1024,
+      "height": 576,
+      "source": [
+        1024,
+        598
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1024 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "live-club-640.webp",
+      "live-club-800.webp"
+    ],
+    "poids": {
+      "live-club-640.webp": 22396,
+      "live-club-800.webp": 29758
+    },
+    "media": "c.media({ nom: 'live-club', alt: \"Gabriel Delmas en concert, éclairé de violet, les baguettes sur la caisse claire\", cadrage: '51% 56%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '16 / 9' })"
+  },
+  "home-studio": {
+    "nom": "home-studio",
+    "source": "recu/gear-sponsors.jpg",
+    "role": "vignette",
+    "alt": "Gabriel Delmas dans son home studio, à côté de son kit Sonor AQ2",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "ce7f53f73bf66f3b",
+    "ratio": "4:3",
+    "largeurs": [
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "34% 43%",
+    "sujet": {
+      "x": 12.5,
+      "y": 25,
+      "l": 68.8,
+      "h": 37.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.58,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.53,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.43,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.4,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "home-studio-640.webp",
+      "home-studio-800.webp"
+    ],
+    "poids": {
+      "home-studio-640.webp": 36816,
+      "home-studio-800.webp": 52608
+    },
+    "media": "c.media({ nom: 'home-studio', alt: \"Gabriel Delmas dans son home studio, à côté de son kit Sonor AQ2\", cadrage: '34% 43%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "new-step-pochette": {
+    "nom": "new-step-pochette",
+    "source": "recu/new-step-visuel.png",
+    "role": "produit",
+    "alt": "Visuel de l'album New Step : une planète noire et rouge au-dessus d'une mer déchaînée",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "aa829ad83a981918",
+    "ratio": "2:3",
+    "largeurs": [
+      536
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.8,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 357,
+      "height": 536,
+      "source": [
+        358,
+        536
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 800, 1600",
+      "358 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,5 fois (source de 357 px après recadrage)"
+    ],
+    "fichiers": [
+      "new-step-pochette-536.webp"
+    ],
+    "poids": {
+      "new-step-pochette-536.webp": 39764
+    },
+    "media": "c.media({ nom: 'new-step-pochette', alt: \"Visuel de l'album New Step : une planète noire et rouge au-dessus d'une mer déchaînée\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '2 / 3' })"
+  },
+  "livre-rythme-interieur": {
+    "nom": "livre-rythme-interieur",
+    "source": "recu/rythme-interieur.jpg",
+    "role": "produit",
+    "alt": "Couverture du livre Le Rythme Intérieur de Gabriel Delmas",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "11283554935ac8f1",
+    "ratio": "707:1000",
+    "largeurs": [
+      800,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 4.3,
+      "y": 6.3,
+      "l": 91.3,
+      "h": 87.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.24,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.24,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.14,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.07,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1414,
+      "height": 2000,
+      "source": [
+        1414,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,13 fois (source de 1414 px après recadrage)"
+    ],
+    "fichiers": [
+      "livre-rythme-interieur-800.webp",
+      "livre-rythme-interieur-1600.webp"
+    ],
+    "poids": {
+      "livre-rythme-interieur-800.webp": 70526,
+      "livre-rythme-interieur-1600.webp": 186562
+    },
+    "media": "c.media({ nom: 'livre-rythme-interieur', alt: \"Couverture du livre Le Rythme Intérieur de Gabriel Delmas\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '707 / 1000' })"
+  },
+  "livre-pad-vers-groove": {
+    "nom": "livre-pad-vers-groove",
+    "source": "recu/pad-vers-groove.jpg",
+    "role": "produit",
+    "alt": "Couverture de la méthode Du Pad vers le Groove de Gabriel Delmas",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "77c96bce2664e90f",
+    "ratio": "707:1000",
+    "largeurs": [
+      800,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 8.7,
+      "y": 12.5,
+      "l": 87,
+      "h": 87.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.2,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.11,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.09,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1414,
+      "height": 2000,
+      "source": [
+        1414,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,13 fois (source de 1414 px après recadrage)"
+    ],
+    "fichiers": [
+      "livre-pad-vers-groove-800.webp",
+      "livre-pad-vers-groove-1600.webp"
+    ],
+    "poids": {
+      "livre-pad-vers-groove-800.webp": 91788,
+      "livre-pad-vers-groove-1600.webp": 227886
+    },
+    "media": "c.media({ nom: 'livre-pad-vers-groove', alt: \"Couverture de la méthode Du Pad vers le Groove de Gabriel Delmas\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '707 / 1000' })"
+  },
+  "livre-from-pad-to-groove": {
+    "nom": "livre-from-pad-to-groove",
+    "source": "recu/from-pad-groove.jpg",
+    "role": "produit",
+    "alt": "Couverture de la méthode From Pad To Groove, version anglaise",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "7aafdacb043078c1",
+    "ratio": "707:1000",
+    "largeurs": [
+      800,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 15.8,
+      "y": 18.8,
+      "l": 81.3,
+      "h": 81.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.33,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.24,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.07,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 19,
+      "top": 0,
+      "width": 1414,
+      "height": 2000,
+      "source": [
+        1451,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,13 fois (source de 1414 px après recadrage)"
+    ],
+    "fichiers": [
+      "livre-from-pad-to-groove-800.webp",
+      "livre-from-pad-to-groove-1600.webp"
+    ],
+    "poids": {
+      "livre-from-pad-to-groove-800.webp": 96954,
+      "livre-from-pad-to-groove-1600.webp": 259444
+    },
+    "media": "c.media({ nom: 'livre-from-pad-to-groove', alt: \"Couverture de la méthode From Pad To Groove, version anglaise\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '707 / 1000' })"
+  },
+  "rythme-interieur-dos": {
+    "nom": "rythme-interieur-dos",
+    "source": "recu/rythme-interieur-2.jpg",
+    "role": "vignette",
+    "alt": "Quatrième de couverture du Rythme Intérieur : contenu de la méthode",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "97c9458fb9195e2f",
+    "ratio": "707:1000",
+    "largeurs": [
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 4.3,
+      "y": 6.3,
+      "l": 91.3,
+      "h": 90.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.36,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.32,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.24,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.2,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1414,
+      "height": 2000,
+      "source": [
+        1414,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "rythme-interieur-dos-640.webp",
+      "rythme-interieur-dos-800.webp"
+    ],
+    "poids": {
+      "rythme-interieur-dos-640.webp": 47602,
+      "rythme-interieur-dos-800.webp": 67442
+    },
+    "media": "c.media({ nom: 'rythme-interieur-dos', alt: \"Quatrième de couverture du Rythme Intérieur : contenu de la méthode\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '707 / 1000' })"
+  },
+  "rythme-interieur-sommaire": {
+    "nom": "rythme-interieur-sommaire",
+    "source": "recu/rythme-interieur-6.jpg",
+    "role": "vignette",
+    "alt": "Sommaire du Rythme Intérieur",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "03390c7700c94b54",
+    "ratio": "1545:2000",
+    "largeurs": [
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 4,
+      "y": 3.1,
+      "l": 56,
+      "h": 93.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.74,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.37,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.28,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1545,
+      "height": 2000,
+      "source": [
+        1545,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "rythme-interieur-sommaire-640.webp",
+      "rythme-interieur-sommaire-800.webp"
+    ],
+    "poids": {
+      "rythme-interieur-sommaire-640.webp": 40150,
+      "rythme-interieur-sommaire-800.webp": 67458
+    },
+    "media": "c.media({ nom: 'rythme-interieur-sommaire', alt: \"Sommaire du Rythme Intérieur\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1545 / 2000' })"
+  },
+  "rythme-interieur-page": {
+    "nom": "rythme-interieur-page",
+    "source": "recu/rythme-interieur-4.jpg",
+    "role": "vignette",
+    "alt": "Page intérieure du Rythme Intérieur : travail mains et voix",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "4ebb3bae7f8f60ca",
+    "ratio": "1545:2000",
+    "largeurs": [
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 16,
+      "y": 6.3,
+      "l": 24,
+      "h": 68.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.64,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.61,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.42,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.38,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1545,
+      "height": 2000,
+      "source": [
+        1545,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "rythme-interieur-page-640.webp",
+      "rythme-interieur-page-800.webp"
+    ],
+    "poids": {
+      "rythme-interieur-page-640.webp": 44216,
+      "rythme-interieur-page-800.webp": 60030
+    },
+    "media": "c.media({ nom: 'rythme-interieur-page', alt: \"Page intérieure du Rythme Intérieur : travail mains et voix\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1545 / 2000' })"
+  },
+  "pad-vers-groove-dos": {
+    "nom": "pad-vers-groove-dos",
+    "source": "recu/pad-vers-groove-4.jpg",
+    "role": "vignette",
+    "alt": "Quatrième de couverture de Du Pad vers le Groove : liste des chapitres",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "ee26b948761d7bcf",
+    "ratio": "707:1000",
+    "largeurs": [
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 4.3,
+      "y": 6.3,
+      "l": 82.6,
+      "h": 93.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.32,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.25,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.21,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.09,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1240,
+      "height": 1754,
+      "source": [
+        1240,
+        1754
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1240 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "pad-vers-groove-dos-640.webp",
+      "pad-vers-groove-dos-800.webp"
+    ],
+    "poids": {
+      "pad-vers-groove-dos-640.webp": 46980,
+      "pad-vers-groove-dos-800.webp": 63862
+    },
+    "media": "c.media({ nom: 'pad-vers-groove-dos', alt: \"Quatrième de couverture de Du Pad vers le Groove : liste des chapitres\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '707 / 1000' })"
+  },
+  "pad-vers-groove-page": {
+    "nom": "pad-vers-groove-page",
+    "source": "recu/pad-vers-groove-3.jpg",
+    "role": "vignette",
+    "alt": "Page intérieure de Du Pad vers le Groove : Koum pour la grosse caisse, Ka pour la caisse claire",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "0fa699738473b59e",
+    "ratio": "707:1000",
+    "largeurs": [
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 4.3,
+      "y": 3.1,
+      "l": 69.6,
+      "h": 84.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.53,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.4,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.32,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.28,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1240,
+      "height": 1754,
+      "source": [
+        1240,
+        1754
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1240 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "pad-vers-groove-page-640.webp",
+      "pad-vers-groove-page-800.webp"
+    ],
+    "poids": {
+      "pad-vers-groove-page-640.webp": 29822,
+      "pad-vers-groove-page-800.webp": 39070
+    },
+    "media": "c.media({ nom: 'pad-vers-groove-page', alt: \"Page intérieure de Du Pad vers le Groove : Koum pour la grosse caisse, Ka pour la caisse claire\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '707 / 1000' })"
+  },
+  "from-pad-to-groove-dos": {
+    "nom": "from-pad-to-groove-dos",
+    "source": "recu/from-pad-groove-2.png",
+    "role": "vignette",
+    "alt": "Back cover of From Pad To Groove: list of chapters",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "a29dfe99fc370f89",
+    "ratio": "707:1000",
+    "largeurs": [
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 13,
+      "y": 3.1,
+      "l": 73.9,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.49,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.48,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.41,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.27,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1414,
+      "height": 2000,
+      "source": [
+        1414,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "from-pad-to-groove-dos-640.webp",
+      "from-pad-to-groove-dos-800.webp"
+    ],
+    "poids": {
+      "from-pad-to-groove-dos-640.webp": 36402,
+      "from-pad-to-groove-dos-800.webp": 48770
+    },
+    "media": "c.media({ nom: 'from-pad-to-groove-dos', alt: \"Back cover of From Pad To Groove: list of chapters\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '707 / 1000' })"
+  },
+  "video-herbie": {
+    "nom": "video-herbie",
+    "source": "recu/gabriel-delmas-trio-gael.jpg",
+    "role": "vignette",
+    "alt": "Vignette de la vidéo Herbie N Be",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "0a340bb88c3df277",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 3.1,
+      "y": 11.1,
+      "l": 93.8,
+      "h": 88.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.18,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720,
+      "source": [
+        1280,
+        720
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "video-herbie-640.webp",
+      "video-herbie-800.webp"
+    ],
+    "poids": {
+      "video-herbie-640.webp": 31716,
+      "video-herbie-800.webp": 46184
+    },
+    "media": "c.media({ nom: 'video-herbie', alt: \"Vignette de la vidéo Herbie N Be\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '16 / 9' })"
+  },
+  "video-sax-solo": {
+    "nom": "video-sax-solo",
+    "source": "recu/gabriel-delmas-trio-feat.jpg",
+    "role": "vignette",
+    "alt": "Vignette de la vidéo Amazing Sax Solo avec Gaël Horellou",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "6b5209b7819aae91",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 6.3,
+      "y": 16.7,
+      "l": 87.5,
+      "h": 77.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.09,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.02,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.01,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.01,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720,
+      "source": [
+        1280,
+        720
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "video-sax-solo-640.webp",
+      "video-sax-solo-800.webp"
+    ],
+    "poids": {
+      "video-sax-solo-640.webp": 27598,
+      "video-sax-solo-800.webp": 35128
+    },
+    "media": "c.media({ nom: 'video-sax-solo', alt: \"Vignette de la vidéo Amazing Sax Solo avec Gaël Horellou\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '16 / 9' })"
+  },
+  "video-dirty-old-man": {
+    "nom": "video-dirty-old-man",
+    "source": "recu/gabriel-delmas-trio-groove.jpg",
+    "role": "vignette",
+    "alt": "Vignette de la vidéo Groove On Dirty Old Man",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "de83d5cac6002008",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 3.1,
+      "y": 5.6,
+      "l": 96.9,
+      "h": 94.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720,
+      "source": [
+        1280,
+        720
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "video-dirty-old-man-640.webp",
+      "video-dirty-old-man-800.webp"
+    ],
+    "poids": {
+      "video-dirty-old-man-640.webp": 30010,
+      "video-dirty-old-man-800.webp": 38364
+    },
+    "media": "c.media({ nom: 'video-dirty-old-man', alt: \"Vignette de la vidéo Groove On Dirty Old Man\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '16 / 9' })"
+  },
+  "video-teenage-fantasy": {
+    "nom": "video-teenage-fantasy",
+    "source": "recu/gabriel-delmas-trio-feat-2.jpg",
+    "role": "vignette",
+    "alt": "Vignette de la vidéo Teenage Fantasy avec Kris Pageron",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "18ae0c9223a4e4c5",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 21.9,
+      "y": 16.7,
+      "l": 78.1,
+      "h": 77.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.14,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.13,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720,
+      "source": [
+        1280,
+        720
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "video-teenage-fantasy-640.webp",
+      "video-teenage-fantasy-800.webp"
+    ],
+    "poids": {
+      "video-teenage-fantasy-640.webp": 40260,
+      "video-teenage-fantasy-800.webp": 52622
+    },
+    "media": "c.media({ nom: 'video-teenage-fantasy', alt: \"Vignette de la vidéo Teenage Fantasy avec Kris Pageron\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '16 / 9' })"
+  },
+  "video-unboxing-sq2": {
+    "nom": "video-unboxing-sq2",
+    "source": "recu/maxresdefault.webp",
+    "role": "vignette",
+    "alt": "Vignette de la vidéo de déballage du kit Sonor SQ2",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "0ce13a426cef5d25",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 3.1,
+      "y": 5.6,
+      "l": 90.6,
+      "h": 88.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720,
+      "source": [
+        1280,
+        720
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "video-unboxing-sq2-640.webp",
+      "video-unboxing-sq2-800.webp"
+    ],
+    "poids": {
+      "video-unboxing-sq2-640.webp": 23896,
+      "video-unboxing-sq2-800.webp": 30992
+    },
+    "media": "c.media({ nom: 'video-unboxing-sq2', alt: \"Vignette de la vidéo de déballage du kit Sonor SQ2\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '16 / 9' })"
+  },
+  "grok/clinic": {
+    "nom": "grok/clinic",
+    "source": "recu/grok/clinic.png",
+    "role": "ouverture",
+    "alt": "Une clinic de batterie dans un magasin de musique, public de dos",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "81bbbad321b2d93e",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 53%"
+    },
+    "cadrage": "58% 50%",
+    "sujet": {
+      "x": 46.9,
+      "y": 13.9,
+      "l": 28.1,
+      "h": 54.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.88,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.76,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.76,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.62,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 119,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/clinic-640.webp",
+      "grok/clinic-1280.webp",
+      "grok/clinic-1920.webp",
+      "grok/clinic-mobile-640.webp",
+      "grok/clinic-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/clinic-640.webp": 15904,
+      "grok/clinic-1280.webp": 50042,
+      "grok/clinic-1920.webp": 84176,
+      "grok/clinic-mobile-640.webp": 33812,
+      "grok/clinic-mobile-1080.webp": 71970
+    },
+    "media": "c.media({ nom: 'grok/clinic', alt: \"Une clinic de batterie dans un magasin de musique, public de dos\", cadrage: '58% 50%', cadrageMobile: '50% 53%', sizes: '100vw', priorite: true })"
+  },
+  "grok/studio": {
+    "nom": "grok/studio",
+    "source": "recu/grok/studio.png",
+    "role": "galerie",
+    "alt": "Un kit de batterie entouré de micros dans un petit studio d'enregistrement",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "b063c079c1221520",
+    "ratio": "3:2",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "49% 58%"
+    },
+    "cadrage": "54% 58%",
+    "sujet": {
+      "x": 37.5,
+      "y": 36,
+      "l": 43.8,
+      "h": 41.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.82,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.75,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.62,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.62,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 7,
+      "width": 1600,
+      "height": 1067,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/studio-1024.webp",
+      "grok/studio-1168.webp",
+      "grok/studio-1600.webp",
+      "grok/studio-mobile-640.webp",
+      "grok/studio-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/studio-1024.webp": 58956,
+      "grok/studio-1168.webp": 73382,
+      "grok/studio-1600.webp": 111384,
+      "grok/studio-mobile-640.webp": 50388,
+      "grok/studio-mobile-1080.webp": 94396
+    },
+    "media": "c.media({ nom: 'grok/studio', alt: \"Un kit de batterie entouré de micros dans un petit studio d'enregistrement\", cadrage: '54% 58%', cadrageMobile: '49% 58%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "grok/club": {
+    "nom": "grok/club",
+    "source": "recu/grok/club.png",
+    "role": "section-fond",
+    "alt": "La petite scène d'un club de jazz avant le concert, une batterie dans la lumière",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "d2254ca6e312d50b",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 69%"
+    },
+    "cadrage": "48% 64%",
+    "sujet": {
+      "x": 12.5,
+      "y": 35,
+      "l": 81.3,
+      "h": 65
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.94,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.65,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.63,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.45,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "haut",
+    "recadrage": {
+      "left": 0,
+      "top": 76,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/club-640.webp",
+      "grok/club-1280.webp",
+      "grok/club-1920.webp",
+      "grok/club-mobile-640.webp",
+      "grok/club-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/club-640.webp": 13164,
+      "grok/club-1280.webp": 39258,
+      "grok/club-1920.webp": 64440,
+      "grok/club-mobile-640.webp": 24764,
+      "grok/club-mobile-1080.webp": 51318
+    },
+    "media": "c.media({ nom: 'grok/club', alt: \"La petite scène d'un club de jazz avant le concert, une batterie dans la lumière\", cadrage: '48% 64%', cadrageMobile: '50% 69%', sizes: '100vw' })"
+  },
+  "grok/pad-metronome": {
+    "nom": "grok/pad-metronome",
+    "source": "recu/grok/pad-metronome.png",
+    "role": "galerie",
+    "alt": "Un pad d'entraînement, des baguettes et un métronome sur une table en bois",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "4744f4e1a68b14f6",
+    "ratio": "3:2",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "31% 57%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 53.1,
+      "h": 82.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.86,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.52,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.51,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.24,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 1067,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/pad-metronome-1024.webp",
+      "grok/pad-metronome-1168.webp",
+      "grok/pad-metronome-1600.webp"
+    ],
+    "poids": {
+      "grok/pad-metronome-1024.webp": 50416,
+      "grok/pad-metronome-1168.webp": 62454,
+      "grok/pad-metronome-1600.webp": 93256
+    },
+    "media": "c.media({ nom: 'grok/pad-metronome', alt: \"Un pad d'entraînement, des baguettes et un métronome sur une table en bois\", cadrage: '31% 57%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "grok/scene-404": {
+    "nom": "grok/scene-404",
+    "source": "recu/grok/scene-404.png",
+    "role": "section-fond",
+    "alt": "Une baguette oubliée sur une scène vide, dans un rond de lumière",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "62b7aec920e8e9f8",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640
+      ],
+      "cadrage": "50% 77%"
+    },
+    "cadrage": "50% 73%",
+    "sujet": {
+      "x": 25,
+      "y": 62.1,
+      "l": 50,
+      "h": 21.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.9,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.72,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.71,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.39,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "haut",
+    "recadrage": {
+      "left": 0,
+      "top": 174,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "version téléphone sans 1080 px (source trop petite)",
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/scene-404-640.webp",
+      "grok/scene-404-1280.webp",
+      "grok/scene-404-1920.webp",
+      "grok/scene-404-mobile-640.webp"
+    ],
+    "poids": {
+      "grok/scene-404-640.webp": 14450,
+      "grok/scene-404-1280.webp": 42226,
+      "grok/scene-404-1920.webp": 67994,
+      "grok/scene-404-mobile-640.webp": 25692
+    },
+    "media": "c.media({ nom: 'grok/scene-404', alt: \"Une baguette oubliée sur une scène vide, dans un rond de lumière\", cadrage: '50% 73%', cadrageMobile: '50% 77%', sizes: '100vw' })"
+  },
+  "grok/sessions": {
+    "nom": "grok/sessions",
+    "source": "recu/grok/sessions.png",
+    "role": "galerie",
+    "alt": "Une batterie près d'une grande fenêtre ouverte sur la campagne",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "199fd51e6636fa59",
+    "ratio": "3:2",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "72% 25%",
+    "sujet": {
+      "x": 56.3,
+      "y": 0,
+      "l": 28.1,
+      "h": 59.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.7,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.6,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.27,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.19,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 1067,
+      "source": [
+        1600,
+        1074
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/sessions-1024.webp",
+      "grok/sessions-1168.webp",
+      "grok/sessions-1600.webp"
+    ],
+    "poids": {
+      "grok/sessions-1024.webp": 91644,
+      "grok/sessions-1168.webp": 107548,
+      "grok/sessions-1600.webp": 159840
+    },
+    "media": "c.media({ nom: 'grok/sessions', alt: \"Une batterie près d'une grande fenêtre ouverte sur la campagne\", cadrage: '72% 25%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 2' })"
+  },
+  "logo-zildjian": {
+    "nom": "logo-zildjian",
+    "source": "recu/logo-zildjian.png",
+    "role": "logo",
+    "alt": "Zildjian",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "1e428d73032612c7",
+    "ratio": null,
+    "largeurs": [
+      240,
+      480
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "logo-zildjian-240.webp",
+      "logo-zildjian-480.webp"
+    ],
+    "poids": {
+      "logo-zildjian-240.webp": 8128,
+      "logo-zildjian-480.webp": 18222
+    },
+    "media": "c.media({ nom: 'logo-zildjian', alt: \"Zildjian\", sizes: '240px' })"
+  },
+  "logo-sonor": {
+    "nom": "logo-sonor",
+    "source": "recu/logo-sonor.png",
+    "role": "logo",
+    "alt": "Sonor",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "9176f36b2c5db9cf",
+    "ratio": null,
+    "largeurs": [
+      240,
+      480
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "logo-sonor-240.webp",
+      "logo-sonor-480.webp"
+    ],
+    "poids": {
+      "logo-sonor-240.webp": 6064,
+      "logo-sonor-480.webp": 13880
+    },
+    "media": "c.media({ nom: 'logo-sonor', alt: \"Sonor\", sizes: '240px' })"
+  },
+  "logo-remo": {
+    "nom": "logo-remo",
+    "source": "recu/logo-remo.png",
+    "role": "logo",
+    "alt": "Remo",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "8354903f5486d864",
+    "ratio": null,
+    "largeurs": [
+      240,
+      480
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "logo-remo-240.webp",
+      "logo-remo-480.webp"
+    ],
+    "poids": {
+      "logo-remo-240.webp": 7722,
+      "logo-remo-480.webp": 15044
+    },
+    "media": "c.media({ nom: 'logo-remo', alt: \"Remo\", sizes: '240px' })"
+  },
+  "logo-clair": {
+    "nom": "logo-clair",
+    "source": "recu/logo-gabriel-clair.png",
+    "role": "logo",
+    "alt": "Gabriel Delmas",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "4cc9edbe241bf93e",
+    "ratio": null,
+    "largeurs": [
+      240,
+      480
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "logo-clair-240.webp",
+      "logo-clair-480.webp"
+    ],
+    "poids": {
+      "logo-clair-240.webp": 6076,
+      "logo-clair-480.webp": 12270
+    },
+    "media": "c.media({ nom: 'logo-clair', alt: \"Gabriel Delmas\", sizes: '240px' })"
+  }
+}

@@ -1,0 +1,17 @@
+{
+ "id": "20261123-174406-standard-cible-partiel",
+ "date": "2026-11-23T17:51:59.420Z",
+ "niveau": "standard",
+ "pages": "/,/methodes,/clinics-et-studio,/bio",
+ "etapes": [
+  "films",
+  "parcours",
+  "mouvement"
+ ],
+ "version": "1",
+ "echecs": 0,
+ "aRegarder": 4,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "complet"
+}

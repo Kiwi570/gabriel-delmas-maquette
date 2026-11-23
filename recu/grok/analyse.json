@@ -1,0 +1,524 @@
+{
+  "dossier": "/home/claude/gabriel-delmas-maquette/recu/grok",
+  "date": "2026-11-23T15:59:13.310Z",
+  "detection": "mesures sharp seulement",
+  "planches": [
+    "planche.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [],
+  "images": [
+    {
+      "fichier": "clinic-mobile.png",
+      "nom": "clinic-mobile",
+      "drapeau": null,
+      "largeur": 1320,
+      "hauteur": 1967,
+      "ratio": "2:3",
+      "ratio_valeur": 0.671,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 2018951,
+      "transparence": false,
+      "sujet": {
+        "x": 31.8,
+        "y": 40.6,
+        "l": 27.3,
+        "h": 25,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        53
+      ],
+      "cadrage_css": "45% 53%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.93,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.85,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.82,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.81,
+          "ton": "sombre",
+          "recouvre_sujet": 0.05
+        }
+      ],
+      "qualite": {
+        "nettete": 26.4,
+        "bruit": 0.47,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "7070707030b07660",
+      "drapeaux": [
+        "calme haut/droite/bas/gauche"
+      ]
+    },
+    {
+      "fichier": "clinic.png",
+      "nom": "clinic",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 1074,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 1580427,
+      "transparence": false,
+      "sujet": {
+        "x": 46.9,
+        "y": 22.7,
+        "l": 28.1,
+        "h": 45.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        58,
+        53
+      ],
+      "cadrage_css": "58% 53%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.88,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.76,
+          "ton": "sombre",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "bas",
+          "score": 0.76,
+          "ton": "sombre",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "droite",
+          "score": 0.62,
+          "ton": "sombre",
+          "recouvre_sujet": 0.17
+        }
+      ],
+      "qualite": {
+        "nettete": 29.9,
+        "bruit": 0.53,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "d0d4d0d9f9b0f1f0",
+      "drapeaux": [
+        "calme gauche/haut/bas"
+      ]
+    },
+    {
+      "fichier": "club-mobile.png",
+      "nom": "club-mobile",
+      "drapeau": null,
+      "largeur": 1320,
+      "hauteur": 1967,
+      "ratio": "2:3",
+      "ratio_valeur": 0.671,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 1600527,
+      "transparence": false,
+      "sujet": {
+        "x": 18.2,
+        "y": 53.1,
+        "l": 68.2,
+        "h": 37.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        69
+      ],
+      "cadrage_css": "50% 69%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.97,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.79,
+          "ton": "sombre",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "droite",
+          "score": 0.69,
+          "ton": "sombre",
+          "recouvre_sujet": 0.25
+        },
+        {
+          "cote": "bas",
+          "score": 0.55,
+          "ton": "sombre",
+          "recouvre_sujet": 0.5
+        }
+      ],
+      "qualite": {
+        "nettete": 25.1,
+        "bruit": 0.36,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "40c0c1e4f8708292",
+      "drapeaux": [
+        "calme haut/gauche/droite"
+      ]
+    },
+    {
+      "fichier": "club.png",
+      "nom": "club",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 1074,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 1385687,
+      "transparence": false,
+      "sujet": {
+        "x": 12.5,
+        "y": 36.4,
+        "l": 81.3,
+        "h": 54.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        61
+      ],
+      "cadrage_css": "48% 61%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.94,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.65,
+          "ton": "sombre",
+          "recouvre_sujet": 0.46
+        },
+        {
+          "cote": "gauche",
+          "score": 0.63,
+          "ton": "sombre",
+          "recouvre_sujet": 0.37
+        },
+        {
+          "cote": "bas",
+          "score": 0.45,
+          "ton": "sombre",
+          "recouvre_sujet": 0.6
+        }
+      ],
+      "qualite": {
+        "nettete": 25.3,
+        "bruit": 0.45,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "e4c9f16162619aa6",
+      "drapeaux": [
+        "calme haut/droite"
+      ]
+    },
+    {
+      "fichier": "pad-metronome.png",
+      "nom": "pad-metronome",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 1074,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 1826292,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 53.1,
+        "h": 81.8,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        31,
+        57
+      ],
+      "cadrage_css": "31% 57%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.86,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.52,
+          "ton": "sombre",
+          "recouvre_sujet": 0.25
+        },
+        {
+          "cote": "haut",
+          "score": 0.51,
+          "ton": "sombre",
+          "recouvre_sujet": 0.53
+        },
+        {
+          "cote": "gauche",
+          "score": 0.24,
+          "ton": "sombre",
+          "recouvre_sujet": 0.82
+        }
+      ],
+      "qualite": {
+        "nettete": 27.3,
+        "bruit": 0.63,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "3131c082c0800080",
+      "drapeaux": [
+        "calme droite"
+      ]
+    },
+    {
+      "fichier": "scene-404.png",
+      "nom": "scene-404",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 1074,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 1260696,
+      "transparence": false,
+      "sujet": {
+        "x": 25,
+        "y": 68.2,
+        "l": 50,
+        "h": 18.2,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        77
+      ],
+      "cadrage_css": "50% 77%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.9,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.72,
+          "ton": "sombre",
+          "recouvre_sujet": 0.07
+        },
+        {
+          "cote": "droite",
+          "score": 0.71,
+          "ton": "sombre",
+          "recouvre_sujet": 0.07
+        },
+        {
+          "cote": "bas",
+          "score": 0.39,
+          "ton": "sombre",
+          "recouvre_sujet": 0.26
+        }
+      ],
+      "qualite": {
+        "nettete": 23.1,
+        "bruit": 0.38,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "f1f3b33030f0f0f0",
+      "drapeaux": [
+        "calme haut/gauche/droite"
+      ]
+    },
+    {
+      "fichier": "sessions.png",
+      "nom": "sessions",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 1074,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 2421134,
+      "transparence": false,
+      "sujet": {
+        "x": 56.3,
+        "y": 0,
+        "l": 28.1,
+        "h": 59.1,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        72,
+        25
+      ],
+      "cadrage_css": "72% 25%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.7,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.6,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.27,
+          "ton": "sombre",
+          "recouvre_sujet": 0.28
+        },
+        {
+          "cote": "droite",
+          "score": 0.19,
+          "ton": "sombre",
+          "recouvre_sujet": 0.36
+        }
+      ],
+      "qualite": {
+        "nettete": 36.2,
+        "bruit": 0.75,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "9c9c9c9c9cd8a8dc",
+      "drapeaux": [
+        "calme bas"
+      ]
+    },
+    {
+      "fichier": "studio.png",
+      "nom": "studio",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 1074,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 1977349,
+      "transparence": false,
+      "sujet": {
+        "x": 37.5,
+        "y": 36.4,
+        "l": 43.8,
+        "h": 40.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        58
+      ],
+      "cadrage_css": "54% 58%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.82,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.75,
+          "ton": "sombre",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "droite",
+          "score": 0.62,
+          "ton": "sombre",
+          "recouvre_sujet": 0.22
+        },
+        {
+          "cote": "bas",
+          "score": 0.62,
+          "ton": "sombre",
+          "recouvre_sujet": 0.15
+        }
+      ],
+      "qualite": {
+        "nettete": 44.2,
+        "bruit": 0.71,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "a1b8bcfc31b5b38b",
+      "drapeaux": [
+        "calme haut/gauche"
+      ]
+    }
+  ]
+}

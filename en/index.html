@@ -1,0 +1,476 @@
+<!doctype html>
+<html lang="en" data-v="1" data-page="accueil" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Gabriel Delmas, drummer: New Step, methods and clinics</title>
+<meta name="description" content="Jazz, funk and New Orleans drummer. New Step, the first album of the Gabriel Delmas Trio and Gaël Horellou, three drum methods, clinics and remote drum recording.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://gabriel-delmas-maquette.vercel.app/en">
+<link rel="alternate" hreflang="fr" href="https://gabriel-delmas-maquette.vercel.app/">
+<link rel="alternate" hreflang="en" href="https://gabriel-delmas-maquette.vercel.app/en">
+<link rel="alternate" hreflang="x-default" href="https://gabriel-delmas-maquette.vercel.app/">
+<style>:root{--fond:#111010;--texte:#dcd8ce;--voile-fond:#111010;--ouverture-fond:#111010;--menu-fond:#111010}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/big-shoulders-900.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/figtree-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="stylesheet" href="/assets/js/modules/panier-en-tiroir/module.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#111010">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Gabriel Delmas">
+<meta property="og:locale" content="en_GB">
+<meta property="og:title" content="Gabriel Delmas, drummer: New Step, methods and clinics">
+<meta property="og:description" content="Jazz, funk and New Orleans drummer. New Step, the first album of the Gabriel Delmas Trio and Gaël Horellou, three drum methods, clinics and remote drum recording.">
+<meta property="og:url" content="https://gabriel-delmas-maquette.vercel.app/en">
+<meta property="og:image" content="https://gabriel-delmas-maquette.vercel.app/assets/partage/accueil-en.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Gabriel Delmas on a black background, a red snare drum under his arm">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Gabriel Delmas","jobTitle":"Drummer and musician","url":"https://gabriel-delmas-maquette.vercel.app/","email":"delmas648@hotmail.com","sameAs":["https://www.instagram.com/delmasgabriel","https://www.youtube.com/@gabrieldelmasdrummer","https://www.facebook.com/gabriel.delmas.73/","https://www.tiktok.com/@gabrieldelmasdrummer"],"description":"Jazz, funk and New Orleans drummer, leader of the Gabriel Delmas Trio, author of the Le Rythme Intérieur and From Pad To Groove methods."}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="glisse" aria-hidden="true"><div class="voile-contenu"><span class="voile-marque">Gabriel Delmas</span><span data-voile-libelle>Home</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <p class="ouverture-nom"><span class="ouverture-mot">Gabriel</span><span class="ouverture-mot">Delmas</span></p>
+  <div class="pas pas--intro" data-ouverture-objet><i class="temps"></i><i class=""></i><i class=""></i><i class=""></i><i class="temps"></i><i class=""></i><i class=""></i><i class=""></i><i class="temps"></i><i class=""></i><i class=""></i><i class=""></i><i class="temps"></i><i class=""></i><i class=""></i><i class=""></i></div>
+  <p class="ouverture-ligne">Drummer · Musician</p>
+</div>
+<a class="evitement" href="#contenu">Skip to content</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/en" data-libelle="Home" aria-label="Gabriel Delmas, home" aria-current="page"><span class="marque" aria-hidden="true"><span>Gabriel</span><span>Delmas</span></span></a>
+    <nav data-nav aria-label="Main navigation">
+      <ul><li><a href="/en/musique" data-libelle="Music">Music</a></li><li><a href="/en/methodes" data-libelle="Methods">Methods</a></li><li><a href="/en/clinics-et-studio" data-libelle="Clinics &amp; studio">Clinics &amp; studio</a></li><li><a href="/en/bio" data-libelle="Bio &amp; gear">Bio &amp; gear</a></li><li><a href="/en/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="entete-langue" href="/" hreflang="fr" lang="fr" data-langue="fr" aria-label="Version française">fr</a>
+      <button type="button" class="entete-panier" data-panier-ouvrir data-envol-cible aria-label="Cart"><svg viewBox="0 0 24 24" aria-hidden="true" width="22" height="22"><path d="M5 7h14l-1.2 11.2a2 2 0 0 1-2 1.8H8.2a2 2 0 0 1-2-1.8L5 7Z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M9 9V6a3 3 0 0 1 6 0v3" fill="none" stroke="currentColor" stroke-width="1.8"/></svg><span class="pet-compte est-vide" data-panier-compte>0</span></button>
+      <a class="bouton entete-action" href="/en/contact#demande" data-libelle="Contact">Hire Gabriel</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Close"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Close</a></p>
+  <ul><li style="--i:0"><a href="/en" class="menu-lien" data-libelle="Home" aria-current="page">Home</a></li><li style="--i:1"><a href="/en/musique" class="menu-lien" data-libelle="Music">Music</a></li><li style="--i:2"><a href="/en/methodes" class="menu-lien" data-libelle="Methods">Methods</a></li><li style="--i:3"><a href="/en/clinics-et-studio" class="menu-lien" data-libelle="Clinics &amp; studio">Clinics &amp; studio</a></li><li style="--i:4"><a href="/en/bio" class="menu-lien" data-libelle="Bio &amp; gear">Bio &amp; gear</a></li><li style="--i:5"><a href="/en/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="/en/contact#demande" data-libelle="Contact">Hire Gabriel</a></p>
+  <p class="menu-email">delmas648@hotmail.com</p>
+  <p><a class="entete-langue menu-langue" href="/" hreflang="fr" lang="fr" data-langue="fr">Version française</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="hero ecran theme-noir" id="debut">
+  <div class="hero-texte">
+    <p class="surtitre hero-surtitre masque-ecran-tres-bas" data-anime="gsap">Drummer · jazz, funk, New Orleans</p>
+    <h1 class="hero-titre titre-geant" data-anime="gsap">
+      <span class="ligne-masque"><span class="hero-ligne">Gabriel</span></span>
+      <span class="ligne-masque"><span class="hero-ligne">Delmas</span></span>
+      <span class="ligne-masque ligne-masque--em"><em class="hero-ligne">groove first</em></span>
+    </h1>
+    <div class="hero-bas">
+      <div class="pas pas--hero" data-iris-centre data-effet="pas" aria-hidden="true"><i class="temps"></i><i class=""></i><i class=""></i><i class=""></i><i class="temps"></i><i class=""></i><i class=""></i><i class=""></i><i class="temps"></i><i class=""></i><i class=""></i><i class=""></i><i class="temps"></i><i class=""></i><i class=""></i><i class=""></i></div>
+      <div class="hero-detail" data-anime="gsap">
+        <p class="hero-intro masque-ecran-bas">Leader of the Gabriel Delmas Trio, sideman on many projects, author of three drum methods.</p>
+        <p class="hero-info" data-info-cle>New album New Step, on Jazz Family</p>
+        <p class="hero-actions">
+          <a href="/en/musique#album" class="bouton" data-libelle="Music" data-action-principale data-survol="magnetique">Listen to New Step</a>
+          <a href="/en/contact#demande" class="bouton bouton--contour" data-libelle="Contact">Hire Gabriel</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <figure class="media hero-media" data-fx="parallaxe" data-fx-force="8" style="--cadrage:50% 40%;--cadrage-mobile:50% 30%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/portrait-caisse-claire-mobile-640.webp 640w, /assets/images/portrait-caisse-claire-mobile-1080.webp 1080w" sizes="(max-width: 760px) 100vw, 42vw">
+    <img src="/assets/images/portrait-caisse-claire-1280.webp" srcset="/assets/images/portrait-caisse-claire-640.webp 640w, /assets/images/portrait-caisse-claire-1280.webp 1280w, /assets/images/portrait-caisse-claire-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 42vw" alt="Gabriel Delmas on a black background, a red snare drum under his arm" width="1280" height="1600" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+</section>
+<section class="album section theme-pierre" id="album">
+  <div class="conteneur album-grille">
+    <div class="album-visuel">
+      <figure class="media album-pochette" data-fx="zoom" data-fx-force="12" style="--cadrage:50% 50%;aspect-ratio:358 / 536">
+  <picture>
+    <img src="/assets/images/new-step-pochette-536.webp" srcset="/assets/images/new-step-pochette-536.webp 536w" sizes="(max-width: 760px) 60vw, 300px" alt="New Step album artwork: a black and red planet above a raging sea" width="536" height="805" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <div class="album-quartet">
+        <p class="surtitre">The quartet</p>
+        <ul data-anime="cascade"><li><strong>Gabriel Delmas</strong> <span>drums, compositions</span></li><li><strong>Florent Hortal</strong> <span>guitar</span></li><li><strong>Nicolas Blancot</strong> <span>keys</span></li><li><strong>Gaël Horellou</strong> <span>saxophone, guest</span></li></ul>
+      </div>
+    </div>
+    <div class="album-texte">
+      <p class="surtitre">The album</p>
+      <h2 class="titre-geant" data-anime="lignes">New Step</h2>
+      <p class="album-sous">Gabriel Delmas Trio &amp; Gaël Horellou</p>
+      <p data-anime>Ten originals and a Michael Jackson cover, recorded live. The energy of New Orleans, funk and today&#39;s jazz.</p>
+      <p class="album-sortie">Released 29 May 2026 · Jazz Family</p>
+      <p class="actions">
+        <a class="bouton" href="https://open.spotify.com/intl-fr/album/4tYwqiktRfPv5EPbK9bOdt" target="_blank" rel="noopener" data-survol="magnetique">Listen on Spotify</a>
+        <a class="bouton bouton--contour" href="https://idol-io.ffm.to/newstep" target="_blank" rel="noopener">All platforms</a>
+      </p>
+      <ol class="titres" data-effet="tete-de-lecture" aria-label="The 11 tracks">
+        <li class="titre-piste"><span class="titre-n">01</span><span class="titre-nom">Deltal</span><span class="titre-barres" aria-hidden="true"><i></i><i></i><i></i></span></li><li class="titre-piste"><span class="titre-n">02</span><span class="titre-nom">Herbie N Be</span><span class="titre-barres" aria-hidden="true"><i></i><i></i><i></i></span></li><li class="titre-piste"><span class="titre-n">03</span><span class="titre-nom">Huitochocolat</span><span class="titre-barres" aria-hidden="true"><i></i><i></i><i></i></span></li><li class="titre-piste"><span class="titre-n">04</span><span class="titre-nom">Funky Ruffel</span><span class="titre-barres" aria-hidden="true"><i></i><i></i><i></i></span></li><li class="titre-piste"><span class="titre-n">05</span><span class="titre-nom">Seven Spirit</span><span class="titre-barres" aria-hidden="true"><i></i><i></i><i></i></span></li><li class="titre-piste"><span class="titre-n">06</span><span class="titre-nom">Morse Time</span><span class="titre-barres" aria-hidden="true"><i></i><i></i><i></i></span></li><li class="titre-piste"><span class="titre-n">07</span><span class="titre-nom">Drop Interlude</span><span class="titre-barres" aria-hidden="true"><i></i><i></i><i></i></span></li><li class="titre-piste"><span class="titre-n">08</span><span class="titre-nom">Drop</span><span class="titre-barres" aria-hidden="true"><i></i><i></i><i></i></span></li><li class="titre-piste"><span class="titre-n">09</span><span class="titre-nom">Thriller</span><span class="titre-note">Michael Jackson cover</span><span class="titre-barres" aria-hidden="true"><i></i><i></i><i></i></span></li><li class="titre-piste"><span class="titre-n">10</span><span class="titre-nom">New Step, part. 1</span><span class="titre-barres" aria-hidden="true"><i></i><i></i><i></i></span></li><li class="titre-piste"><span class="titre-n">11</span><span class="titre-nom">New Step, part. 2</span><span class="titre-barres" aria-hidden="true"><i></i><i></i><i></i></span></li>
+      </ol>
+      <p><a href="/en/musique" class="lien-fleche" data-libelle="Music">All about the album</a></p>
+    </div>
+  </div>
+</section>
+<section class="videos section theme-noir" id="videos">
+  <div class="conteneur videos-tete">
+    <h2 class="titre-section" data-anime="lignes">On video</h2>
+    <p>The trio in clubs, in the studio and with guests.</p>
+  </div>
+  <div class="videos-fenetre" data-effet="rangee-video">
+    <div class="videos-piste" data-galerie role="region" aria-label="Videos, horizontal scroll" tabindex="0">
+      <a class="video" href="https://www.youtube.com/watch?v=RTMXY30aFoU" target="_blank" rel="noopener" aria-label="Herbie N Be, Watch on YouTube, new tab">
+    <figure class="media video-media" style="--cadrage:50% 50%;aspect-ratio:16 / 9">
+  <picture>
+    <img src="/assets/images/video-herbie-800.webp" srcset="/assets/images/video-herbie-640.webp 640w, /assets/images/video-herbie-800.webp 800w" sizes="(max-width: 760px) 80vw, 34vw" alt="" width="800" height="450" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <span class="video-lecture" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span>
+    <span class="video-titre">Herbie N Be</span>
+    <span class="video-detail">Trio &amp; Gaël Horellou, from New Step</span>
+  </a><a class="video" href="https://www.youtube.com/watch?v=W4XVmPLGO-A" target="_blank" rel="noopener" aria-label="Amazing Sax Solo!, Watch on YouTube, new tab">
+    <figure class="media video-media" style="--cadrage:50% 50%;aspect-ratio:16 / 9">
+  <picture>
+    <img src="/assets/images/video-sax-solo-800.webp" srcset="/assets/images/video-sax-solo-640.webp 640w, /assets/images/video-sax-solo-800.webp 800w" sizes="(max-width: 760px) 80vw, 34vw" alt="" width="800" height="450" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <span class="video-lecture" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span>
+    <span class="video-titre">Amazing Sax Solo!</span>
+    <span class="video-detail">feat. Gaël Horellou, live in a club</span>
+  </a><a class="video" href="https://www.youtube.com/watch?v=LY4rynXfxGM" target="_blank" rel="noopener" aria-label="Dirty Old Man, Watch on YouTube, new tab">
+    <figure class="media video-media" style="--cadrage:50% 50%;aspect-ratio:16 / 9">
+  <picture>
+    <img src="/assets/images/video-dirty-old-man-800.webp" srcset="/assets/images/video-dirty-old-man-640.webp 640w, /assets/images/video-dirty-old-man-800.webp 800w" sizes="(max-width: 760px) 80vw, 34vw" alt="" width="800" height="450" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <span class="video-lecture" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span>
+    <span class="video-titre">Dirty Old Man</span>
+    <span class="video-detail">Groove On, a Tom Scott tune</span>
+  </a><a class="video" href="https://www.youtube.com/watch?v=AXuGl_3rDak" target="_blank" rel="noopener" aria-label="Teenage Fantasy, Watch on YouTube, new tab">
+    <figure class="media video-media" style="--cadrage:50% 50%;aspect-ratio:16 / 9">
+  <picture>
+    <img src="/assets/images/video-teenage-fantasy-800.webp" srcset="/assets/images/video-teenage-fantasy-640.webp 640w, /assets/images/video-teenage-fantasy-800.webp 800w" sizes="(max-width: 760px) 80vw, 34vw" alt="" width="800" height="450" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <span class="video-lecture" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span>
+    <span class="video-titre">Teenage Fantasy</span>
+    <span class="video-detail">feat. Kris Pageron</span>
+  </a><a class="video" href="https://www.youtube.com/watch?v=uTRarIAAa7A" target="_blank" rel="noopener" aria-label="Live Demo, Watch on YouTube, new tab">
+    <figure class="media video-media" style="--cadrage:50% 50%;aspect-ratio:16 / 9">
+  <picture>
+    <img src="/assets/images/seance-studio-1600.webp" srcset="/assets/images/seance-studio-1024.webp 1024w, /assets/images/seance-studio-1168.webp 1168w, /assets/images/seance-studio-1600.webp 1600w" sizes="(max-width: 760px) 80vw, 34vw" alt="" width="1600" height="900" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <span class="video-lecture" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span>
+    <span class="video-titre">Live Demo</span>
+    <span class="video-detail">the trio in session</span>
+  </a>
+    </div>
+  </div>
+  <p class="conteneur videos-lien"><a class="lien-fleche" href="https://www.youtube.com/@gabrieldelmasdrummer" target="_blank" rel="noopener">The YouTube channel</a></p>
+</section>
+<section class="groove section theme-pierre" id="groove">
+  <div class="conteneur groove-grille">
+    <div class="groove-texte">
+      <p class="surtitre">Your turn</p>
+      <h2 class="titre-section" data-anime="lignes">Koum, Ka, groove</h2>
+      <p>In his methods, Gabriel has you sing before you play: &quot;Koum&quot; for the bass drum, &quot;Ka&quot; for the snare. Light up some steps, start the loop, set the tempo. Snare hits off beats 2 and 4 sound as ghost notes.</p>
+      <div class="groove-commandes">
+        <button type="button" class="bouton groove-lecture" data-groove-lecture aria-pressed="false" data-libelle-lecture="Start the groove" data-libelle-arret="Stop"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg><span data-libelle-bouton>Start the groove</span></button>
+        <label class="groove-tempo"><span>Tempo <output data-groove-bpm>90</output> <small>per quarter note</small></span><input type="range" min="65" max="100" value="90" step="1" data-groove-tempo></label>
+      </div>
+      <div class="groove-motifs" role="group" aria-label="Pattern">
+        <button type="button" class="puce" data-groove-motif="basique" aria-pressed="true">Basic</button>
+        <button type="button" class="puce" data-groove-motif="ghost" aria-pressed="false">Ghost notes</button>
+        <button type="button" class="puce" data-groove-motif="nola" aria-pressed="false">New Orleans</button>
+        <button type="button" class="puce puce--discrete" data-groove-motif="vide" aria-pressed="false">Clear</button>
+      </div>
+      <p class="groove-son">Sound only starts when you start the groove.</p>
+      <p class="visuellement-cache" role="status" data-groove-annonce data-lecture="The groove is playing" data-arret="The groove has stopped"></p>
+    </div>
+    <div class="sequenceur" data-sequenceur data-effet="grille-groove" data-visuel data-grille="manipuler">
+      <div class="seq-temps">
+        <span class="seq-temps-n" aria-hidden="true">1</span>
+        <div class="seq-ligne seq-ligne--ti">
+          <span class="seq-nom" aria-hidden="true"><b>Hi-hat</b></span>
+          <button type="button" class="seq-case" data-voix="ti" data-pas="0" aria-pressed="false" aria-label="Hi-hat, Step 1"></button><button type="button" class="seq-case" data-voix="ti" data-pas="1" aria-pressed="false" aria-label="Hi-hat, Step 2"></button><button type="button" class="seq-case" data-voix="ti" data-pas="2" aria-pressed="false" aria-label="Hi-hat, Step 3"></button><button type="button" class="seq-case" data-voix="ti" data-pas="3" aria-pressed="false" aria-label="Hi-hat, Step 4"></button>
+        </div><div class="seq-ligne seq-ligne--ka">
+          <span class="seq-nom" aria-hidden="true"><b>Ka</b><span>snare</span></span>
+          <button type="button" class="seq-case" data-voix="ka" data-pas="0" aria-pressed="false" aria-label="Ka · snare, Step 1"></button><button type="button" class="seq-case" data-voix="ka" data-pas="1" aria-pressed="false" aria-label="Ka · snare, Step 2"></button><button type="button" class="seq-case" data-voix="ka" data-pas="2" aria-pressed="false" aria-label="Ka · snare, Step 3"></button><button type="button" class="seq-case" data-voix="ka" data-pas="3" aria-pressed="false" aria-label="Ka · snare, Step 4"></button>
+        </div><div class="seq-ligne seq-ligne--koum">
+          <span class="seq-nom" aria-hidden="true"><b>Koum</b><span>bass drum</span></span>
+          <button type="button" class="seq-case" data-voix="koum" data-pas="0" aria-pressed="false" aria-label="Koum · bass drum, Step 1"></button><button type="button" class="seq-case" data-voix="koum" data-pas="1" aria-pressed="false" aria-label="Koum · bass drum, Step 2"></button><button type="button" class="seq-case" data-voix="koum" data-pas="2" aria-pressed="false" aria-label="Koum · bass drum, Step 3"></button><button type="button" class="seq-case" data-voix="koum" data-pas="3" aria-pressed="false" aria-label="Koum · bass drum, Step 4"></button>
+        </div>
+      </div><div class="seq-temps">
+        <span class="seq-temps-n" aria-hidden="true">2</span>
+        <div class="seq-ligne seq-ligne--ti">
+          <span class="seq-nom" aria-hidden="true"><b>Hi-hat</b></span>
+          <button type="button" class="seq-case" data-voix="ti" data-pas="4" aria-pressed="false" aria-label="Hi-hat, Step 5"></button><button type="button" class="seq-case" data-voix="ti" data-pas="5" aria-pressed="false" aria-label="Hi-hat, Step 6"></button><button type="button" class="seq-case" data-voix="ti" data-pas="6" aria-pressed="false" aria-label="Hi-hat, Step 7"></button><button type="button" class="seq-case" data-voix="ti" data-pas="7" aria-pressed="false" aria-label="Hi-hat, Step 8"></button>
+        </div><div class="seq-ligne seq-ligne--ka">
+          <span class="seq-nom" aria-hidden="true"><b>Ka</b><span>snare</span></span>
+          <button type="button" class="seq-case" data-voix="ka" data-pas="4" aria-pressed="false" aria-label="Ka · snare, Step 5"></button><button type="button" class="seq-case" data-voix="ka" data-pas="5" aria-pressed="false" aria-label="Ka · snare, Step 6"></button><button type="button" class="seq-case" data-voix="ka" data-pas="6" aria-pressed="false" aria-label="Ka · snare, Step 7"></button><button type="button" class="seq-case" data-voix="ka" data-pas="7" aria-pressed="false" aria-label="Ka · snare, Step 8"></button>
+        </div><div class="seq-ligne seq-ligne--koum">
+          <span class="seq-nom" aria-hidden="true"><b>Koum</b><span>bass drum</span></span>
+          <button type="button" class="seq-case" data-voix="koum" data-pas="4" aria-pressed="false" aria-label="Koum · bass drum, Step 5"></button><button type="button" class="seq-case" data-voix="koum" data-pas="5" aria-pressed="false" aria-label="Koum · bass drum, Step 6"></button><button type="button" class="seq-case" data-voix="koum" data-pas="6" aria-pressed="false" aria-label="Koum · bass drum, Step 7"></button><button type="button" class="seq-case" data-voix="koum" data-pas="7" aria-pressed="false" aria-label="Koum · bass drum, Step 8"></button>
+        </div>
+      </div><div class="seq-temps">
+        <span class="seq-temps-n" aria-hidden="true">3</span>
+        <div class="seq-ligne seq-ligne--ti">
+          <span class="seq-nom" aria-hidden="true"><b>Hi-hat</b></span>
+          <button type="button" class="seq-case" data-voix="ti" data-pas="8" aria-pressed="false" aria-label="Hi-hat, Step 9"></button><button type="button" class="seq-case" data-voix="ti" data-pas="9" aria-pressed="false" aria-label="Hi-hat, Step 10"></button><button type="button" class="seq-case" data-voix="ti" data-pas="10" aria-pressed="false" aria-label="Hi-hat, Step 11"></button><button type="button" class="seq-case" data-voix="ti" data-pas="11" aria-pressed="false" aria-label="Hi-hat, Step 12"></button>
+        </div><div class="seq-ligne seq-ligne--ka">
+          <span class="seq-nom" aria-hidden="true"><b>Ka</b><span>snare</span></span>
+          <button type="button" class="seq-case" data-voix="ka" data-pas="8" aria-pressed="false" aria-label="Ka · snare, Step 9"></button><button type="button" class="seq-case" data-voix="ka" data-pas="9" aria-pressed="false" aria-label="Ka · snare, Step 10"></button><button type="button" class="seq-case" data-voix="ka" data-pas="10" aria-pressed="false" aria-label="Ka · snare, Step 11"></button><button type="button" class="seq-case" data-voix="ka" data-pas="11" aria-pressed="false" aria-label="Ka · snare, Step 12"></button>
+        </div><div class="seq-ligne seq-ligne--koum">
+          <span class="seq-nom" aria-hidden="true"><b>Koum</b><span>bass drum</span></span>
+          <button type="button" class="seq-case" data-voix="koum" data-pas="8" aria-pressed="false" aria-label="Koum · bass drum, Step 9"></button><button type="button" class="seq-case" data-voix="koum" data-pas="9" aria-pressed="false" aria-label="Koum · bass drum, Step 10"></button><button type="button" class="seq-case" data-voix="koum" data-pas="10" aria-pressed="false" aria-label="Koum · bass drum, Step 11"></button><button type="button" class="seq-case" data-voix="koum" data-pas="11" aria-pressed="false" aria-label="Koum · bass drum, Step 12"></button>
+        </div>
+      </div><div class="seq-temps">
+        <span class="seq-temps-n" aria-hidden="true">4</span>
+        <div class="seq-ligne seq-ligne--ti">
+          <span class="seq-nom" aria-hidden="true"><b>Hi-hat</b></span>
+          <button type="button" class="seq-case" data-voix="ti" data-pas="12" aria-pressed="false" aria-label="Hi-hat, Step 13"></button><button type="button" class="seq-case" data-voix="ti" data-pas="13" aria-pressed="false" aria-label="Hi-hat, Step 14"></button><button type="button" class="seq-case" data-voix="ti" data-pas="14" aria-pressed="false" aria-label="Hi-hat, Step 15"></button><button type="button" class="seq-case" data-voix="ti" data-pas="15" aria-pressed="false" aria-label="Hi-hat, Step 16"></button>
+        </div><div class="seq-ligne seq-ligne--ka">
+          <span class="seq-nom" aria-hidden="true"><b>Ka</b><span>snare</span></span>
+          <button type="button" class="seq-case" data-voix="ka" data-pas="12" aria-pressed="false" aria-label="Ka · snare, Step 13"></button><button type="button" class="seq-case" data-voix="ka" data-pas="13" aria-pressed="false" aria-label="Ka · snare, Step 14"></button><button type="button" class="seq-case" data-voix="ka" data-pas="14" aria-pressed="false" aria-label="Ka · snare, Step 15"></button><button type="button" class="seq-case" data-voix="ka" data-pas="15" aria-pressed="false" aria-label="Ka · snare, Step 16"></button>
+        </div><div class="seq-ligne seq-ligne--koum">
+          <span class="seq-nom" aria-hidden="true"><b>Koum</b><span>bass drum</span></span>
+          <button type="button" class="seq-case" data-voix="koum" data-pas="12" aria-pressed="false" aria-label="Koum · bass drum, Step 13"></button><button type="button" class="seq-case" data-voix="koum" data-pas="13" aria-pressed="false" aria-label="Koum · bass drum, Step 14"></button><button type="button" class="seq-case" data-voix="koum" data-pas="14" aria-pressed="false" aria-label="Koum · bass drum, Step 15"></button><button type="button" class="seq-case" data-voix="koum" data-pas="15" aria-pressed="false" aria-label="Koum · bass drum, Step 16"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p class="conteneur groove-lien"><a href="/en/methodes" class="lien-fleche" data-libelle="Methods">Discover the methods</a></p>
+</section>
+<section class="methodes-accueil section theme-noir" id="methodes">
+  <div class="conteneur methodes-grille">
+    <div>
+      <p class="surtitre">The methods</p>
+      <h2 class="titre-section" data-anime="lignes">From pad to groove</h2>
+      <p>Three books to work on rhythm anywhere, then take it to the kit. Every exercise has its video.</p>
+      <ul class="chiffres-liste" data-anime="cascade">
+        <li><strong class="chiffre chiffre--plus" data-compteur="300">300</strong> <span>video exercises in Le Rythme Intérieur</span></li>
+        <li><strong class="chiffre" data-compteur="195">195</strong> <span>videos in From Pad To Groove</span></li>
+        <li><strong class="chiffre" data-compteur="108">108</strong> <span>pages of travel workbook</span></li>
+      </ul>
+      <p class="preuve">★ 5.0 out of 5 · 10 reviews of Le Rythme Intérieur<br>Coup de cœur of the Confédération musicale de France</p>
+      <p><a href="/en/methodes#livres" class="bouton" data-libelle="Methods" data-survol="magnetique">See the methods</a></p>
+    </div>
+    <div class="couvertures" data-effet="couvertures">
+      <a class="couverture couverture--1" href="/en/methodes#livre-rythme-interieur" data-libelle="Methods" aria-label="Le Rythme Intérieur, 28 €">
+        <figure class="media couverture-media" style="--cadrage:50% 50%;aspect-ratio:707 / 1000">
+  <picture>
+    <img src="/assets/images/livre-rythme-interieur-1600.webp" srcset="/assets/images/livre-rythme-interieur-800.webp 800w, /assets/images/livre-rythme-interieur-1600.webp 1600w" sizes="(max-width: 760px) 40vw, 18vw" alt="" width="1600" height="2263" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <span class="couverture-prix" data-prix>28 €</span>
+      </a><a class="couverture couverture--2" href="/en/methodes#livre-pad-vers-groove" data-libelle="Methods" aria-label="Du Pad vers le Groove, 15 €">
+        <figure class="media couverture-media" style="--cadrage:50% 50%;aspect-ratio:707 / 1000">
+  <picture>
+    <img src="/assets/images/livre-pad-vers-groove-1600.webp" srcset="/assets/images/livre-pad-vers-groove-800.webp 800w, /assets/images/livre-pad-vers-groove-1600.webp 1600w" sizes="(max-width: 760px) 40vw, 18vw" alt="" width="1600" height="2263" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <span class="couverture-prix" data-prix>15 €</span>
+      </a><a class="couverture couverture--3" href="/en/methodes#livre-from-pad-to-groove" data-libelle="Methods" aria-label="From Pad To Groove, 15 €">
+        <figure class="media couverture-media" style="--cadrage:50% 50%;aspect-ratio:707 / 1000">
+  <picture>
+    <img src="/assets/images/livre-from-pad-to-groove-1600.webp" srcset="/assets/images/livre-from-pad-to-groove-800.webp 800w, /assets/images/livre-from-pad-to-groove-1600.webp 1600w" sizes="(max-width: 760px) 40vw, 18vw" alt="" width="1600" height="2263" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <span class="couverture-prix" data-prix>15 €</span>
+      </a>
+    </div>
+  </div>
+</section>
+<section class="clinics-accueil section theme-pierre" id="clinics">
+  <div class="conteneur">
+    <p class="surtitre">Teaching and recording</p>
+    <h2 class="titre-section" data-anime="lignes">Clinics &amp; studio</h2>
+    <div class="deux-cartes">
+      <article class="grande-carte">
+        <figure class="media grande-carte-media" data-grok data-fx="zoom" style="--cadrage:60% 50%;aspect-ratio:16 / 10">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/clinic-mobile-640.webp 640w, /assets/images/grok/clinic-mobile-1080.webp 1080w" sizes="(max-width: 760px) 100vw, 46vw">
+    <img src="/assets/images/grok/clinic-1280.webp" srcset="/assets/images/grok/clinic-640.webp 640w, /assets/images/grok/clinic-1280.webp 1280w, /assets/images/grok/clinic-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 46vw" alt="A drum clinic in a music store, audience seen from behind" width="1280" height="720" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">AI-generated illustration</figcaption>
+</figure>
+        <h3>Clinics and masterclasses</h3>
+        <p>In music stores, festivals or drum schools: creativity, groove, practice method.</p>
+        <p><a href="/en/clinics-et-studio#organiser" class="lien-fleche" data-libelle="Clinics &amp; studio">Set up a clinic</a></p>
+      </article>
+      <article class="grande-carte">
+        <figure class="media grande-carte-media" data-grok data-fx="zoom" style="--cadrage:50% 50%;aspect-ratio:16 / 10">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/studio-mobile-640.webp 640w, /assets/images/grok/studio-mobile-1080.webp 1080w" sizes="(max-width: 760px) 100vw, 46vw">
+    <img src="/assets/images/grok/studio-1600.webp" srcset="/assets/images/grok/studio-1024.webp 1024w, /assets/images/grok/studio-1168.webp 1168w, /assets/images/grok/studio-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 46vw" alt="A drum kit surrounded by microphones in a small studio" width="1600" height="1067" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">AI-generated illustration</figcaption>
+</figure>
+        <h3>Remote drums</h3>
+        <p>Since 2020, Gabriel has recorded drum parts for many artists in his home studio.</p>
+        <p><a href="/en/clinics-et-studio#studio" class="lien-fleche" data-libelle="Clinics &amp; studio">Get drums recorded</a></p>
+      </article>
+    </div>
+    <p class="bandeau-info"><a href="/en/clinics-et-studio#sessions" data-libelle="Clinics &amp; studio">One- or two-day intensive sessions, for amateurs and pros</a></p>
+  </div>
+</section>
+<section class="scenes section theme-noir" id="scenes">
+  <div class="mots" data-fx="mots-geants" aria-hidden="true" data-ruban data-visuel data-audit-ignorer>
+    <p data-fx-rangee>Sonny Emory · Aaron Spears · Robert Sput · Benny Greb · Dave Weckl · Sonny Emory · Aaron Spears · Robert Sput ·</p>
+    <p data-fx-rangee data-sens="-1">Moulin Rouge · Jazz in Marciac · Jazz Club Taquin · Sunset · Moulin Rouge · Jazz in Marciac ·</p>
+  </div>
+  <div class="conteneur scenes-grille">
+    <div>
+      <p class="surtitre">Shared stages</p>
+      <h2 class="titre-section" data-anime="lignes">On stage with the greats</h2>
+      <p>After winning La Baguetterie&#39;s contest, Gabriel played the Moulin Rouge in October 2017 alongside Sonny Emory, Aaron Spears, Robert Sput and Benny Greb. In May 2025, he opened for Dave Weckl in Toulouse.</p>
+      <p><a href="/en/bio#parcours" class="lien-fleche" data-libelle="Bio &amp; gear">Read the bio</a></p>
+    </div>
+    <figure class="media scenes-media" data-anime="rideau" style="--cadrage:50% 50%;aspect-ratio:16 / 9">
+  <picture>
+    <img src="/assets/images/live-club-800.webp" srcset="/assets/images/live-club-640.webp 640w, /assets/images/live-club-800.webp 800w" sizes="(max-width: 760px) 100vw, 40vw" alt="Gabriel Delmas live, lit in purple" width="800" height="450" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  </div>
+</section>
+<section class="kit theme-noir" id="kit" data-fx="plein-ecran" data-fx-depart="inset(16% 20% 16% 20% round 20px)" style="--fx-longueur: 190svh">
+  <div data-collant>
+    <figure class="media kit-media" data-fx-cible style="--cadrage:55% 50%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/kit-red-oyster-mobile-640.webp 640w, /assets/images/kit-red-oyster-mobile-1080.webp 1080w" sizes="100vw">
+    <img src="/assets/images/kit-red-oyster-1280.webp" srcset="/assets/images/kit-red-oyster-640.webp 640w, /assets/images/kit-red-oyster-1280.webp 1280w, /assets/images/kit-red-oyster-1920.webp 1920w" sizes="100vw" alt="Gabriel&#39;s Sonor Vintage Red Oyster kit seen from above" width="1280" height="960" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <p class="kit-mots" aria-hidden="true" data-audit-ignorer><span data-fx-ecarte="g">The</span><span data-fx-ecarte="d">kit</span></p>
+    <div class="kit-legende" data-fx-apres>
+      <h2>Sonor Vintage Red Oyster</h2>
+      <p>Sonor shells, Zildjian cymbals, Remo heads: the three brands that back Gabriel.</p>
+      <ul class="logos"><li><figure class="media logo-marque" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/logo-sonor-480.webp" srcset="/assets/images/logo-sonor-240.webp 240w, /assets/images/logo-sonor-480.webp 480w" sizes="160px" alt="Sonor" width="480" height="96" loading="lazy" decoding="async">
+  </picture>
+</figure></li><li><figure class="media logo-marque" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/logo-zildjian-480.webp" srcset="/assets/images/logo-zildjian-240.webp 240w, /assets/images/logo-zildjian-480.webp 480w" sizes="160px" alt="Zildjian" width="480" height="205" loading="lazy" decoding="async">
+  </picture>
+</figure></li><li><figure class="media logo-marque" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/logo-remo-480.webp" srcset="/assets/images/logo-remo-240.webp 240w, /assets/images/logo-remo-480.webp 480w" sizes="160px" alt="Remo" width="480" height="182" loading="lazy" decoding="async">
+  </picture>
+</figure></li></ul>
+      <p><a href="/en/bio#materiel" class="lien-fleche" data-libelle="Bio &amp; gear">All the gear</a></p>
+    </div>
+  </div>
+</section>
+<section class="fin section theme-noir" id="dates">
+  <figure class="media fin-fond" data-grok data-fx="parallaxe" data-fx-force="10" style="--cadrage:50% 60%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/club-mobile-640.webp 640w, /assets/images/grok/club-mobile-1080.webp 1080w" sizes="100vw">
+    <img src="/assets/images/grok/club-1280.webp" srcset="/assets/images/grok/club-640.webp 640w, /assets/images/grok/club-1280.webp 1280w, /assets/images/grok/club-1920.webp 1920w" sizes="100vw" alt="" width="1280" height="720" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">AI-generated illustration</figcaption>
+</figure>
+  <div class="conteneur fin-contenu">
+    <p class="surtitre">Live</p>
+    <h2 class="titre-section" data-anime="lignes">Upcoming dates</h2>
+    <p class="fin-aucune">The quartet&#39;s next dates will be listed here as soon as they are confirmed.</p>
+    <p class="surtitre">Recent shows</p>
+    <ul class="dates" data-dates><li class="date date--passee" data-date="2026-10-07">
+      <span class="date-jour">7 October 2026 · 20 h 30</span>
+      <span class="date-titre">Gabriel Delmas Trio invite Gaël Horellou</span>
+      <span class="date-lieu">Sunset, Paris</span>
+      <span class="date-statut" data-statut data-passe="Past" data-avenir="Upcoming">Past</span>
+    </li><li class="date date--passee" data-date="2025-12-18">
+      <span class="date-jour">18 December 2025</span>
+      <span class="date-titre">Gabriel Delmas Quartet feat. Gaël Horellou</span>
+      <span class="date-lieu">Le Taquin, Toulouse</span>
+      <span class="date-statut" data-statut data-passe="Past" data-avenir="Upcoming">Past</span>
+    </li></ul>
+    <p class="actions">
+      <a href="/en/contact?sujet=booking#demande" class="bouton" data-libelle="Contact" data-survol="magnetique">Book the quartet</a>
+      <a href="/en/contact#demande" class="bouton bouton--contour" data-libelle="Contact">Hire Gabriel</a>
+    </p>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-nom">
+      <p class="pied-marque"><span class="marque" aria-hidden="true"><span>Gabriel</span><span>Delmas</span></span><span class="visuellement-cache">Gabriel Delmas</span></p>
+      <p>Jazz, funk and New Orleans drummer. Leader of the Gabriel Delmas Trio, sideman, author of three methods.</p>
+    </div>
+    <div>
+      <p class="pied-titre">Write</p>
+      <p class="pied-email"><span>Gabriel</span><br><a href="mailto:delmas648@hotmail.com">delmas648@hotmail.com</a></p>
+      <p class="pied-email"><span>Trio booking</span><br><a href="mailto:gabriel.delmas.trio@gmail.com">gabriel.delmas.trio@gmail.com</a></p>
+    </div>
+    <nav aria-label="Site map">
+      <p class="pied-titre">Site map</p>
+      <ul><li><a href="/en" data-libelle="Home" aria-current="page">Home</a></li><li><a href="/en/musique" data-libelle="Music">Music</a></li><li><a href="/en/methodes" data-libelle="Methods">Methods</a></li><li><a href="/en/clinics-et-studio" data-libelle="Clinics &amp; studio">Clinics &amp; studio</a></li><li><a href="/en/bio" data-libelle="Bio &amp; gear">Bio &amp; gear</a></li><li><a href="/en/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Listen and follow</p>
+      <ul><li><a href="https://www.instagram.com/delmasgabriel" target="_blank" rel="noopener">Instagram</a></li><li><a href="https://www.youtube.com/@gabrieldelmasdrummer" target="_blank" rel="noopener">YouTube</a></li><li><a href="https://www.facebook.com/gabriel.delmas.73/" target="_blank" rel="noopener">Facebook</a></li><li><a href="https://www.tiktok.com/@gabrieldelmasdrummer" target="_blank" rel="noopener">TikTok</a></li><li><a href="https://open.spotify.com/intl-fr/album/4tYwqiktRfPv5EPbK9bOdt" target="_blank" rel="noopener">Spotify</a></li></ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas">
+    <p>Legal notice (to be completed) · Privacy policy (to be completed)</p>
+    <p>Demo mock-up: forms and cart are simulated, nothing is sent.</p>
+    <p><a href="#haut" data-sans-transition>Back to top</a></p>
+  </div>
+</footer>
+<div data-barre-fixe>
+  <a href="/en/musique#album" class="bouton bouton--contour" data-libelle="Music">Listen</a>
+  <a href="/en/contact#demande" class="bouton" data-libelle="Contact">Hire Gabriel</a>
+</div>
+<div data-module="panier-en-tiroir" data-panier-tiroir><script type="application/json" data-panier-reglages>{"devise":"EUR","seuil_livraison":0,"frais_livraison":0,"tva":null,"cle":"gabriel-delmas-panier","prefixe":"GD","livraison":true,"envol":"auto","livraison_texte":"Calculated at checkout (PDF: none; free from 3 methods)"}</script></div>
+</body>
+</html>

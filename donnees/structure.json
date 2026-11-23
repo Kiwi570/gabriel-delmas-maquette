@@ -1,0 +1,15 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Gabriel Delmas",
+  "jobTitle": { "fr": "Batteur et musicien", "en": "Drummer and musician" },
+  "url": "https://gabriel-delmas-maquette.vercel.app/",
+  "email": "delmas648@hotmail.com",
+  "sameAs": [
+    "https://www.instagram.com/delmasgabriel",
+    "https://www.youtube.com/@gabrieldelmasdrummer",
+    "https://www.facebook.com/gabriel.delmas.73/",
+    "https://www.tiktok.com/@gabrieldelmasdrummer"
+  ],
+  "description": { "fr": "Batteur jazz, funk et New Orleans, leader du Gabriel Delmas Trio, auteur des méthodes Le Rythme Intérieur et Du Pad vers le Groove.", "en": "Jazz, funk and New Orleans drummer, leader of the Gabriel Delmas Trio, author of the Le Rythme Intérieur and From Pad To Groove methods." }
+}
